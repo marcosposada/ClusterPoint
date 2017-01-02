@@ -1,0 +1,937 @@
+<div class='page_content'>
+    <h2 class="file-name"><img src="images/Page_logo.png" alt="File" style="vertical-align: middle">/command_classes.php</h2>
+
+    <a name="sec-description"></a>
+    <div class="info-box">
+        <div class="info-box-title">Description</div>
+        <div class="nav-bar">
+                            <span class="disabled">Description</span> |
+                                        <a href="#sec-classes">Classes</a>
+                |                                        <a href="#sec-includes">Includes</a>
+                |                                                                <a href="#sec-functions">Functions</a>
+                    </div>
+        <div class="info-box-body">	
+            <!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Request and response classes for all commands in the CPS API</p>
+            
+                    </div>
+    </div>
+            
+            <a name="sec-classes"></a>	
+        <div class="info-box">
+            <div class="info-box-title">Classes</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                <span class="disabled">Classes</span>
+                |                                    <a href="#sec-includes">Includes</a>
+                    |                                                                                    <a href="#sec-functions">Functions</a>
+                            </div>
+            <div class="info-box-body">	
+                <table cellpadding="2" cellspacing="0" class="class-table">
+                    <tr>
+                        <th class="class-table-header">Class</th>
+                        <th class="class-table-header">Description</th>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_SearchRequest.html">CPS_SearchRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_SearchRequest class is a wrapper for the Request class
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_SQLSearchRequest.html">CPS_SQLSearchRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_SQLSearchRequest class is virtually identical to the <a rel="contents" href="CPS/CPS_SearchRequest.html">CPS_SearchRequest</a> class, but
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_SearchResponse.html">CPS_SearchResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_SearchResponse class is a wrapper for the Response class
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_Cursor.html">CPS_Cursor</a>
+                        </td>
+                        <td>
+                                                    
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_InsertRequest.html">CPS_InsertRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_InsertRequest class is a wrapper for the Response class for the insert command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_UpdateRequest.html">CPS_UpdateRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_UpdateRequest class is a wrapper for the Response class for the update command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ReplaceRequest.html">CPS_ReplaceRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ReplaceRequest class is a wrapper for the Response class for the replace command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_PartialReplaceRequest.html">CPS_PartialReplaceRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_PartialReplaceRequest class is a wrapper for the Response class for the partial-replace command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_PRX_Operation.html">CPS_PRX_Operation</a>
+                        </td>
+                        <td>
+                                                    The CPS_PRX_Operation class represents a particular operation for the partial-xreplace command.
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_PRX_Changeset.html">CPS_PRX_Changeset</a>
+                        </td>
+                        <td>
+                                                    The CPS_PRX_Changeset class represents a changeset for the partial-xreplace command.
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_PartialXRequest.html">CPS_PartialXRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_PartialXRequest class is a wrapper for the Response class for the partial-xreplace command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_DeleteRequest.html">CPS_DeleteRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_DeleteRequest class is a wrapper for the Response class for the delete command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ModifyResponse.html">CPS_ModifyResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_ModifyResponse class is a wrapper for the Response class for insert, update, delete, replace and partial-replace commands
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_AlternativesRequest.html">CPS_AlternativesRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_AlternativesRequest class is a wrapper for the Response class for the alternatives command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_AlternativesResponse.html">CPS_AlternativesResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_AlternativesResponse class is a wrapper for the Response class for the alternatives command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListWordsRequest.html">CPS_ListWordsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListWordsRequest class is a wrapper for the Response class for the list-words command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListWordsResponse.html">CPS_ListWordsResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListWordsResponse class is a wrapper for the Response class for the list-words command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_StatusRequest.html">CPS_StatusRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_StatusRequest class is a wrapper for the Response class for the status command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_StatusResponse.html">CPS_StatusResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_StatusResponse class is a wrapper for the Response class for the status command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_RetrieveRequest.html">CPS_RetrieveRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_RetrieveRequest class is a wrapper for the Request class
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_LookupRequest.html">CPS_LookupRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_LookupRequest class is a wrapper for the Request class
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListLastRequest.html">CPS_ListLastRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListLastRequest class is a wrapper for the Request class for list-last requests
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListFirstRequest.html">CPS_ListFirstRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListFirstRequest class is a wrapper for the Request class for list-first requests
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_RetrieveLastRequest.html">CPS_RetrieveLastRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_RetrieveLastRequest class is a wrapper for the Request class for retrieve-last requests
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_RetrieveFirstRequest.html">CPS_RetrieveFirstRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_RetrieveFirstRequest class is a wrapper for the Request class for retrieve-first requests
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_LookupResponse.html">CPS_LookupResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_LookupResponse class is a wrapper for the Response class for replies to retrieve, list-last, list-first, retrieve-last, and retrieve-first commands
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_SearchDeleteRequest.html">CPS_SearchDeleteRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_SearchDeleteRequest class is a wrapper for the Request class for the search-delete command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_SearchDeleteResponse.html">CPS_SearchDeleteResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_SearchDeleteResponse class is a wrapper for the Response class
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListPathsRequest.html">CPS_ListPathsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListPathsRequest class is a wrapper for the Response class for the list-paths command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListPathsResponse.html">CPS_ListPathsResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListPathsResponse class is a wrapper for the Response class for the list-paths command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListFacetsRequest.html">CPS_ListFacetsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListFacetsRequest class is a wrapper for the Response class for the list-facets command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListFacetsResponse.html">CPS_ListFacetsResponse</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListFacetsResponse class is a wrapper for the Response class for the list-facets command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_SimilarDocumentRequest.html">CPS_SimilarDocumentRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_SimilarDocumentRequest class is a wrapper for the Response class for the similar command for documents
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_SimilarTextRequest.html">CPS_SimilarTextRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_SimilarTextRequest class is a wrapper for the Response class for the similar command for text
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ShowHistoryRequest.html">CPS_ShowHistoryRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ShowHistoryRequest class is a wrapper for the Response class for the show-history command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_AlertAction.html">CPS_AlertAction</a>
+                        </td>
+                        <td>
+                                                    
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_Alert.html">CPS_Alert</a>
+                        </td>
+                        <td>
+                                                    
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_CreateAlertRequest.html">CPS_CreateAlertRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_AddAlertsRequest class is a wrapper for the Response class for the create-alert command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_UpdateAlertRequest.html">CPS_UpdateAlertRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_AddAlertsRequest class is a wrapper for the Response class for the update-alert command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_DeleteAlertRequest.html">CPS_DeleteAlertRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_RemoveAlertsRequest class is a wrapper for the Request class for the delete-alert command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListAlertsRequest.html">CPS_ListAlertsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ListAlertsRequest class is a wrapper for the Request class for the list-alerts command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_RunAlertsRequest.html">CPS_RunAlertsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_RunAlertsRequest class is a wrapper for the Request class for the run-alerts command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ClearAlertsRequest.html">CPS_ClearAlertsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_ClearAlertsRequest class is a wrapper for the Request class for the clear-alerts command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_EnableAlertsRequest.html">CPS_EnableAlertsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_EnableAlertsRequest class is a wrapper for the Request class for the enable-alerts command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_DisableAlertsRequest.html">CPS_DisableAlertsRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_DisableAlertsRequest class is a wrapper for the Request class for the disable-alerts command
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_ListAlertsResponse.html">CPS_ListAlertsResponse</a>
+                        </td>
+                        <td>
+                                                    The Response class contains a response received from CPS storage
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_BeginTransactionRequest.html">CPS_BeginTransactionRequest</a>
+                        </td>
+                        <td>
+                                                    The Request class contains a single request to CPS storage
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_CommitTransactionRequest.html">CPS_CommitTransactionRequest</a>
+                        </td>
+                        <td>
+                                                    The Request class contains a single request to CPS storage
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_RollbackTransactionRequest.html">CPS_RollbackTransactionRequest</a>
+                        </td>
+                        <td>
+                                                    The Request class contains a single request to CPS storage
+                                                </td>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; vertical-align: top; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"/>
+                            <a rel="contents" href="CPS/CPS_EmptyResponse.html">CPS_EmptyResponse</a>
+                        </td>
+                        <td>
+                                                    CPS_EmptyResponse is used in cases where no reply from the server is expected
+                                                </td>
+                    </tr>
+                                    </table>
+            </div>
+        </div>
+    
+            <a name="sec-includes"></a>	
+        <div class="info-box">
+            <div class="info-box-title">Includes</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                    <a href="#sec-classes">Classes</a>
+                    |                                <span class="disabled">Includes</span>
+                |                                                                    <a href="#sec-functions">Functions</a>
+                            </div>
+            <div class="info-box-body">	
+                <a name="_dirname(__FILE__)_/request_class_php"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<img src="images/Page.png" alt=" " />
+		<span class="include-title">
+			<span class="include-type">require_once</span>
+			(<span class="include-name">dirname(__FILE__).'/request.class.php'</span>)
+			(line <span class="line-number">11</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">request/response includes</p>
+	
+</div>
+<a name="_dirname(__FILE__)_/response_class_php"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<img src="images/Page.png" alt=" " />
+		<span class="include-title">
+			<span class="include-type">require_once</span>
+			(<span class="include-name">dirname(__FILE__).'/response.class.php'</span>)
+			(line <span class="line-number">12</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+</div>
+            </div>
+        </div>
+            
+            
+            
+            <a name="sec-functions"></a>	
+        <div class="info-box">
+            <div class="info-box-title">Functions</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                    <a href="#sec-classes">Classes</a>
+                    |                                                    <a href="#sec-includes">Includes</a>
+                    |                                                                <span class="disabled">Functions</span>
+            </div>
+            <div class="info-box-body">	
+                <a name="functionCPS_DateOrdering" id="functionCPS_DateOrdering"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_DateOrdering</span> (line <span class="line-number">122</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an ordering string for sorting by a date field</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetOrdering">CPS_SearchRequest::setOrdering()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_DateOrdering
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$tag</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ascdesc</span> = <span class="var-default">&#039;ascending&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tag</span><span class="var-description">: the xpath of the tag by which You wish to perform sorting</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ascdesc</span><span class="var-description">: optional parameter to specify ascending/descending order. By default ascending order is used.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_LatLonDistanceOrdering" id="functionCPS_LatLonDistanceOrdering"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_LatLonDistanceOrdering</span> (line <span class="line-number">162</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an ordering string for sorting by distance from a latitude/longitude coordinate pair</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetOrdering">CPS_SearchRequest::setOrdering()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_LatLonDistanceOrdering
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$array</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ascdesc</span> = <span class="var-default">&#039;ascending&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span><span class="var-description">: an associative array with tag xpaths as keys and centerpoint coordinates as values. Should contain exactly two elements - latitude first and longitude second.</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ascdesc</span><span class="var-description">: optional parameter to specify ascending/descending order. By default ascending order is used.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_NumericOrdering" id="functionCPS_NumericOrdering"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_NumericOrdering</span> (line <span class="line-number">110</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an ordering string for sorting by a numeric field</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetOrdering">CPS_SearchRequest::setOrdering()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_NumericOrdering
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$tag</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ascdesc</span> = <span class="var-default">&#039;ascending&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tag</span><span class="var-description">: the xpath of the tag by which You wish to perform sorting</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ascdesc</span><span class="var-description">: optional parameter to specify ascending/descending order. By default ascending order is used.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_PlaneDistanceOrdering" id="functionCPS_PlaneDistanceOrdering"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_PlaneDistanceOrdering</span> (line <span class="line-number">173</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an ordering string for sorting by distance from specified coordinates on a geometric plane</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetOrdering">CPS_SearchRequest::setOrdering()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_PlaneDistanceOrdering
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$array</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ascdesc</span> = <span class="var-default">&#039;ascending&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span><span class="var-description">: an associative array with tag xpaths as keys and centerpoint coordinates as values.</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ascdesc</span><span class="var-description">: optional parameter to specify ascending/descending order. By default ascending order is used.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_QueryArray" id="functionCPS_QueryArray"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_QueryArray</span> (line <span class="line-number">79</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts a given query array to a query string</p>
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			CPS_QueryArray
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span><span class="var-description">: the query array</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_QueryTerm" id="functionCPS_QueryTerm"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_QueryTerm</span> (line <span class="line-number">47</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Escapes &lt;, &gt; and &amp; characters, as well as @&quot;{}()=$~+ (search query operators) in the given term for inclusion into the search query.</p>
+<p class="description"><p>Also wraps the term in XML tags if xpath is specified.</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_Term">CPS_Term()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_QueryTerm
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$term</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span> = <span class="var-default">&#039;&#039;</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$allowed_symbols</span> = <span class="var-default">&#039;&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$term</span><span class="var-description">: the term to be escaped (e.g. a search query term)</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xpath</span><span class="var-description">: an optional xpath, to be specified if the search term is to be searched under a specific xpath</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$allowed_symbols</span><span class="var-description">: a string containing operator symbols that the user is allowed to use (e.g. &quot;)</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_RelevanceOrdering" id="functionCPS_RelevanceOrdering"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_RelevanceOrdering</span> (line <span class="line-number">98</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an ordering string for sorting by relevance</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetOrdering">CPS_SearchRequest::setOrdering()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_RelevanceOrdering
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$ascdesc</span> = <span class="var-default">&#039;&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ascdesc</span><span class="var-description">: optional parameter to specify ascending/descending order. By default most relevant documents are returned first</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_StringOrdering" id="functionCPS_StringOrdering"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_StringOrdering</span> (line <span class="line-number">135</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an ordering string for sorting by a string field</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetOrdering">CPS_SearchRequest::setOrdering()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_StringOrdering
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$tag</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$lang</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ascdesc</span> = <span class="var-default">&#039;ascending&#039;</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tag</span><span class="var-description">: the xpath of the tag by which You wish to perform sorting</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$lang</span><span class="var-description">: specifies the language (collation) to be used for ordering. E.g. &quot;en&quot;</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ascdesc</span><span class="var-description">: optional parameter to specify ascending/descending order. By default ascending order is used.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionCPS_Term" id="functionCPS_Term"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<img src="images/Function.png" />
+		<span class="method-title">CPS_Term</span> (line <span class="line-number">23</span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Escapes &lt;, &gt; and &amp; characters in the given term for inclusion into XML (like the search query). Also wraps the term in XML tags if xpath is specified.</p>
+<p class="description"><p>Note that this function doesn't escape the @, $, &quot; and other symbols that are meaningful in a search query. If You want to escape input that comes directly  from the user and that isn't supposed to contain any search operators at all, it's probably better to use <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_QueryTerm">CPS_QueryTerm</a></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_QueryTerm">CPS_QueryTerm()</a></li>
+			</ul>
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			CPS_Term
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$term</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$xpath</span> = <span class="var-default">&#039;&#039;</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$escape</span> = <span class="var-default">TRUE</span>])
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$term</span><span class="var-description">: the term to be escaped (e.g. a search query term)</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$xpath</span><span class="var-description">: an optional xpath, to be specified if the search term is to be searched under a specific xpath</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$escape</span><span class="var-description">: an optional parameter - whether to escape the term's XML</span>			</li>
+				</ul>
+		
+	
+</div>
+            </div>
+        </div>
+    </div>

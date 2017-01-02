@@ -1,0 +1,595 @@
+<div class='page_content'>
+    <h2 class="class-name"><img src="images/Class_logo.png"
+                                                            alt=" Class"
+                                                            title=" Class"
+                                                            style="vertical-align: middle"> CPS_SearchRequest</h2>
+
+    <a name="sec-description"></a>
+    <div class="info-box">
+        <div class="info-box-title">Description</div>
+        <div class="nav-bar">
+                            <span class="disabled">Description</span> |
+                                        <a href="#sec-descendents" rel='subsection'>Descendents</a>
+                |                                                            <a href="#sec-vars" rel='subsection'>Vars</a>
+                                |                                                            <a href="#sec-method-summary" rel='subsection'>Methods</a> (<a href="#sec-methods" rel='subsection'>details</a>)
+                			
+                                </div>
+        <div class="info-box-body">
+                        <!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The CPS_SearchRequest class is a wrapper for the Request class</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchResponse.html">CPS_SearchResponse</a></li>
+			</ul>
+            <p class="notes">
+                Located in <a class="field" href="CPS/_command_classes.php.html" rel='contents'>/command_classes.php</a> (line <span class="field">185</span>)
+            </p>
+            
+                        
+            <pre><a rel="contents" href="CPS/CPS_Request.html">CPS_Request</a>
+   |
+    --CPS_SearchRequest</pre>
+        
+                    </div>
+    </div>
+
+            <a name="sec-descendents"></a>
+        <div class="info-box">
+            <div class="info-box-title">Direct descendents</div>
+            <div class="nav-bar">
+                <a href="#sec-description" rel='subsection'>Description</a> |
+                <span class="disabled">Descendents</span>
+                |                                                            <a href="#sec-vars" rel='subsection'>Vars</a>
+                                        |                                                                            <a href="#sec-method-summary" rel='subsection'>Methods</a> (<a href="#sec-methods">details</a>)
+                    			
+                                            </div>
+            <div class="info-box-body">
+                <table cellpadding="2" cellspacing="0" class="class-table">
+                    <tr>
+                        <th class="class-table-header">Class</th>
+                        <th class="class-table-header">Description</th>
+                    </tr>
+                                        <tr>
+                        <td style="padding-right: 2em; white-space: nowrap">
+                            <img src="images/Class.png"
+                                     alt=" class"
+                                     title=" class"
+                                     style="vertical-align: center"/>
+                            <a rel="contents" href="CPS/CPS_SQLSearchRequest.html">CPS_SQLSearchRequest</a>
+                        </td>
+                        <td>
+                                                    The CPS_SQLSearchRequest class is virtually identical to the <a rel="contents" href="CPS/CPS_SearchRequest.html">CPS_SearchRequest</a> class, but
+                                                </td>
+                    </tr>
+                                    </table>
+            </div>
+        </div>
+    
+    
+    
+            <a name="sec-method-summary"></a>
+        <div class="info-box">
+            <div class="info-box-title">Method Summary</span></div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                    <a href="#sec-descendents">Descendants</a> |
+                                                                                            <a href="#sec-vars">Vars</a>
+                     
+                    |
+                                <span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+            </div>
+            <div class="info-box-body">			
+                <div class="method-summary">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="method-definition">
+                        <img src="images/Constructor.png" alt=" "/>
+                        <a href="#__construct" title="details" class="method-name">__construct</a>
+                                                    (<span class="var-type">array|string</span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>])
+                                                                            <span class="method-result">CPS_SearchRequest</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setAggregate" title="details" class="method-name">setAggregate</a>
+                                                    (<span class="var-type">string|array</span>&nbsp;<span class="var-name">$aggregate</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setDocs" title="details" class="method-name">setDocs</a>
+                                                    (<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setExactMatch" title="details" class="method-name">setExactMatch</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setFacet" title="details" class="method-name">setFacet</a>
+                                                    (<span class="var-type">string|array</span>&nbsp;<span class="var-name">$value</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setGroup" title="details" class="method-name">setGroup</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$count</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setList" title="details" class="method-name">setList</a>
+                                                    (<span class="var-type">array</span>&nbsp;<span class="var-name">$array</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setOffset" title="details" class="method-name">setOffset</a>
+                                                    (<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setOrdering" title="details" class="method-name">setOrdering</a>
+                                                    (<span class="var-type">string|array</span>&nbsp;<span class="var-name">$order</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setQuery" title="details" class="method-name">setQuery</a>
+                                                    (<span class="var-type">array|string</span>&nbsp;<span class="var-name">$value</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setStemLang" title="details" class="method-name">setStemLang</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                        </div>
+            </div>
+        </div>		
+    
+            <a name="sec-vars"></a>
+        <div class="info-box">
+            <div class="info-box-title">Variables</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                    <a href="#sec-descendents">Descendents</a> |
+                                                    <a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+                			
+                
+                                                    | 
+                                            <a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+                    			
+                            </div>
+            <div class="info-box-body">
+                
+                                    <h4>Inherited Variables</h4>
+                    <A NAME='inherited_vars'><!-- --></A>
+                                            <p>Inherited from <span class="classname"><a rel="contents" href="CPS/CPS_Request.html">CPS_Request</a></span></p>
+                        <blockquote>
+                                                            <img src="images/Variable.png" />
+                                <span class="var-title">
+                                    <span class="var-name"><a rel="contents" href="CPS/CPS_Request.html#var$_changesets">CPS_Request::$_changesets</a></span><br>
+                                </span>
+                                                            <img src="images/Variable.png" />
+                                <span class="var-title">
+                                    <span class="var-name"><a rel="contents" href="CPS/CPS_Request.html#var$_documents">CPS_Request::$_documents</a></span><br>
+                                </span>
+                                                    </blockquote> 
+                                    			
+            </div>
+        </div>
+            
+            <a name="sec-methods"></a>
+        <div class="info-box">
+            <div class="info-box-title">Methods</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                    <a href="#sec-descendents">Descendents</a> |
+                                                                            <a href="#sec-vars">Vars</a>
+                                                                        <a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+                			
+            </div>
+            <div class="info-box-body">
+                <A NAME='method_detail'></A>
+<a name="__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">194</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructs an instance of the CPS_SearchRequest class.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">CPS_SearchRequest</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type">array|string</span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array|string</span>
+				<span class="var-name">$query</span><span class="var-description">: The query array/string. see <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetQuery">CPS_SearchRequest::setQuery()</a> for more info.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: Defines the number of documents to skip before including them in the results</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: Maximum document count to retrieve</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$list</span><span class="var-description">: Listing parameter - an associative array with tag xpaths as keys and listing options (yes | no | snippet | highlight) as values</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a rel="contents" href="CPS/CPS_Request.html#method__construct">CPS_Request::__construct()</a></dt>
+						<dd>Constructs an instance of the Request class.</dd>
+					</dl>
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a rel="contents" href="CPS/CPS_SQLSearchRequest.html#method__construct">CPS_SQLSearchRequest::__construct()</a>
+								: Constructs an instance of the CPS_SQLSearchRequest class.
+							</li>
+				</ul>
+	</div>
+<a name="setAggregate" id="setAggregate"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setAggregate</span> (line <span class="line-number">317</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Defines aggregation queries for the search request</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_SearchResponse.html#methodgetAggregate">CPS_SearchResponse::getAggregate()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setAggregate
+		</span>
+					(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$aggregate</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$aggregate</span><span class="var-description">: either a single aggregation query, or an array of queries</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setDocs" id="setDocs"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setDocs</span> (line <span class="line-number">232</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the maximum number of documents to be returned</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDocs
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$value</span><span class="var-description">: maximum number of documents</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setExactMatch" id="setExactMatch"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setExactMatch</span> (line <span class="line-number">268</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the exact match option</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setExactMatch
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: Exact match option : text, binary or all</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setFacet" id="setFacet"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setFacet</span> (line <span class="line-number">250</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the paths for facets</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setFacet
+		</span>
+					(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$value</span><span class="var-description">: a single path as a string or an array of paths</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setGroup" id="setGroup"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setGroup</span> (line <span class="line-number">278</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets grouping options</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setGroup
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$tagName</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$count</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tagName</span><span class="var-description">: name of the grouping tag</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$count</span><span class="var-description">: maximum number of documents to return from each group</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setList" id="setList"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setList</span> (line <span class="line-number">288</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Defines which tags of the search results should be listed in the response</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setList
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span><span class="var-description">: an associative array with tag xpaths as keys and listing options (yes, no, snippet or highlight) as values</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setOffset" id="setOffset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setOffset</span> (line <span class="line-number">241</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the number of documents to skip in the results</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setOffset
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$value</span><span class="var-description">: number of results to skip</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setOrdering" id="setOrdering"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setOrdering</span> (line <span class="line-number">304</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Defines the order in which results should be returned.</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_RelevanceOrdering">CPS_RelevanceOrdering()</a>, <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_NumericOrdering">CPS_NumericOrdering()</a>, <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_LatLonDistanceOrdering">CPS_LatLonDistanceOrdering()</a>, CPS_PlainDistanceOrdering</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setOrdering
+		</span>
+					(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$order</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$order</span><span class="var-description">: either a single sorting string or an array of those. Could be conveniently generated with ordering macros,  e.g. $q-&gt;setOrdering(array(CPS_NumericOrdering('user_count', 'desc'), CPS_RelevanceOrdering())) will sort the documents in descending order  according to the user_count, and if user_count is equal will sort them by relevance.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setQuery" id="setQuery"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setQuery</span> (line <span class="line-number">219</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the search query.</p>
+<p class="description"><p>Example usage:  <ol><li><div class="src-line"><span class="src-var">$r</span><span class="src-sym">-&gt;</span><a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetQuery">setQuery</a><span class="src-sym">(</span><span class="src-str">'('&nbsp;</span>.&nbsp;<a rel="contents" href="CPS/_command_classes.php.html#functionCPS_Term">CPS_Term</a><span class="src-sym">(</span><span class="src-str">'predefined_term'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'/generated_fields/type/'</span><span class="src-sym">)&nbsp;</span>.&nbsp;<a rel="contents" href="CPS/_command_classes.php.html#functionCPS_QueryTerm">CPS_QueryTerm</a><span class="src-sym">(</span><span class="src-var">$user_supplied_terms</span><span class="src-sym">,&nbsp;</span><span class="src-str">'/searchable_fields/text'</span><span class="src-sym">)&nbsp;</span>.&nbsp;<span class="src-str">')'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol>  or  <ol><li><div class="src-line"><span class="src-var">$r</span><span class="src-sym">-&gt;</span><a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetQuery">setQuery</a><span class="src-sym">(</span><span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'tags'&nbsp;</span>=&gt;&nbsp;<span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'title'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'Title'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'Text'</span><span class="src-sym">)))</span><span class="src-sym">;</span></div></li>
+</ol>  or  <ol><li><div class="src-line"><span class="src-var">$r</span><span class="src-sym">-&gt;</span><a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetQuery">setQuery</a><span class="src-sym">(</span><span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'tags/title'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'Title'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'tags/text'&nbsp;</span>=&gt;&nbsp;<span class="src-str">'Text'</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+</ol></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_QueryTerm">CPS_QueryTerm()</a>, <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_Term">CPS_Term()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setQuery
+		</span>
+					(<span class="var-type">array|string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array|string</span>
+				<span class="var-name">$value</span><span class="var-description">: The query array/string.  If the string form is used, all &lt;, &gt; and &amp; characters that aren't supposed to be XML tags, should be escaped (e.g. with <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_Term">CPS_Term</a> or <a rel="contents" href="CPS/_command_classes.php.html#functionCPS_QueryTerm">CPS_QueryTerm</a>);</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setStemLang" id="setStemLang"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setStemLang</span> (line <span class="line-number">259</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the stemming language</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setStemLang
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: 2-letter language ID</span>			</li>
+				</ul>
+		
+			
+	</div>
+                                    <h4>Inherited Methods</h4>
+                    <a name='inherited_methods'><!-- --></a>	
+                                            <!-- =========== Summary =========== -->
+                        <p>Inherited From <span class="classname"><a rel="contents" href="CPS/CPS_Request.html">CPS_Request</a></span></p>
+                        <blockquote>
+                                                            <img src="images/Constructor.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#method__construct">CPS_Request::__construct()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodgetClusterLabel">CPS_Request::getClusterLabel()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodgetCommand">CPS_Request::getCommand()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodgetRequestId">CPS_Request::getRequestId()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodgetRequestType">CPS_Request::getRequestType()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodgetTextParamNames">CPS_Request::getTextParamNames()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodgetValidXmlValue">CPS_Request::getValidXmlValue()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodsetClusterLabel">CPS_Request::setClusterLabel()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodsetExtraXmlParam">CPS_Request::setExtraXmlParam()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodsetParam">CPS_Request::setParam()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodsetRequestId">CPS_Request::setRequestId()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#methodsetRequestType">CPS_Request::setRequestType()</a></span><br>
+                                                            <img src="images/Method.png" alt=" "/>
+                                <span class="method-name"><a rel="contents" href="CPS/CPS_Request.html#method_loadIntoDom">CPS_Request::_loadIntoDom()</a></span><br>
+                                                    </blockquote>
+                                    			
+            </div>
+        </div>
+    
+    </div>

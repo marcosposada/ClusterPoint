@@ -1,0 +1,51 @@
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In  -->
+<svg version="1.0"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="219px" height="109.9px" viewBox="0 0 219 109.9" style="enable-background:new 0 0 219 109.9;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7629F4;stroke:#FFFFFF;stroke-width:1.2475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#7629F4;stroke-width:1.2475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:1.2475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.4909,2.9451;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.4909,2.9452;}
+</style>
+<defs>
+</defs>
+<g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st0" points="13.6,40.9 96,82.2 96,102.8 13.6,61.5 				"/>
+				<polyline class="st0" points="96,82.2 218.4,41.2 218.4,61.8 96,102.8 				"/>
+				<g>
+					<polygon class="st1" points="135.9,0 13.6,40.9 96,82.2 218.4,41.2 					"/>
+				</g>
+			</g>
+			<line class="st2" x1="73.8" y1="22.3" x2="14.7" y2="42"/>
+			<line class="st3" x1="96" y1="82.2" x2="96" y2="102.8"/>
+			<polyline class="st2" points="164.2,57.8 94.8,81.3 94.8,86.8 			"/>
+		</g>
+		<polygon class="st0" points="96.1,82.2 109.1,88.6 109.1,109.3 96.1,102.8 		"/>
+		<polygon class="st0" points="0.6,34.2 13.6,40.7 13.6,61.3 0.6,54.8 		"/>
+		<g>
+			<g>
+				<line class="st4" x1="20.7" y1="58.7" x2="20.9" y2="58.8"/>
+				<line class="st5" x1="23.5" y1="60.1" x2="86.7" y2="91.7"/>
+				<line class="st4" x1="88" y1="92.3" x2="88.3" y2="92.5"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<line class="st4" x1="20.7" y1="54.9" x2="20.9" y2="55"/>
+				<line class="st6" x1="23.5" y1="56.3" x2="86.7" y2="88"/>
+				<line class="st4" x1="88" y1="88.6" x2="88.3" y2="88.7"/>
+			</g>
+		</g>
+		<line class="st2" x1="164.2" y1="57.8" x2="119.7" y2="35.6"/>
+		<line class="st2" x1="141.9" y1="65.1" x2="109.5" y2="48.9"/>
+	</g>
+</g>
+</svg>

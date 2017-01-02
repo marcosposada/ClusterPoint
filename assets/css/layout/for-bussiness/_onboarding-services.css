@@ -1,0 +1,41 @@
+#page-onboarding-services { margin-bottom: 210px; }
+/* Hero */ 
+	#page-onboarding-services #hero { padding-top: 126px; padding-bottom: 28px; position: relative; z-index: 99; min-height: 238px; }
+	#page-onboarding-services #hero h1 { margin-top: 10px; margin-bottom: 0;  margin-left: -12px; margin-bottom: 0;  width: 100%; display: table; }
+	#page-onboarding-services #hero h1 span { padding-left: 9px; padding-right: 9px; background: #F2F2F2; float: left; }
+	#page-onboarding-services #hero h2 { margin-top: 0px; margin-left: -12px; display: table;}
+/* Content */
+	#page-onboarding-services .white-block { padding: 4px 0; }
+/* Services */
+	#page-onboarding-services .service-list { padding-top: 42px; }
+	#page-onboarding-services .service { padding-top: 14px; padding-left: 13px; padding-right: 13px; min-height: 336px; overflow: hidden; }
+	#page-onboarding-services .service .number-wrap {  width: 68px; height: 73px; display: table; margin: 0 auto -5px; text-align: center; position: relative; }
+	#page-onboarding-services .service .number { background-position: center 13px; font-size : 80px; line-height : 72px; color : #7629F4; font-family: 'DINCondensedBold';  }
+	#page-onboarding-services .service .number-bg { background: url('../../../images/frontpage/number-border.png'); background: url('../../../images/frontpage/number-border.svg'); background-repeat: no-repeat; background-size: 68px 60px; position: absolute; width: 68px; height: 60px; bottom: 0; left: 0;  }
+	#page-onboarding-services .service h3 { font-size : 25px; line-height: 30px; color : #7629F4; text-align: center;  }
+	#page-onboarding-services .service .text { text-align: center; font-size : 17px; line-height : 25px; color : #666666; max-width: 320px; margin: -10px auto 0;}
+	
+/* Contact form */ 
+	#page-onboarding-services #onboarding-contact-form { min-height: 504px; z-index: 100; position: relative; margin-top: 56px; }
+	#page-onboarding-services #onboarding-contact-form h2 { line-height: 34px; padding-bottom: 0; line-height: 32px; padding-top: 6px; }
+	#page-onboarding-services #onboarding-contact-form h2 span {  padding-bottom: 5px; }
+	#page-onboarding-services #onboarding-contact-form h3 { padding-bottom: 5px; padding-top: 0; font-size: 17px; }
+	#page-onboarding-services #onboarding-contact-form .inner { margin: 0 auto; background: #F2F2F2; display: table; }
+	#page-onboarding-services #onboarding-contact-form h3 span:last-child { margin-top: 0px; padding-bottom: 0; }
+/* Companies */
+	#page-onboarding-services #companies { padding-bottom: 0; height: auto; }
+	#page-onboarding-services #companies { padding-top: 56px; }
+	#page-onboarding-services #companies .logo-wrap { width: 192px; }
+	#page-onboarding-services #companies .logo-wrap img { width: 100%; height: auto; }
+	#page-onboarding-services #companies .section-title span { line-height: 40px; }
+/* Enviroment */
+	#page-onboarding-services #enviroment { position: relative; z-index: 99; margin-bottom: 84px; padding: 56px 0 70px; }
+	#page-onboarding-services #enviroment .section-subtitle { line-height: 27px; padding-bottom: 0; padding-top: 14px; }
+	#page-onboarding-services #enviroment .animation-wrap { margin: 14px auto 0; width: 204px; height: 126px; margin-left: 25px; margin-right: 25px; }
+	#page-onboarding-services #enviroment .section-subtitle { font-size: 17px; }
+/* */
+	#onboarding-sign-up { margin-top: 70px; }
+	#onboarding-sign-up .section-title span { line-height: 40px; }
+	#onboarding-sign-up  .button-wrap { margin-top: 42px; }
+	#onboarding-sign-up  .button-wrap .btn { width: 300px; }
+	#onboarding-sign-up  .button-wrap .button-text { margin-top: 10px; }

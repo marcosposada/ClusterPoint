@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212.53" height="145" viewBox="0 0 212.53 145">
+  <defs>
+    <style>
+      .a, .d, .e {
+        fill: none;
+      }
+
+      .a {
+        stroke: #f2f2f2;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .b {
+        fill: #f1f1f1;
+      }
+
+      .b, .c, .e {
+        stroke: #7629f4;
+      }
+
+      .b, .c, .d, .e {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.25px;
+      }
+
+      .c {
+        fill: #fff;
+      }
+
+      .d {
+        stroke: #6d51f3;
+      }
+
+      .f {
+        fill: #7629f4;
+      }
+    </style>
+  </defs>
+  <title>acid-small-5</title>
+  <path class="a" d="M142.33,58.26L162,43.09,119.26,10.16V29.87A39.1,39.1,0,0,0,93.4,42L58.14,30.22,5,56.77,5,84.17V100.8l116.51,38.8,86-43V80Z"/>
+  <g>
+    <g>
+      <polyline class="b" points="207.69 80.14 207.69 96.78 121.7 139.77 5.19 100.97 5.19 84.33"/>
+      <polygon class="c" points="207.69 80.14 121.7 123.14 5.19 84.33 38.39 68.01 5.17 56.94 58.3 30.38 207.69 80.14"/>
+      <line class="d" x1="5.17" y1="56.94" x2="5.17" y2="84.33"/>
+      <line class="e" x1="121.7" y1="123.14" x2="121.7" y2="139.77"/>
+      <polyline class="f" points="5.17 56.94 38.39 68.01 5.19 84.33"/>
+    </g>
+    <path class="f" d="M162.21,43.25L119.43,10.32V30c-3.85.15-38.21,2.8-38.21,50.18,0,0,7.65-24.85,38.2-25v21Z"/>
+  </g>
+</svg>

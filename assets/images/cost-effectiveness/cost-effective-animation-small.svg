@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213.53" height="163.27" viewBox="0 0 213.53 163.27">
+  <defs>
+    <style>
+      .a, .d {
+        fill: none;
+      }
+
+      .a {
+        stroke: #f2f2f2;
+        stroke-miterlimit: 10;
+        stroke-width: 11px;
+      }
+
+      .b {
+        fill: #f1f1f1;
+      }
+
+      .b, .c, .d {
+        stroke: #7629f4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.25px;
+      }
+
+      .c {
+        fill: #fff;
+      }
+
+      .e {
+        fill: #7629f4;
+      }
+    </style>
+  </defs>
+  <title>cost-effective-animation-small</title>
+  <polygon class="a" points="136.76 73.97 136.76 13.09 120.15 7.61 120.15 68.43 108.77 64.64 108.77 40.62 92.15 35.13 92.15 59.11 66.88 50.69 66.88 27.34 50.27 21.85 50.27 52.13 5.5 74.5 5.52 101.89 5.52 118.53 122.04 157.33 208.03 114.34 208.03 97.7 136.76 73.97"/>
+  <g>
+    <polyline class="b" points="208.03 97.7 208.03 114.34 122.04 157.33 5.52 118.53 5.52 101.89"/>
+    <polygon class="c" points="208.03 97.7 122.04 140.7 5.52 101.89 38.72 85.57 5.5 74.5 58.64 47.95 208.03 97.7"/>
+    <line class="d" x1="5.5" y1="74.5" x2="5.5" y2="101.89"/>
+    <line class="d" x1="122.04" y1="140.7" x2="122.04" y2="157.33"/>
+    <polyline class="e" points="5.5 74.5 38.72 85.57 5.52 101.89"/>
+  </g>
+  <g>
+    <polygon class="e" points="108.77 83.89 92.15 78.4 92.15 35.13 108.77 40.62 108.77 83.89"/>
+    <polygon class="e" points="66.88 93.77 50.27 88.29 50.27 21.85 66.88 27.34 66.88 93.77"/>
+    <polyline class="d" points="186.15 90.42 136.65 115.41 120.04 109.93 169.6 84.9"/>
+    <polygon class="e" points="136.76 115.2 120.15 109.71 120.15 7.61 136.76 13.09 136.76 115.2"/>
+  </g>
+</svg>

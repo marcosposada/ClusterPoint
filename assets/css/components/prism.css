@@ -1,0 +1,160 @@
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+json+php+php-extras */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"],
+.pre-fallback {
+	color: #7629f4;
+	background: none;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 14px;
+	line-height: 28px;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.pre-fallback, pre[class*="language-"] { position: relative; }
+.pre-fallback .pre-before, pre[class*="language-"]:before { 
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2px;
+	background: url('../../images/dotted-line-single.png');
+	background: url('../../images/dotted-line-single.svg');
+	background-repeat: repeat-x;
+	background-position: center center;
+	background-size: 14px 2px;
+	display: table;
+	content: "";
+}
+.pre-fallback .pre-after, pre[class*="language-"]:after { 
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: url('../../images/dotted-line-single.png');
+	background: url('../../images/dotted-line-single.svg');
+	background-repeat: repeat-x;
+	background-position: center center;
+	background-size: 14px 2px;
+	display: table;
+	content: "";
+} 
+.pre-fallback { display: table; width: 100%; padding: 45px 0; }
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #FFFFFF;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #7629f4;
+}
+
+.token.punctuation {
+	color: #000000;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+/* 	color: #905; */
+	color: #000000;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #7629f4;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #000000;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #7ea336;
+}
+
+.token.function {
+/* 	color: #DD4A68; */
+	color: #000000;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #8c6d15;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+.token.class-name {
+	color: #000000;
+}
+
+.token.entity {
+	cursor: help;
+}
+

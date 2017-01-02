@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="alternatives method" Url="html/1475dc1b-c4f2-dafd-6238-8bfd8e9778fe.htm" />
+  <HelpKINode Title="beginTransaction method" Url="html/1f34c264-f72d-bfca-958a-c4781e96f51b.htm" />
+  <HelpKINode Title="clearTransactionId method" Url="html/3ae00d02-d5b1-c302-c8e6-e7072e2eba91.htm" />
+  <HelpKINode Title="commitTransaction method" Url="html/1096f614-3de2-dc90-212c-1cccbc60f614.htm" />
+  <HelpKINode Title="ConvertToXML method" Url="html/811097d7-0348-698e-ff2e-742e5a409302.htm" />
+  <HelpKINode Title="count field">
+    <HelpKINode Title="CPS_AlternativesResponse.WordInfo.count Field" Url="html/536dbd0b-9c5a-fbba-c05a-50ce4542c9ba.htm" />
+    <HelpKINode Title="CPS_ListWordsResponse.WordInfo.count Field" Url="html/892e8773-a8d3-391e-069c-0786e8182f5a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS namespace" Url="html/e638f537-b789-5ea7-0219-8cfb762d4f0f.htm" />
+  <HelpKINode Title="CPS.CPS_AlternativesRequest class" Url="html/49fd13cb-f622-3455-f3e0-6aa4bcf0e9c9.htm" />
+  <HelpKINode Title="CPS.CPS_AlternativesResponse class" Url="html/86194fd8-7f33-a57c-a432-423a6f8879d8.htm" />
+  <HelpKINode Title="CPS.CPS_AlternativesResponse.WordInfo structure" Url="html/247d268e-fd58-bfa6-a043-c0271184d14d.htm" />
+  <HelpKINode Title="CPS.CPS_BeginTransactionRequest class" Url="html/d3641bff-89a8-e2f6-205e-479e706635a6.htm" />
+  <HelpKINode Title="CPS.CPS_CommitTransactionRequest class" Url="html/f9da12e2-1b11-2d78-26e7-b9e804f27c8b.htm" />
+  <HelpKINode Title="CPS.CPS_Connection class" Url="html/5bb56aca-bad1-1af0-afc8-3ea1572024b1.htm" />
+  <HelpKINode Title="CPS.CPS_DeleteRequest class" Url="html/d489137d-ff91-956f-894f-3c7d1adc99d8.htm" />
+  <HelpKINode Title="CPS.CPS_EmptyResponse class" Url="html/748eb0e5-f35e-046f-3d47-3052db6d5a85.htm" />
+  <HelpKINode Title="CPS.CPS_Exception class" Url="html/14e6c64f-e3e6-5a8b-63e9-e46d3c7efedd.htm" />
+  <HelpKINode Title="CPS.CPS_Exception.ERROR_CODE enumeration" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="CPS.CPS_InsertRequest class" Url="html/1ca59316-ed96-223f-ad8a-12222d621ac7.htm" />
+  <HelpKINode Title="CPS.CPS_ListFacetsRequest class" Url="html/725359e4-0730-da1e-4f68-e4f03e3c6d76.htm" />
+  <HelpKINode Title="CPS.CPS_ListFacetsResponse class" Url="html/b8551f6b-fd37-87d2-9967-101d75be1805.htm" />
+  <HelpKINode Title="CPS.CPS_ListFirstRequest class" Url="html/24b1a837-b936-3495-a16f-2f1960890a02.htm" />
+  <HelpKINode Title="CPS.CPS_ListLastRequest class" Url="html/a3ef8dd7-2eb7-bdb2-1c49-5e8ff5018448.htm" />
+  <HelpKINode Title="CPS.CPS_ListLastRetrieveFirstRequest class" Url="html/42cf5be6-d619-9f21-c8ec-c599afbbfd75.htm" />
+  <HelpKINode Title="CPS.CPS_ListPathsRequest class" Url="html/1b3d69ec-4f34-1991-f9f9-4332871ca5bb.htm" />
+  <HelpKINode Title="CPS.CPS_ListPathsResponse class" Url="html/e1861c3b-ecc9-5434-3c40-bcec770d7065.htm" />
+  <HelpKINode Title="CPS.CPS_ListWordsRequest class" Url="html/d64203fb-e7bb-ba4a-ad40-2097e4565c90.htm" />
+  <HelpKINode Title="CPS.CPS_ListWordsResponse class" Url="html/41e1e080-4a9d-7e38-deee-08b1018299fb.htm" />
+  <HelpKINode Title="CPS.CPS_ListWordsResponse.WordInfo structure" Url="html/09552f5d-c7d5-497a-aa92-03b317dfb976.htm" />
+  <HelpKINode Title="CPS.CPS_LoadBalancer class" Url="html/832e2273-8537-03a9-f872-8b2b4576ba2e.htm" />
+  <HelpKINode Title="CPS.CPS_LookupRequest class" Url="html/8752d328-1458-f3db-bc1e-b9b55fc0f1e3.htm" />
+  <HelpKINode Title="CPS.CPS_LookupResponse class" Url="html/71624b2b-d822-804e-00b6-a9b5105be124.htm" />
+  <HelpKINode Title="CPS.CPS_ModifyRequest class" Url="html/64fb8aaa-cf50-5e4a-5531-e964e8c90644.htm" />
+  <HelpKINode Title="CPS.CPS_ModifyResponse class" Url="html/a5648cb9-3931-647b-3fc9-9a16a569be32.htm" />
+  <HelpKINode Title="CPS.CPS_PartialReplaceRequest class" Url="html/8a9cfd0d-1fd7-2716-6e50-f5ba8b7a052e.htm" />
+  <HelpKINode Title="CPS.CPS_PartialXRequest class" Url="html/c7131a07-f7de-494b-1166-cd371eb2c209.htm" />
+  <HelpKINode Title="CPS.CPS_PRX_Changeset class" Url="html/25fd45bc-6ce4-1c6b-2988-43565d747e14.htm" />
+  <HelpKINode Title="CPS.CPS_PRX_Operation class" Url="html/903f7388-0053-17fa-86b0-5b2a8f463486.htm" />
+  <HelpKINode Title="CPS.CPS_ReplaceRequest class" Url="html/5e2f3247-3345-888a-4f38-710ff1933b44.htm" />
+  <HelpKINode Title="CPS.CPS_Request class" Url="html/8beca068-5b4a-2960-e567-cfd126fe81da.htm" />
+  <HelpKINode Title="CPS.CPS_Response class" Url="html/b2fd2b94-10fb-612b-8e8a-f9ec3c7bd47a.htm" />
+  <HelpKINode Title="CPS.CPS_Response.DOC_TYPE enumeration" Url="html/0a86c300-a15f-07f4-ce14-e1c208ca0404.htm" />
+  <HelpKINode Title="CPS.CPS_RetrieveFirstRequest class" Url="html/73ba2ba2-c3f5-bb42-0d4a-ef268238b7c4.htm" />
+  <HelpKINode Title="CPS.CPS_RetrieveLastRequest class" Url="html/2b401875-486b-3f40-dd7d-5c941bdbd9c0.htm" />
+  <HelpKINode Title="CPS.CPS_RetrieveRequest class" Url="html/609ecc3f-e5f8-6e33-bdaa-b168477ae3b8.htm" />
+  <HelpKINode Title="CPS.CPS_RollbackTransactionRequest class" Url="html/0bda414f-8739-d08a-da86-9b2be7826790.htm" />
+  <HelpKINode Title="CPS.CPS_SearchDeleteRequest class" Url="html/df611f78-dcb5-5c2c-8fb7-9185bc173d4d.htm" />
+  <HelpKINode Title="CPS.CPS_SearchDeleteResponse class" Url="html/5ca14d1a-98c6-0ad3-b559-ca484f27f304.htm" />
+  <HelpKINode Title="CPS.CPS_SearchRequest class" Url="html/65395bc1-6ac2-fbe0-a2f4-8e52b3af6f39.htm" />
+  <HelpKINode Title="CPS.CPS_SearchResponse class" Url="html/c549a13e-acd2-e257-fe45-2f66f4ebc0dd.htm" />
+  <HelpKINode Title="CPS.CPS_ShowHistoryRequest class" Url="html/e1a57088-57ea-3562-1b31-4ecf3252c412.htm" />
+  <HelpKINode Title="CPS.CPS_SimilarDocumentRequest class" Url="html/883fe42c-880b-3d5a-05d1-9b75bdf386c9.htm" />
+  <HelpKINode Title="CPS.CPS_SimilarTextRequest class" Url="html/1a13d996-5712-8f62-8bea-a8a538571ff9.htm" />
+  <HelpKINode Title="CPS.CPS_Simple class" Url="html/1a78ad90-eeba-781f-ec37-02f971f272a2.htm" />
+  <HelpKINode Title="CPS.CPS_SimpleXML class" Url="html/44a1e329-54b6-b004-d805-28de9ac66e1a.htm" />
+  <HelpKINode Title="CPS.CPS_SQLSearchRequest class" Url="html/d4c7f99a-a04a-ded0-fb21-5a099fe7f2b7.htm" />
+  <HelpKINode Title="CPS.CPS_StaticRequest class" Url="html/3238b841-6546-2841-d8e9-a32e44b91162.htm" />
+  <HelpKINode Title="CPS.CPS_StatusRequest class" Url="html/84b8a507-0b7e-4239-a334-41f7daf48c07.htm" />
+  <HelpKINode Title="CPS.CPS_StatusResponse class" Url="html/d7113d7b-3c91-c206-8d89-3143c006e49a.htm" />
+  <HelpKINode Title="CPS.CPS_UpdateRequest class" Url="html/43d2eefe-5480-2ff2-793d-334246b1a71e.htm" />
+  <HelpKINode Title="CPS.Protobuf class" Url="html/78bfc8d9-c4ab-4bb0-7827-1beb3f6e1b78.htm" />
+  <HelpKINode Title="CPS.Protobuf.WireType enumeration" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="CPS.Protobuf_Streamer class" Url="html/eee3e75e-4d18-a963-c1d9-02c428621d33.htm" />
+  <HelpKINode Title="CPS.Utils class" Url="html/3c4ac713-87a0-e90e-1391-4afd0d93ddf2.htm" />
+  <HelpKINode Title="CPS_AlternativesRequest class">
+    <HelpKINode Title="CPS_AlternativesRequest Class" Url="html/49fd13cb-f622-3455-f3e0-6aa4bcf0e9c9.htm" />
+    <HelpKINode Title="about CPS_AlternativesRequest class" Url="html/49fd13cb-f622-3455-f3e0-6aa4bcf0e9c9.htm" />
+    <HelpKINode Title="constructor" Url="html/21ba131f-0ed3-05eb-4190-4d1c557b240e.htm" />
+    <HelpKINode Title="fields" Url="html/3cd712e0-1711-6d33-b632-d2399a61d281.htm" />
+    <HelpKINode Title="methods" Url="html/13ebceaa-6e47-9085-9bca-b6a488b27f70.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_AlternativesRequest.CPS_AlternativesRequest constructor" Url="html/21ba131f-0ed3-05eb-4190-4d1c557b240e.htm" />
+  <HelpKINode Title="CPS_AlternativesRequest.setCr method" Url="html/dded8494-56b0-fb55-8a39-45f0bed0702d.htm" />
+  <HelpKINode Title="CPS_AlternativesRequest.setH method" Url="html/224d9c8d-dd38-cb69-2a90-5a9f78f68eb2.htm" />
+  <HelpKINode Title="CPS_AlternativesRequest.setIdif method" Url="html/8e0c04d2-f49a-46c4-3d2f-da1fe5956060.htm" />
+  <HelpKINode Title="CPS_AlternativesRequest.setQuery method" Url="html/822230cf-06dd-c6d1-98ee-b75ca46489b1.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse class">
+    <HelpKINode Title="CPS_AlternativesResponse Class" Url="html/86194fd8-7f33-a57c-a432-423a6f8879d8.htm" />
+    <HelpKINode Title="about CPS_AlternativesResponse class" Url="html/86194fd8-7f33-a57c-a432-423a6f8879d8.htm" />
+    <HelpKINode Title="constructor" Url="html/50f9b9ef-8c32-b704-234f-35fde1df70e2.htm" />
+    <HelpKINode Title="fields" Url="html/3f1fb884-61a3-e35a-7ec6-e6acb3a4599b.htm" />
+    <HelpKINode Title="methods" Url="html/71f2d941-bd58-5fdc-4a7d-6d3b246a7f6c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_AlternativesResponse.CPS_AlternativesResponse constructor" Url="html/50f9b9ef-8c32-b704-234f-35fde1df70e2.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse.getWordCount method" Url="html/ef35f055-b1c7-339c-6798-c7445cab56d1.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse.getWords method" Url="html/98c9da59-37db-85bd-84f5-182170533f4d.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse.WordInfo structure">
+    <HelpKINode Title="CPS_AlternativesResponse.WordInfo Structure" Url="html/247d268e-fd58-bfa6-a043-c0271184d14d.htm" />
+    <HelpKINode Title="about CPS_AlternativesResponse.WordInfo structure" Url="html/247d268e-fd58-bfa6-a043-c0271184d14d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_AlternativesResponse.WordInfo.count field" Url="html/536dbd0b-9c5a-fbba-c05a-50ce4542c9ba.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse.WordInfo.cr field" Url="html/39c6ae87-5a61-f99e-847b-e20793612c5a.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse.WordInfo.h field" Url="html/b97acdfb-7fe0-604f-59e6-61c1c492189c.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse.WordInfo.idif field" Url="html/7c3be29e-7a09-9d82-3f73-e51a65545f6e.htm" />
+  <HelpKINode Title="CPS_AlternativesResponse.WordInfo.word field" Url="html/abb25015-78ca-b34e-3a10-f82af53edeff.htm" />
+  <HelpKINode Title="CPS_BeginTransactionRequest class">
+    <HelpKINode Title="CPS_BeginTransactionRequest Class" Url="html/d3641bff-89a8-e2f6-205e-479e706635a6.htm" />
+    <HelpKINode Title="about CPS_BeginTransactionRequest class" Url="html/d3641bff-89a8-e2f6-205e-479e706635a6.htm" />
+    <HelpKINode Title="constructor" Url="html/70fd7ad2-0440-7b5b-b378-ef8849e66fe4.htm" />
+    <HelpKINode Title="fields" Url="html/989df269-9897-a238-cbda-5274ca1a6ae1.htm" />
+    <HelpKINode Title="methods" Url="html/50955cfd-7162-d870-d410-4c1be42bee5e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_BeginTransactionRequest.CPS_BeginTransactionRequest constructor" Url="html/70fd7ad2-0440-7b5b-b378-ef8849e66fe4.htm" />
+  <HelpKINode Title="CPS_CommitTransactionRequest class">
+    <HelpKINode Title="CPS_CommitTransactionRequest Class" Url="html/f9da12e2-1b11-2d78-26e7-b9e804f27c8b.htm" />
+    <HelpKINode Title="about CPS_CommitTransactionRequest class" Url="html/f9da12e2-1b11-2d78-26e7-b9e804f27c8b.htm" />
+    <HelpKINode Title="constructor" Url="html/edb92413-69d8-a713-68d5-66b869eb4778.htm" />
+    <HelpKINode Title="fields" Url="html/4bdc8db0-711f-c7da-e797-a73b9584d469.htm" />
+    <HelpKINode Title="methods" Url="html/04602954-2bdc-0467-93bd-b38a3edbcbde.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_CommitTransactionRequest.CPS_CommitTransactionRequest constructor" Url="html/edb92413-69d8-a713-68d5-66b869eb4778.htm" />
+  <HelpKINode Title="CPS_Connection class">
+    <HelpKINode Title="CPS_Connection Class" Url="html/5bb56aca-bad1-1af0-afc8-3ea1572024b1.htm" />
+    <HelpKINode Title="about CPS_Connection class" Url="html/5bb56aca-bad1-1af0-afc8-3ea1572024b1.htm" />
+    <HelpKINode Title="constructor" Url="html/086bedda-9066-4815-9719-29f9c9143696.htm" />
+    <HelpKINode Title="fields" Url="html/5c163e77-0d09-d7c7-8bb2-692e7a1be522.htm" />
+    <HelpKINode Title="methods" Url="html/09f6ad13-a671-c9a9-72e5-2ae50f84b248.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_Connection.clearTransactionId method" Url="html/3ae00d02-d5b1-c302-c8e6-e7072e2eba91.htm" />
+  <HelpKINode Title="CPS_Connection.CPS_Connection constructor" Url="html/086bedda-9066-4815-9719-29f9c9143696.htm" />
+  <HelpKINode Title="CPS_Connection.getDocumentIdXpath method" Url="html/f8b0b2c0-fd5a-8ef5-01ea-03098495aff7.htm" />
+  <HelpKINode Title="CPS_Connection.getDocumentRootXpath method" Url="html/a9cbb6db-3a41-a322-5646-130b67aab4d7.htm" />
+  <HelpKINode Title="CPS_Connection.getLastConnectionInfo method" Url="html/cec1a0fa-11e0-9bf7-defc-52ec92e052f3.htm" />
+  <HelpKINode Title="CPS_Connection.getLastNetworkDuration method" Url="html/fd320da8-d7b8-c643-0a53-e599491c8329.htm" />
+  <HelpKINode Title="CPS_Connection.getLastRequestDuration method" Url="html/1d50ad48-dc4f-9d66-6517-f28252166d2a.htm" />
+  <HelpKINode Title="CPS_Connection.getLastRequestSize method" Url="html/85df287a-120c-a2f2-1402-8852a1cea88c.htm" />
+  <HelpKINode Title="CPS_Connection.getLastResponseSize method" Url="html/3bfde61f-4d5f-27b5-bf21-7564a46a338c.htm" />
+  <HelpKINode Title="CPS_Connection.p_transactionId field" Url="html/710d37cf-ba1f-62e0-944b-e7cdb892a812.htm" />
+  <HelpKINode Title="CPS_Connection.sendRequest method" Url="html/ff346f82-3a5b-a294-583d-ef724282e0c8.htm" />
+  <HelpKINode Title="CPS_Connection.setApplicationId method" Url="html/06dc9ce2-5b11-39f6-2c9e-a1fef447d476.htm" />
+  <HelpKINode Title="CPS_Connection.setCustomSSLValidation method" Url="html/200dd134-2952-860c-8f8b-fd4f45f24ac7.htm" />
+  <HelpKINode Title="CPS_Connection.setDebug method" Url="html/0fcc45b6-4782-81ba-8112-46077551d0ce.htm" />
+  <HelpKINode Title="CPS_Connection.setDocIdResetting method" Url="html/d48b1b82-293c-6ad0-831c-0a2a093f3cce.htm" />
+  <HelpKINode Title="CPS_Connection.setHMACKeys method" Url="html/715fefe2-6c0a-6267-23f5-2326c8135c7d.htm" />
+  <HelpKINode Title="CPS_DateOrdering method" Url="html/11fa2825-eae2-d498-3aa8-a484047fcda1.htm" />
+  <HelpKINode Title="CPS_DeleteRequest class">
+    <HelpKINode Title="CPS_DeleteRequest Class" Url="html/d489137d-ff91-956f-894f-3c7d1adc99d8.htm" />
+    <HelpKINode Title="about CPS_DeleteRequest class" Url="html/d489137d-ff91-956f-894f-3c7d1adc99d8.htm" />
+    <HelpKINode Title="constructor" Url="html/bdefd803-6715-f2d4-5d18-6938497c1772.htm" />
+    <HelpKINode Title="fields" Url="html/b175ea83-aad7-457f-f3af-25aec8446f4c.htm" />
+    <HelpKINode Title="methods" Url="html/619e8236-0237-86e4-65d6-96a252de3807.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_DeleteRequest.CPS_DeleteRequest constructor" Url="html/bdefd803-6715-f2d4-5d18-6938497c1772.htm" />
+  <HelpKINode Title="CPS_EmptyResponse class">
+    <HelpKINode Title="CPS_EmptyResponse Class" Url="html/748eb0e5-f35e-046f-3d47-3052db6d5a85.htm" />
+    <HelpKINode Title="about CPS_EmptyResponse class" Url="html/748eb0e5-f35e-046f-3d47-3052db6d5a85.htm" />
+    <HelpKINode Title="constructor" Url="html/6b96d1a0-9fb9-780d-5746-c25e6a3a5f8a.htm" />
+    <HelpKINode Title="fields" Url="html/6b942ea6-11e1-368a-d667-007ac4dee394.htm" />
+    <HelpKINode Title="methods" Url="html/ad171600-79c1-f16c-7b0b-9d8958e6930e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_EmptyResponse.CPS_EmptyResponse constructor" Url="html/6b96d1a0-9fb9-780d-5746-c25e6a3a5f8a.htm" />
+  <HelpKINode Title="CPS_Exception class">
+    <HelpKINode Title="CPS_Exception Class" Url="html/14e6c64f-e3e6-5a8b-63e9-e46d3c7efedd.htm" />
+    <HelpKINode Title="about CPS_Exception class" Url="html/14e6c64f-e3e6-5a8b-63e9-e46d3c7efedd.htm" />
+    <HelpKINode Title="constructor" Url="html/bbfaab29-bece-bd9f-7334-412bb9634ed0.htm" />
+    <HelpKINode Title="methods" Url="html/4422470d-25f3-9bb8-cd3f-c2b8a3d6ac65.htm" />
+    <HelpKINode Title="properties" Url="html/391a0803-5daf-b47b-953f-54093842fd08.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_Exception.CPS_Exception constructor" Url="html/bbfaab29-bece-bd9f-7334-412bb9634ed0.htm" />
+  <HelpKINode Title="CPS_Exception.ERROR_CODE enumeration" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="CPS_Exception.SetCode method" Url="html/1dc1b252-2050-a6dd-5e5f-4c18f74c373d.htm" />
+  <HelpKINode Title="CPS_Exception.ToString method" Url="html/1e3c1588-48dc-e65b-0cba-639dcf2e7324.htm" />
+  <HelpKINode Title="CPS_FloatString method" Url="html/f905855a-f83d-660c-5544-a2a18e6b1758.htm" />
+  <HelpKINode Title="CPS_InsertRequest class">
+    <HelpKINode Title="CPS_InsertRequest Class" Url="html/1ca59316-ed96-223f-ad8a-12222d621ac7.htm" />
+    <HelpKINode Title="about CPS_InsertRequest class" Url="html/1ca59316-ed96-223f-ad8a-12222d621ac7.htm" />
+    <HelpKINode Title="constructor" Url="html/dfd61854-f68a-c03c-6870-9c580450ed38.htm" />
+    <HelpKINode Title="fields" Url="html/b234108e-917c-a6e0-ea52-4e3513a3b9d1.htm" />
+    <HelpKINode Title="methods" Url="html/000c5985-dc08-192b-1d0b-55f711a768fd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_InsertRequest.CPS_InsertRequest constructor" Url="html/dfd61854-f68a-c03c-6870-9c580450ed38.htm" />
+  <HelpKINode Title="CPS_LatLongDistanceOrdering method" Url="html/ff5a9803-bbcc-754d-614d-c2ca3c016820.htm" />
+  <HelpKINode Title="CPS_ListFacetsRequest class">
+    <HelpKINode Title="CPS_ListFacetsRequest Class" Url="html/725359e4-0730-da1e-4f68-e4f03e3c6d76.htm" />
+    <HelpKINode Title="about CPS_ListFacetsRequest class" Url="html/725359e4-0730-da1e-4f68-e4f03e3c6d76.htm" />
+    <HelpKINode Title="constructor" Url="html/ddcbb1a4-7c93-93e3-d5b0-2b3c33e82a44.htm" />
+    <HelpKINode Title="fields" Url="html/23ddbbc1-1043-2d90-062b-3ab99f6a2abe.htm" />
+    <HelpKINode Title="methods" Url="html/9135b3dc-ea07-412c-4610-ef0a1890932d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListFacetsRequest.CPS_ListFacetsRequest constructor" Url="html/ddcbb1a4-7c93-93e3-d5b0-2b3c33e82a44.htm" />
+  <HelpKINode Title="CPS_ListFacetsResponse class">
+    <HelpKINode Title="CPS_ListFacetsResponse Class" Url="html/b8551f6b-fd37-87d2-9967-101d75be1805.htm" />
+    <HelpKINode Title="about CPS_ListFacetsResponse class" Url="html/b8551f6b-fd37-87d2-9967-101d75be1805.htm" />
+    <HelpKINode Title="constructor" Url="html/3b1788cb-d7bd-d7c9-eda9-8209a2a32d11.htm" />
+    <HelpKINode Title="fields" Url="html/bee895ed-656a-b5d8-9a9a-9f2144c64396.htm" />
+    <HelpKINode Title="methods" Url="html/2df1d620-7a1b-8e08-1b2d-cec407cf142f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListFacetsResponse.CPS_ListFacetsResponse constructor" Url="html/3b1788cb-d7bd-d7c9-eda9-8209a2a32d11.htm" />
+  <HelpKINode Title="CPS_ListFacetsResponse.getFacets method" Url="html/92657d94-94aa-aed7-9a28-cd8affc8bcfb.htm" />
+  <HelpKINode Title="CPS_ListFirstRequest class">
+    <HelpKINode Title="CPS_ListFirstRequest Class" Url="html/24b1a837-b936-3495-a16f-2f1960890a02.htm" />
+    <HelpKINode Title="about CPS_ListFirstRequest class" Url="html/24b1a837-b936-3495-a16f-2f1960890a02.htm" />
+    <HelpKINode Title="constructor" Url="html/cd22d174-cccd-dae5-b4f8-c6c7303a38ba.htm" />
+    <HelpKINode Title="fields" Url="html/abb607bf-d4ca-1698-5182-01888c384c33.htm" />
+    <HelpKINode Title="methods" Url="html/f9306aa4-2e55-ac82-7ee0-8e9d956e9b43.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListFirstRequest.CPS_ListFirstRequest constructor" Url="html/cd22d174-cccd-dae5-b4f8-c6c7303a38ba.htm" />
+  <HelpKINode Title="CPS_ListLastRequest class">
+    <HelpKINode Title="CPS_ListLastRequest Class" Url="html/a3ef8dd7-2eb7-bdb2-1c49-5e8ff5018448.htm" />
+    <HelpKINode Title="about CPS_ListLastRequest class" Url="html/a3ef8dd7-2eb7-bdb2-1c49-5e8ff5018448.htm" />
+    <HelpKINode Title="constructor" Url="html/23f0a7ca-924c-c14e-9aae-dc32cba3e964.htm" />
+    <HelpKINode Title="fields" Url="html/91146a2b-9f10-9dd6-ecf1-b4f2ff981f38.htm" />
+    <HelpKINode Title="methods" Url="html/8905d9ba-1afb-ece3-7ead-17820e8531d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListLastRequest.CPS_ListLastRequest constructor" Url="html/23f0a7ca-924c-c14e-9aae-dc32cba3e964.htm" />
+  <HelpKINode Title="CPS_ListLastRetrieveFirstRequest class">
+    <HelpKINode Title="CPS_ListLastRetrieveFirstRequest Class" Url="html/42cf5be6-d619-9f21-c8ec-c599afbbfd75.htm" />
+    <HelpKINode Title="about CPS_ListLastRetrieveFirstRequest class" Url="html/42cf5be6-d619-9f21-c8ec-c599afbbfd75.htm" />
+    <HelpKINode Title="constructor" Url="html/11b60589-19a9-31e5-10e3-9f674069fb2e.htm" />
+    <HelpKINode Title="fields" Url="html/b75ba1ac-82a8-3f0c-a9c0-df856d412290.htm" />
+    <HelpKINode Title="methods" Url="html/b41b2914-226b-e133-c840-681d2a861a34.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListLastRetrieveFirstRequest.CPS_ListLastRetrieveFirstRequest constructor" Url="html/11b60589-19a9-31e5-10e3-9f674069fb2e.htm" />
+  <HelpKINode Title="CPS_ListLastRetrieveFirstRequest.setList method" Url="html/d8fb49c5-306a-833d-d8a4-523695b23090.htm" />
+  <HelpKINode Title="CPS_ListPathsRequest class">
+    <HelpKINode Title="CPS_ListPathsRequest Class" Url="html/1b3d69ec-4f34-1991-f9f9-4332871ca5bb.htm" />
+    <HelpKINode Title="about CPS_ListPathsRequest class" Url="html/1b3d69ec-4f34-1991-f9f9-4332871ca5bb.htm" />
+    <HelpKINode Title="constructor" Url="html/2ac9397c-4c9a-2853-48a8-12bf8736b5dc.htm" />
+    <HelpKINode Title="fields" Url="html/690d1670-769f-afe4-964f-578a3433a647.htm" />
+    <HelpKINode Title="methods" Url="html/266650ed-dc96-570c-677a-000f55abd78c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListPathsRequest.CPS_ListPathsRequest constructor" Url="html/2ac9397c-4c9a-2853-48a8-12bf8736b5dc.htm" />
+  <HelpKINode Title="CPS_ListPathsResponse class">
+    <HelpKINode Title="CPS_ListPathsResponse Class" Url="html/e1861c3b-ecc9-5434-3c40-bcec770d7065.htm" />
+    <HelpKINode Title="about CPS_ListPathsResponse class" Url="html/e1861c3b-ecc9-5434-3c40-bcec770d7065.htm" />
+    <HelpKINode Title="constructor" Url="html/abdacd5c-e963-e904-c63e-cde9545cd0f8.htm" />
+    <HelpKINode Title="fields" Url="html/dce3f7f8-2c14-6015-d482-eb51ad2d595f.htm" />
+    <HelpKINode Title="methods" Url="html/7c964b35-0877-5cdd-1a6b-4a628c9554ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListPathsResponse.CPS_ListPathsResponse constructor" Url="html/abdacd5c-e963-e904-c63e-cde9545cd0f8.htm" />
+  <HelpKINode Title="CPS_ListPathsResponse.getPaths method" Url="html/b76ca494-3b3b-1c6e-f001-cbe4e7b19e02.htm" />
+  <HelpKINode Title="CPS_ListWordsRequest class">
+    <HelpKINode Title="CPS_ListWordsRequest Class" Url="html/d64203fb-e7bb-ba4a-ad40-2097e4565c90.htm" />
+    <HelpKINode Title="about CPS_ListWordsRequest class" Url="html/d64203fb-e7bb-ba4a-ad40-2097e4565c90.htm" />
+    <HelpKINode Title="constructor" Url="html/dd19a3cd-bdf9-db54-3d1e-f2e71b6074a7.htm" />
+    <HelpKINode Title="fields" Url="html/f4b8d793-1ec6-0caf-dc29-96b525328933.htm" />
+    <HelpKINode Title="methods" Url="html/a243e19b-f3a5-6610-5d9d-8e9e440f0401.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListWordsRequest.CPS_ListWordsRequest constructor" Url="html/dd19a3cd-bdf9-db54-3d1e-f2e71b6074a7.htm" />
+  <HelpKINode Title="CPS_ListWordsRequest.setQuery method" Url="html/6c0eeba0-ae89-371a-9a7a-89b0ac78b3b1.htm" />
+  <HelpKINode Title="CPS_ListWordsResponse class">
+    <HelpKINode Title="CPS_ListWordsResponse Class" Url="html/41e1e080-4a9d-7e38-deee-08b1018299fb.htm" />
+    <HelpKINode Title="about CPS_ListWordsResponse class" Url="html/41e1e080-4a9d-7e38-deee-08b1018299fb.htm" />
+    <HelpKINode Title="constructor" Url="html/89d6954e-2982-5153-51ea-1bc891983310.htm" />
+    <HelpKINode Title="fields" Url="html/d4bdca61-dd4b-4da8-261a-dcd34222ea7e.htm" />
+    <HelpKINode Title="methods" Url="html/5db7494d-bc21-c9c7-9dc5-4539ce47f8bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListWordsResponse.CPS_ListWordsResponse constructor" Url="html/89d6954e-2982-5153-51ea-1bc891983310.htm" />
+  <HelpKINode Title="CPS_ListWordsResponse.getWords method" Url="html/0768f693-44d2-2ae9-6082-be4bc72d2a11.htm" />
+  <HelpKINode Title="CPS_ListWordsResponse.WordInfo structure">
+    <HelpKINode Title="CPS_ListWordsResponse.WordInfo Structure" Url="html/09552f5d-c7d5-497a-aa92-03b317dfb976.htm" />
+    <HelpKINode Title="about CPS_ListWordsResponse.WordInfo structure" Url="html/09552f5d-c7d5-497a-aa92-03b317dfb976.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ListWordsResponse.WordInfo.count field" Url="html/892e8773-a8d3-391e-069c-0786e8182f5a.htm" />
+  <HelpKINode Title="CPS_ListWordsResponse.WordInfo.word field" Url="html/259e37f8-b722-10c1-a0dc-099337c1c533.htm" />
+  <HelpKINode Title="CPS_LoadBalancer class">
+    <HelpKINode Title="CPS_LoadBalancer Class" Url="html/832e2273-8537-03a9-f872-8b2b4576ba2e.htm" />
+    <HelpKINode Title="about CPS_LoadBalancer class" Url="html/832e2273-8537-03a9-f872-8b2b4576ba2e.htm" />
+    <HelpKINode Title="constructor" Url="html/cc4d40aa-113f-ea86-fef8-fff18c7c7476.htm" />
+    <HelpKINode Title="methods" Url="html/46ad2560-4525-9e15-73d9-f446871772ed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_LoadBalancer.CPS_LoadBalancer constructor" Url="html/cc4d40aa-113f-ea86-fef8-fff18c7c7476.htm" />
+  <HelpKINode Title="CPS_LoadBalancer.getConnectionString method" Url="html/51ffce83-85a8-604b-2570-d5c31602b95b.htm" />
+  <HelpKINode Title="CPS_LoadBalancer.newRequest method" Url="html/8fd83f56-e466-bab0-3324-603f49e0db9a.htm" />
+  <HelpKINode Title="CPS_LoadBalancer.setDebug method" Url="html/c52899cf-9d2d-98a6-b720-969841e26e42.htm" />
+  <HelpKINode Title="CPS_LoadBalancer.setExclusionTime method" Url="html/cb41e55f-4aec-c523-55e3-f1baaf91b572.htm" />
+  <HelpKINode Title="CPS_LoadBalancer.setSendWhenAllFailed method" Url="html/6fdbc55b-b220-74b0-a4cd-ae02b2a9208b.htm" />
+  <HelpKINode Title="CPS_LoadBalancer.setStatusFilePrefix method" Url="html/6893ecd1-674a-1b47-f47c-2e8f8e21b20c.htm" />
+  <HelpKINode Title="CPS_LoadBalancer.shouldRetry method" Url="html/6a10cb19-143d-08ac-1c95-1386f82931bf.htm" />
+  <HelpKINode Title="CPS_LookupRequest class">
+    <HelpKINode Title="CPS_LookupRequest Class" Url="html/8752d328-1458-f3db-bc1e-b9b55fc0f1e3.htm" />
+    <HelpKINode Title="about CPS_LookupRequest class" Url="html/8752d328-1458-f3db-bc1e-b9b55fc0f1e3.htm" />
+    <HelpKINode Title="constructor" Url="html/efd2b1e0-e425-3867-1906-699fe0c7bef6.htm" />
+    <HelpKINode Title="fields" Url="html/44ce2627-3105-7afa-5b62-3161a92021d2.htm" />
+    <HelpKINode Title="methods" Url="html/a22a2551-fbfe-8af6-b7b1-f3e857208f38.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_LookupRequest.CPS_LookupRequest constructor" Url="html/efd2b1e0-e425-3867-1906-699fe0c7bef6.htm" />
+  <HelpKINode Title="CPS_LookupRequest.setList method" Url="html/8c47e573-1397-f47a-5a15-4485927b87fe.htm" />
+  <HelpKINode Title="CPS_LookupResponse class">
+    <HelpKINode Title="CPS_LookupResponse Class" Url="html/71624b2b-d822-804e-00b6-a9b5105be124.htm" />
+    <HelpKINode Title="about CPS_LookupResponse class" Url="html/71624b2b-d822-804e-00b6-a9b5105be124.htm" />
+    <HelpKINode Title="constructor" Url="html/6ca79932-ef4b-1931-3e3f-8a61f65e7657.htm" />
+    <HelpKINode Title="fields" Url="html/5541ff66-04ce-68d4-04ed-6240654eff44.htm" />
+    <HelpKINode Title="methods" Url="html/5950f614-ef0b-29e3-52b3-37d445bc4b02.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_LookupResponse.CPS_LookupResponse constructor" Url="html/6ca79932-ef4b-1931-3e3f-8a61f65e7657.htm" />
+  <HelpKINode Title="CPS_LookupResponse.getDocuments method" Url="html/24998fd1-81c9-f27c-7241-8aaf6aa100e0.htm" />
+  <HelpKINode Title="CPS_LookupResponse.getFound method" Url="html/09233cfd-f506-6789-58e5-1c516e8bdf77.htm" />
+  <HelpKINode Title="CPS_LookupResponse.getFrom method" Url="html/e68946be-29b9-188c-248e-e9338a492387.htm" />
+  <HelpKINode Title="CPS_LookupResponse.getTo method" Url="html/2d790bc1-c654-d3d5-d25f-14859051b03e.htm" />
+  <HelpKINode Title="CPS_ModifyRequest class">
+    <HelpKINode Title="CPS_ModifyRequest Class" Url="html/64fb8aaa-cf50-5e4a-5531-e964e8c90644.htm" />
+    <HelpKINode Title="about CPS_ModifyRequest class" Url="html/64fb8aaa-cf50-5e4a-5531-e964e8c90644.htm" />
+    <HelpKINode Title="constructor" Url="html/fb194190-1964-5739-2788-6547dfe00700.htm" />
+    <HelpKINode Title="fields" Url="html/2689d8ef-2f8b-85de-559a-e9d416b66451.htm" />
+    <HelpKINode Title="methods" Url="html/52046de6-ff61-36a6-8bd3-829c2e2dc873.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ModifyRequest.CPS_ModifyRequest constructor" Url="html/fb194190-1964-5739-2788-6547dfe00700.htm" />
+  <HelpKINode Title="CPS_ModifyResponse class">
+    <HelpKINode Title="CPS_ModifyResponse Class" Url="html/a5648cb9-3931-647b-3fc9-9a16a569be32.htm" />
+    <HelpKINode Title="about CPS_ModifyResponse class" Url="html/a5648cb9-3931-647b-3fc9-9a16a569be32.htm" />
+    <HelpKINode Title="constructor" Url="html/3566f08b-406b-8bbd-6a09-ad58dffd6c58.htm" />
+    <HelpKINode Title="fields" Url="html/1e12b1e2-3625-7726-e3a3-858b32fe2dd8.htm" />
+    <HelpKINode Title="methods" Url="html/ada4eff5-cc11-a232-3358-b0aa5a25ad2a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ModifyResponse.CPS_ModifyResponse constructor" Url="html/3566f08b-406b-8bbd-6a09-ad58dffd6c58.htm" />
+  <HelpKINode Title="CPS_ModifyResponse.getModifiedIds method" Url="html/3c6359d1-8d10-5144-e3e9-c944f5b3dd97.htm" />
+  <HelpKINode Title="CPS_NumericOrdering method" Url="html/963b6b9d-7124-9461-2463-d06817dba06a.htm" />
+  <HelpKINode Title="CPS_PartialReplaceRequest class">
+    <HelpKINode Title="CPS_PartialReplaceRequest Class" Url="html/8a9cfd0d-1fd7-2716-6e50-f5ba8b7a052e.htm" />
+    <HelpKINode Title="about CPS_PartialReplaceRequest class" Url="html/8a9cfd0d-1fd7-2716-6e50-f5ba8b7a052e.htm" />
+    <HelpKINode Title="constructor" Url="html/cb0fd9c5-d375-12bb-e056-3cc458b5aacd.htm" />
+    <HelpKINode Title="fields" Url="html/c0cb7ab7-d766-0ce6-f11a-08791cdebc1d.htm" />
+    <HelpKINode Title="methods" Url="html/dd7ebe8a-ac30-d016-2d31-395043bd36de.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_PartialReplaceRequest.CPS_PartialReplaceRequest constructor" Url="html/cb0fd9c5-d375-12bb-e056-3cc458b5aacd.htm" />
+  <HelpKINode Title="CPS_PartialXRequest class">
+    <HelpKINode Title="CPS_PartialXRequest Class" Url="html/c7131a07-f7de-494b-1166-cd371eb2c209.htm" />
+    <HelpKINode Title="about CPS_PartialXRequest class" Url="html/c7131a07-f7de-494b-1166-cd371eb2c209.htm" />
+    <HelpKINode Title="constructor" Url="html/8d4dc112-8959-0c5a-b31a-c9d2aa8a537a.htm" />
+    <HelpKINode Title="fields" Url="html/4d9caed0-e74d-78b6-1655-f359392289ca.htm" />
+    <HelpKINode Title="methods" Url="html/560cb4ff-6690-a041-29ab-96ff32a49cdc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_PartialXRequest.CPS_PartialXRequest constructor" Url="html/8d4dc112-8959-0c5a-b31a-c9d2aa8a537a.htm" />
+  <HelpKINode Title="CPS_PlaneDistanceOrdering method" Url="html/da80084a-f98e-b18f-1629-be98f0a1d783.htm" />
+  <HelpKINode Title="CPS_PRX_Changeset class">
+    <HelpKINode Title="CPS_PRX_Changeset Class" Url="html/25fd45bc-6ce4-1c6b-2988-43565d747e14.htm" />
+    <HelpKINode Title="about CPS_PRX_Changeset class" Url="html/25fd45bc-6ce4-1c6b-2988-43565d747e14.htm" />
+    <HelpKINode Title="constructor" Url="html/278478ca-360d-44fc-c80a-a1985614a461.htm" />
+    <HelpKINode Title="methods" Url="html/5861bf6b-2d68-c453-cbd1-7d4beb369ca8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_PRX_Changeset.CPS_PRX_Changeset constructor" Url="html/278478ca-360d-44fc-c80a-a1985614a461.htm" />
+  <HelpKINode Title="CPS_PRX_Changeset.renderXML method" Url="html/b40c12db-9b92-8706-8b9c-467fd8984aea.htm" />
+  <HelpKINode Title="CPS_PRX_Operation class">
+    <HelpKINode Title="CPS_PRX_Operation Class" Url="html/903f7388-0053-17fa-86b0-5b2a8f463486.htm" />
+    <HelpKINode Title="about CPS_PRX_Operation class" Url="html/903f7388-0053-17fa-86b0-5b2a8f463486.htm" />
+    <HelpKINode Title="constructor" Url="html/7b71ff8b-e052-26e1-38ac-47619d7495bc.htm" />
+    <HelpKINode Title="methods" Url="html/21c09044-f4e6-a330-c084-4b68bc6789d1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_PRX_Operation.CPS_PRX_Operation constructor" Url="html/7b71ff8b-e052-26e1-38ac-47619d7495bc.htm" />
+  <HelpKINode Title="CPS_PRX_Operation.renderXML method" Url="html/97153cea-475d-08a3-7eed-8e4bee40e676.htm" />
+  <HelpKINode Title="CPS_QueryDictionary method" Url="html/81128d97-b446-922c-14a2-5055f1104e2f.htm" />
+  <HelpKINode Title="CPS_QueryTerm method" Url="html/fecb00c6-9005-ce00-41ff-31fada0475a2.htm" />
+  <HelpKINode Title="CPS_RelevanceOrdering method" Url="html/d209d73e-702f-3fba-79f6-dbd327581768.htm" />
+  <HelpKINode Title="CPS_ReplaceRequest class">
+    <HelpKINode Title="CPS_ReplaceRequest Class" Url="html/5e2f3247-3345-888a-4f38-710ff1933b44.htm" />
+    <HelpKINode Title="about CPS_ReplaceRequest class" Url="html/5e2f3247-3345-888a-4f38-710ff1933b44.htm" />
+    <HelpKINode Title="constructor" Url="html/abba2273-4972-ae03-76bc-edddc3ea8ca2.htm" />
+    <HelpKINode Title="fields" Url="html/aca8ba66-0d12-0f31-1921-7f4517c8274e.htm" />
+    <HelpKINode Title="methods" Url="html/ad9b4d57-fb3c-b002-3d43-6942d38c5abd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ReplaceRequest.CPS_ReplaceRequest constructor" Url="html/abba2273-4972-ae03-76bc-edddc3ea8ca2.htm" />
+  <HelpKINode Title="CPS_Request class">
+    <HelpKINode Title="CPS_Request Class" Url="html/8beca068-5b4a-2960-e567-cfd126fe81da.htm" />
+    <HelpKINode Title="about CPS_Request class" Url="html/8beca068-5b4a-2960-e567-cfd126fe81da.htm" />
+    <HelpKINode Title="constructor" Url="html/890b413a-c763-51a0-d57b-6b8061aa5846.htm" />
+    <HelpKINode Title="fields" Url="html/65801a0c-8d68-8f51-011e-e0df1e80eaa9.htm" />
+    <HelpKINode Title="methods" Url="html/5277ac91-9747-bb6e-6101-4dccc980738e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_Request.CPS_Request constructor" Url="html/890b413a-c763-51a0-d57b-6b8061aa5846.htm" />
+  <HelpKINode Title="CPS_Request.getClusterLabel method" Url="html/f0f5dfc3-9f68-a996-0006-4c5139293e37.htm" />
+  <HelpKINode Title="CPS_Request.getCommand method" Url="html/a92bb951-2bbb-38c4-cdf0-7154709da0ab.htm" />
+  <HelpKINode Title="CPS_Request.getRequestId method" Url="html/c8fbf17b-acd6-2e39-f8e1-234018cccab7.htm" />
+  <HelpKINode Title="CPS_Request.getRequestType method" Url="html/a72976fc-316e-3307-330b-9f2afa1a1cc1.htm" />
+  <HelpKINode Title="CPS_Request.getRequestXML method" Url="html/1bf36626-7296-8347-e7ed-7ee6d05bbfbd.htm" />
+  <HelpKINode Title="CPS_Request.getValidXmlValue method" Url="html/5f2992b8-482f-0a6f-fffc-70027daf189f.htm" />
+  <HelpKINode Title="CPS_Request.p_changesets field" Url="html/daff134f-d11a-ebe3-9f61-3757fbaf470c.htm" />
+  <HelpKINode Title="CPS_Request.setClusterLabel method" Url="html/f27f5a90-ae4c-6ecd-f0a6-27ce68231145.htm" />
+  <HelpKINode Title="CPS_Request.setExtraXmlParam method" Url="html/3fbe7ad6-2f4c-5dfd-6abe-da0e0dd5d353.htm" />
+  <HelpKINode Title="CPS_Request.setParam method" Url="html/814fcc9e-5d82-c5d9-17f7-f71dd9d14452.htm" />
+  <HelpKINode Title="CPS_Request.setRawDocuments method" Url="html/c210d8e3-3579-d001-7d7e-2e74fcf01af6.htm" />
+  <HelpKINode Title="CPS_Request.setRequestId method" Url="html/8517dd76-46c0-5909-0076-b3762b891d91.htm" />
+  <HelpKINode Title="CPS_Request.setRequestType method" Url="html/f966331f-fa09-ebfb-8c0a-c467498ee730.htm" />
+  <HelpKINode Title="CPS_Response class">
+    <HelpKINode Title="CPS_Response Class" Url="html/b2fd2b94-10fb-612b-8e8a-f9ec3c7bd47a.htm" />
+    <HelpKINode Title="about CPS_Response class" Url="html/b2fd2b94-10fb-612b-8e8a-f9ec3c7bd47a.htm" />
+    <HelpKINode Title="constructor" Url="html/b11c9eed-9e62-6eda-0a97-7ca5a22b7481.htm" />
+    <HelpKINode Title="fields" Url="html/221d3222-211f-fa1b-ac31-975818ac981f.htm" />
+    <HelpKINode Title="methods" Url="html/c2002619-e071-b96d-a66a-5e25ce5410c1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_Response.CPS_Response constructor" Url="html/b11c9eed-9e62-6eda-0a97-7ca5a22b7481.htm" />
+  <HelpKINode Title="CPS_Response.DOC_TYPE enumeration" Url="html/0a86c300-a15f-07f4-ce14-e1c208ca0404.htm" />
+  <HelpKINode Title="CPS_Response.getContentArray method" Url="html/4bbd3192-6ada-b8be-66a5-19fabfa5e758.htm" />
+  <HelpKINode Title="CPS_Response.getErrors method" Url="html/d41c842c-9f11-b5f5-622e-de76a9a5d4b1.htm" />
+  <HelpKINode Title="CPS_Response.getParam method" Url="html/78769a71-f09b-c761-63cc-09d4af2c0ecf.htm" />
+  <HelpKINode Title="CPS_Response.getParamInt method" Url="html/0e936518-3916-dfce-e5a0-f5fc7d4a8a15.htm" />
+  <HelpKINode Title="CPS_Response.getRawAggregate method" Url="html/90df692b-c7e5-3ce8-716a-a574df5ef6fc.htm" />
+  <HelpKINode Title="CPS_Response.getRawDocuments method" Url="html/986ab05d-26f7-b9a3-efb1-b38998a98da5.htm" />
+  <HelpKINode Title="CPS_Response.getRawFacets method" Url="html/7f88779b-226c-bef5-0e2f-b66107e17da4.htm" />
+  <HelpKINode Title="CPS_Response.getRawWordCounts method" Url="html/1082b29b-b259-846f-f16d-a6c1f482b25a.htm" />
+  <HelpKINode Title="CPS_Response.getRawWords method" Url="html/58af3335-8f25-1cc3-f989-623648e25d51.htm" />
+  <HelpKINode Title="CPS_Response.getSeconds method" Url="html/149dfda0-ebad-17f0-61c3-192390894043.htm" />
+  <HelpKINode Title="CPS_Response.getTransactionId method" Url="html/2b0ba7bf-d83a-b947-0b8d-65f950764088.htm" />
+  <HelpKINode Title="CPS_Response.p_connection field" Url="html/b46214c0-c874-d4a2-8e45-4feb89ea027c.htm" />
+  <HelpKINode Title="CPS_Response.p_contentArray field" Url="html/82665952-8436-4cf2-c88f-a50bff303a1c.htm" />
+  <HelpKINode Title="CPS_Response.p_documents field" Url="html/9d7cd4eb-86ce-56d3-608f-8b5c60d29829.htm" />
+  <HelpKINode Title="CPS_Response.p_facets field" Url="html/056f1f02-0584-1405-3335-97df65bfcde5.htm" />
+  <HelpKINode Title="CPS_Response.p_textParams field" Url="html/2557a24d-619e-9900-871b-2abcd4a7557e.htm" />
+  <HelpKINode Title="CPS_Response.p_wordCounts field" Url="html/e6f46ee4-ed2b-9131-d0f9-500af05c8a5a.htm" />
+  <HelpKINode Title="CPS_Response.p_words field" Url="html/6b63e640-c5a6-6347-7684-ac616285a447.htm" />
+  <HelpKINode Title="CPS_RetrieveFirstRequest class">
+    <HelpKINode Title="CPS_RetrieveFirstRequest Class" Url="html/73ba2ba2-c3f5-bb42-0d4a-ef268238b7c4.htm" />
+    <HelpKINode Title="about CPS_RetrieveFirstRequest class" Url="html/73ba2ba2-c3f5-bb42-0d4a-ef268238b7c4.htm" />
+    <HelpKINode Title="constructor" Url="html/529854e3-03d1-017b-0a8c-7b0ba278be97.htm" />
+    <HelpKINode Title="fields" Url="html/ee784cdf-9869-b838-1a81-fef320ce7ebc.htm" />
+    <HelpKINode Title="methods" Url="html/bdf19d1c-1667-3c28-9f02-a09f411e2261.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_RetrieveFirstRequest.CPS_RetrieveFirstRequest constructor" Url="html/529854e3-03d1-017b-0a8c-7b0ba278be97.htm" />
+  <HelpKINode Title="CPS_RetrieveLastRequest class">
+    <HelpKINode Title="CPS_RetrieveLastRequest Class" Url="html/2b401875-486b-3f40-dd7d-5c941bdbd9c0.htm" />
+    <HelpKINode Title="about CPS_RetrieveLastRequest class" Url="html/2b401875-486b-3f40-dd7d-5c941bdbd9c0.htm" />
+    <HelpKINode Title="constructor" Url="html/5780603b-a765-8626-d00d-989f4041ef83.htm" />
+    <HelpKINode Title="fields" Url="html/14db94a5-817a-712a-5d0b-7fd40ace8b85.htm" />
+    <HelpKINode Title="methods" Url="html/85e04718-4210-89d5-6613-889a95ea8f49.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_RetrieveLastRequest.CPS_RetrieveLastRequest constructor" Url="html/5780603b-a765-8626-d00d-989f4041ef83.htm" />
+  <HelpKINode Title="CPS_RetrieveRequest class">
+    <HelpKINode Title="CPS_RetrieveRequest Class" Url="html/609ecc3f-e5f8-6e33-bdaa-b168477ae3b8.htm" />
+    <HelpKINode Title="about CPS_RetrieveRequest class" Url="html/609ecc3f-e5f8-6e33-bdaa-b168477ae3b8.htm" />
+    <HelpKINode Title="constructor" Url="html/1e7aa531-bcf9-d7cb-221e-ec5356936c72.htm" />
+    <HelpKINode Title="fields" Url="html/fdb15ad3-8fcc-3efe-0bde-bb67a9646fe6.htm" />
+    <HelpKINode Title="methods" Url="html/2e73d181-1e88-3d9b-52b4-1370582afa59.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_RetrieveRequest.CPS_RetrieveRequest constructor" Url="html/1e7aa531-bcf9-d7cb-221e-ec5356936c72.htm" />
+  <HelpKINode Title="CPS_RollbackTransactionRequest class">
+    <HelpKINode Title="CPS_RollbackTransactionRequest Class" Url="html/0bda414f-8739-d08a-da86-9b2be7826790.htm" />
+    <HelpKINode Title="about CPS_RollbackTransactionRequest class" Url="html/0bda414f-8739-d08a-da86-9b2be7826790.htm" />
+    <HelpKINode Title="constructor" Url="html/ae0e8168-a4ad-f1fa-6042-18f35c29f348.htm" />
+    <HelpKINode Title="fields" Url="html/ee72ca83-1054-65e3-5da0-046b260c3602.htm" />
+    <HelpKINode Title="methods" Url="html/fc63f1de-b46b-a138-4d43-c7cb59e59cf1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_RollbackTransactionRequest.CPS_RollbackTransactionRequest constructor" Url="html/ae0e8168-a4ad-f1fa-6042-18f35c29f348.htm" />
+  <HelpKINode Title="CPS_SearchDeleteRequest class">
+    <HelpKINode Title="CPS_SearchDeleteRequest Class" Url="html/df611f78-dcb5-5c2c-8fb7-9185bc173d4d.htm" />
+    <HelpKINode Title="about CPS_SearchDeleteRequest class" Url="html/df611f78-dcb5-5c2c-8fb7-9185bc173d4d.htm" />
+    <HelpKINode Title="constructor" Url="html/52ed063b-5416-d235-d209-2523e2f132c1.htm" />
+    <HelpKINode Title="fields" Url="html/6056e2ef-e4c7-987d-1e40-1c3b2b992e54.htm" />
+    <HelpKINode Title="methods" Url="html/2c65978c-bb4f-cc52-31ef-52d043ca5bcc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SearchDeleteRequest.CPS_SearchDeleteRequest constructor" Url="html/52ed063b-5416-d235-d209-2523e2f132c1.htm" />
+  <HelpKINode Title="CPS_SearchDeleteRequest.setExactMatch method" Url="html/4c5ce4e5-6704-f89e-5336-e46a48ed20b6.htm" />
+  <HelpKINode Title="CPS_SearchDeleteRequest.setQuery method" Url="html/84ff24c1-dfd8-6edd-f4e6-6cc4111798f4.htm" />
+  <HelpKINode Title="CPS_SearchDeleteRequest.setStemLang method" Url="html/5d578f3b-17f3-f0c1-e0ad-08c53f399fbc.htm" />
+  <HelpKINode Title="CPS_SearchDeleteResponse class">
+    <HelpKINode Title="CPS_SearchDeleteResponse Class" Url="html/5ca14d1a-98c6-0ad3-b559-ca484f27f304.htm" />
+    <HelpKINode Title="about CPS_SearchDeleteResponse class" Url="html/5ca14d1a-98c6-0ad3-b559-ca484f27f304.htm" />
+    <HelpKINode Title="constructor" Url="html/3b9370b7-3963-8bd0-3633-898ac4dc13f3.htm" />
+    <HelpKINode Title="fields" Url="html/e57e69f5-86b5-8621-6543-6f60e6ecf069.htm" />
+    <HelpKINode Title="methods" Url="html/245442c5-9f4e-9fff-3542-f0c4a9d9cde5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SearchDeleteResponse.CPS_SearchDeleteResponse constructor" Url="html/3b9370b7-3963-8bd0-3633-898ac4dc13f3.htm" />
+  <HelpKINode Title="CPS_SearchDeleteResponse.getHits method" Url="html/c2de82c5-2dfb-4a5b-6b47-ba23630f7f16.htm" />
+  <HelpKINode Title="CPS_SearchRequest class">
+    <HelpKINode Title="CPS_SearchRequest Class" Url="html/65395bc1-6ac2-fbe0-a2f4-8e52b3af6f39.htm" />
+    <HelpKINode Title="about CPS_SearchRequest class" Url="html/65395bc1-6ac2-fbe0-a2f4-8e52b3af6f39.htm" />
+    <HelpKINode Title="constructor" Url="html/396343a5-5631-811c-73ee-e83d0eab4f81.htm" />
+    <HelpKINode Title="fields" Url="html/8036df3c-7f6d-79a6-1195-0b8f6a530632.htm" />
+    <HelpKINode Title="methods" Url="html/67672757-a45a-1bd2-afbe-e7ef2699d7dd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SearchRequest.CPS_SearchRequest constructor" Url="html/396343a5-5631-811c-73ee-e83d0eab4f81.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setAggregate method" Url="html/fc6fdca0-f0be-1c86-8fb6-c2791272be26.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setDocs method" Url="html/aeae8711-fe84-63d2-5c42-dc273bc127e0.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setExactMatch method" Url="html/54b82eb0-b4cf-ef3f-8274-7fa1afe9bd9e.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setFacet method" Url="html/10eed33f-2049-c749-3dc9-81a1c98d3199.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setGroup method" Url="html/0b783c61-b6ce-81ff-c332-496aede80a6f.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setList method" Url="html/4c179b4b-3c40-1e23-46a3-604979d1a031.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setOffset method" Url="html/c8103be7-d2cf-73a9-f833-3f5fc1160870.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setOrdering method" Url="html/765d7477-fb15-e286-143c-25d4d309e2a8.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setQuery method" Url="html/b134169d-24a8-69b5-b810-6803eb4ff4d0.htm" />
+  <HelpKINode Title="CPS_SearchRequest.setStemLang method" Url="html/10a5493f-5e97-c258-30bc-9173d18c48c5.htm" />
+  <HelpKINode Title="CPS_SearchResponse class">
+    <HelpKINode Title="CPS_SearchResponse Class" Url="html/c549a13e-acd2-e257-fe45-2f66f4ebc0dd.htm" />
+    <HelpKINode Title="about CPS_SearchResponse class" Url="html/c549a13e-acd2-e257-fe45-2f66f4ebc0dd.htm" />
+    <HelpKINode Title="constructor" Url="html/4f7e5d47-1aee-1ca9-cfca-063a34abc054.htm" />
+    <HelpKINode Title="fields" Url="html/bcd570ab-b33e-95eb-3380-016d89eb71d7.htm" />
+    <HelpKINode Title="methods" Url="html/b606ebfc-edeb-8414-dd2d-e66d33bb9faa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SearchResponse.CPS_SearchResponse constructor" Url="html/4f7e5d47-1aee-1ca9-cfca-063a34abc054.htm" />
+  <HelpKINode Title="CPS_SearchResponse.getAggregate method" Url="html/e1c5b053-4362-622c-af6e-a1113cbb3603.htm" />
+  <HelpKINode Title="CPS_SearchResponse.getDocuments method" Url="html/5f37815b-ffa7-fe04-17c3-3992f865238f.htm" />
+  <HelpKINode Title="CPS_SearchResponse.getFacets method" Url="html/f64120f2-7ecb-6014-10c3-a8f380ed1139.htm" />
+  <HelpKINode Title="CPS_SearchResponse.getFound method" Url="html/d2436729-37f4-918a-65e6-87ceab8de325.htm" />
+  <HelpKINode Title="CPS_SearchResponse.getFrom method" Url="html/cbdbece9-a740-7844-92f5-2e0cbb4c0147.htm" />
+  <HelpKINode Title="CPS_SearchResponse.getHits method" Url="html/08035172-0efd-c5f9-b8a8-270c83f1f37e.htm" />
+  <HelpKINode Title="CPS_SearchResponse.getTo method" Url="html/2c035bc4-c44d-4041-64e2-7428627a73d8.htm" />
+  <HelpKINode Title="CPS_ShowHistoryRequest class">
+    <HelpKINode Title="CPS_ShowHistoryRequest Class" Url="html/e1a57088-57ea-3562-1b31-4ecf3252c412.htm" />
+    <HelpKINode Title="about CPS_ShowHistoryRequest class" Url="html/e1a57088-57ea-3562-1b31-4ecf3252c412.htm" />
+    <HelpKINode Title="constructor" Url="html/cd02c2c0-c3fc-c254-3388-8ba3d42fe63f.htm" />
+    <HelpKINode Title="fields" Url="html/1650830f-11eb-fa93-ffdd-2d23a43eb33c.htm" />
+    <HelpKINode Title="methods" Url="html/ffd79496-8655-38ef-09a7-28b8c537851b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_ShowHistoryRequest.CPS_ShowHistoryRequest constructor" Url="html/cd02c2c0-c3fc-c254-3388-8ba3d42fe63f.htm" />
+  <HelpKINode Title="CPS_SimilarDocumentRequest class">
+    <HelpKINode Title="CPS_SimilarDocumentRequest Class" Url="html/883fe42c-880b-3d5a-05d1-9b75bdf386c9.htm" />
+    <HelpKINode Title="about CPS_SimilarDocumentRequest class" Url="html/883fe42c-880b-3d5a-05d1-9b75bdf386c9.htm" />
+    <HelpKINode Title="constructor" Url="html/e464da02-2d32-b55a-eb63-35af0acb2419.htm" />
+    <HelpKINode Title="fields" Url="html/b3476f60-e238-371a-47c5-af21128ced8e.htm" />
+    <HelpKINode Title="methods" Url="html/fa46c84d-53d3-be57-a549-8c40bc3528e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SimilarDocumentRequest.CPS_SimilarDocumentRequest constructor" Url="html/e464da02-2d32-b55a-eb63-35af0acb2419.htm" />
+  <HelpKINode Title="CPS_SimilarTextRequest class">
+    <HelpKINode Title="CPS_SimilarTextRequest Class" Url="html/1a13d996-5712-8f62-8bea-a8a538571ff9.htm" />
+    <HelpKINode Title="about CPS_SimilarTextRequest class" Url="html/1a13d996-5712-8f62-8bea-a8a538571ff9.htm" />
+    <HelpKINode Title="constructor" Url="html/607dd7a4-c9f0-2716-412f-f68f380ec13e.htm" />
+    <HelpKINode Title="fields" Url="html/27f3c744-ec46-3431-480a-5e9e93da5e07.htm" />
+    <HelpKINode Title="methods" Url="html/97865580-f5fc-eee9-6c36-5b47a5f3c5d3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SimilarTextRequest.CPS_SimilarTextRequest constructor" Url="html/607dd7a4-c9f0-2716-412f-f68f380ec13e.htm" />
+  <HelpKINode Title="CPS_Simple class">
+    <HelpKINode Title="CPS_Simple Class" Url="html/1a78ad90-eeba-781f-ec37-02f971f272a2.htm" />
+    <HelpKINode Title="about CPS_Simple class" Url="html/1a78ad90-eeba-781f-ec37-02f971f272a2.htm" />
+    <HelpKINode Title="constructor" Url="html/249f3876-af59-59b4-1989-edb7835645a3.htm" />
+    <HelpKINode Title="methods" Url="html/ef5a7426-b498-40d9-d86b-5c2ac2de1f1f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_Simple.alternatives method" Url="html/1475dc1b-c4f2-dafd-6238-8bfd8e9778fe.htm" />
+  <HelpKINode Title="CPS_Simple.beginTransaction method" Url="html/1f34c264-f72d-bfca-958a-c4781e96f51b.htm" />
+  <HelpKINode Title="CPS_Simple.commitTransaction method" Url="html/1096f614-3de2-dc90-212c-1cccbc60f614.htm" />
+  <HelpKINode Title="CPS_Simple.CPS_Simple constructor" Url="html/249f3876-af59-59b4-1989-edb7835645a3.htm" />
+  <HelpKINode Title="CPS_Simple.delete method" Url="html/974347fc-656e-f30c-b58d-43bb6bc0427e.htm" />
+  <HelpKINode Title="CPS_Simple.getLastResponse method" Url="html/f8ccab6b-1b30-03a4-2e68-d5133e7b6044.htm" />
+  <HelpKINode Title="CPS_Simple.insertMultiple method" Url="html/bd9c0e99-b4ed-a355-52ef-64db2d52d5f3.htm" />
+  <HelpKINode Title="CPS_Simple.insertSingle method" Url="html/cffe06c1-8cff-c886-b39f-30e6b9e07b9d.htm" />
+  <HelpKINode Title="CPS_Simple.listFacets method" Url="html/58f3d012-1091-679f-61b7-812b0d9d9d42.htm" />
+  <HelpKINode Title="CPS_Simple.listFirst method" Url="html/5aca21d0-8891-c33f-2b4b-16126df70ddf.htm" />
+  <HelpKINode Title="CPS_Simple.listLast method" Url="html/3ee9d6db-30d6-8871-b3ef-28aa309cd824.htm" />
+  <HelpKINode Title="CPS_Simple.listPaths method" Url="html/25e2a957-b865-e196-2b37-22a8eb3d5165.htm" />
+  <HelpKINode Title="CPS_Simple.listWords method" Url="html/1487109d-1303-6dea-d064-270c33208cb1.htm" />
+  <HelpKINode Title="CPS_Simple.lookupMultiple method" Url="html/f86d119e-c0a1-28a9-23fb-515d8f5ff4ce.htm" />
+  <HelpKINode Title="CPS_Simple.lookupSingle method" Url="html/37195156-26f0-962d-2f0f-44a5b4839864.htm" />
+  <HelpKINode Title="CPS_Simple.partialReplaceMultiple method" Url="html/8f14c93e-4424-a98c-b615-3478319f77fe.htm" />
+  <HelpKINode Title="CPS_Simple.partialReplaceSingle method" Url="html/a4a01da2-2e7c-e503-1f5c-be466c92a2d5.htm" />
+  <HelpKINode Title="CPS_Simple.partialXReplace method" Url="html/c900065d-1f0c-07cf-0bc7-831eab98805b.htm" />
+  <HelpKINode Title="CPS_Simple.replaceMultiple method" Url="html/55b43096-ef2e-3df5-f4d7-143752d5898b.htm" />
+  <HelpKINode Title="CPS_Simple.replaceSingle method" Url="html/37be7e57-bc6f-bd63-f55a-461f86946c62.htm" />
+  <HelpKINode Title="CPS_Simple.retrieveFirst method" Url="html/c37171a6-1118-4436-17db-673a21304a65.htm" />
+  <HelpKINode Title="CPS_Simple.retrieveLast method" Url="html/d8d1119d-4d41-0714-404a-15ebac693ae2.htm" />
+  <HelpKINode Title="CPS_Simple.retrieveMultiple method" Url="html/133a460e-4ca6-58d5-d3db-abe9a9ae8eed.htm" />
+  <HelpKINode Title="CPS_Simple.retrieveSingle method" Url="html/135db8c3-55c5-4f22-2332-7f178e09716e.htm" />
+  <HelpKINode Title="CPS_Simple.rollbackTransaction method" Url="html/6fd8efb7-ca3e-690f-6741-d6d3bd832855.htm" />
+  <HelpKINode Title="CPS_Simple.search method" Url="html/a172bcc2-e2b8-d321-e3c6-154bee43bd21.htm" />
+  <HelpKINode Title="CPS_Simple.searchDelete method" Url="html/a563382b-5324-8c8f-1319-cda4c5698833.htm" />
+  <HelpKINode Title="CPS_Simple.showHistory method" Url="html/5d6bf5da-85e2-198a-3268-30505dd585aa.htm" />
+  <HelpKINode Title="CPS_Simple.similarDocument method" Url="html/84a56e28-865f-6a59-9d58-3f0f53838adf.htm" />
+  <HelpKINode Title="CPS_Simple.similarText method" Url="html/38c264c6-4bae-03ea-7036-f00bcf51e68f.htm" />
+  <HelpKINode Title="CPS_Simple.sql_search method" Url="html/73c226fd-3198-aa6c-d302-1697d9a92a99.htm" />
+  <HelpKINode Title="CPS_Simple.status method" Url="html/2f26ac4b-30cc-ac39-eb17-24b0d560cdd4.htm" />
+  <HelpKINode Title="CPS_Simple.updateMultiple method" Url="html/42091329-dafe-19f2-6105-af1c88989169.htm" />
+  <HelpKINode Title="CPS_Simple.updateSingle method" Url="html/0897bd1d-69a2-b273-c4ce-e4afc9458e9d.htm" />
+  <HelpKINode Title="CPS_SimpleXML class">
+    <HelpKINode Title="CPS_SimpleXML Class" Url="html/44a1e329-54b6-b004-d805-28de9ac66e1a.htm" />
+    <HelpKINode Title="about CPS_SimpleXML class" Url="html/44a1e329-54b6-b004-d805-28de9ac66e1a.htm" />
+    <HelpKINode Title="constructor" Url="html/87cf81b3-071c-ee99-8497-b863a47e5572.htm" />
+    <HelpKINode Title="methods" Url="html/d0232024-7d47-8698-e302-4d19ad17feb0.htm" />
+    <HelpKINode Title="properties" Url="html/68ee0c89-9c92-29fa-5a65-e52f20082a11.htm" />
+    <HelpKINode Title="type conversions" Url="html/8d430096-2806-3c52-dd0b-b5c425c31702.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SimpleXML to Int32 conversion" Url="html/c99d366b-7497-f91b-d988-46a7b00ad06b.htm" />
+  <HelpKINode Title="CPS_SimpleXML to Single conversion" Url="html/5f57dc0d-9ba6-a98a-f8e9-fbdfe0f47da3.htm" />
+  <HelpKINode Title="CPS_SimpleXML to String conversion" Url="html/ee6f2bcc-8d16-e3eb-fa9b-a472ee90ab51.htm" />
+  <HelpKINode Title="CPS_SimpleXML.ConvertToXML method" Url="html/811097d7-0348-698e-ff2e-742e5a409302.htm" />
+  <HelpKINode Title="CPS_SimpleXML.CPS_SimpleXML constructor" Url="html/87cf81b3-071c-ee99-8497-b863a47e5572.htm" />
+  <HelpKINode Title="CPS_SimpleXML.Dump method" Url="html/5711bcf5-463b-21f3-40eb-bc83137c7f71.htm" />
+  <HelpKINode Title="CPS_SimpleXML.GetCData method" Url="html/269bf6b2-9ed6-e0ec-9fb4-da5fab731339.htm" />
+  <HelpKINode Title="CPS_SimpleXML.GetChild method" Url="html/6007fb32-7ead-20e4-d199-da1d1e998a7e.htm" />
+  <HelpKINode Title="CPS_SimpleXML.GetFloat method" Url="html/c7717235-a6c8-9829-5ec7-f531b10b2eda.htm" />
+  <HelpKINode Title="CPS_SimpleXML.GetInt method" Url="html/b072abe6-3a48-6d5b-9662-53853309b033.htm" />
+  <HelpKINode Title="CPS_SimpleXML.GetName method" Url="html/61a71ca0-74f0-ded5-17a9-a6b5fa3c210b.htm" />
+  <HelpKINode Title="CPS_SimpleXML.GetString method" Url="html/f4c81179-0fd5-e045-f516-d803f21e1c8b.htm" />
+  <HelpKINode Title="CPS_SimpleXML.Item property" Url="html/a4415e62-5c69-5665-b1c6-2ece1a2c8355.htm" />
+  <HelpKINode Title="CPS_SQLSearchRequest class">
+    <HelpKINode Title="CPS_SQLSearchRequest Class" Url="html/d4c7f99a-a04a-ded0-fb21-5a099fe7f2b7.htm" />
+    <HelpKINode Title="about CPS_SQLSearchRequest class" Url="html/d4c7f99a-a04a-ded0-fb21-5a099fe7f2b7.htm" />
+    <HelpKINode Title="constructor" Url="html/586b7168-8e9d-12f1-df33-710e7b1bed2c.htm" />
+    <HelpKINode Title="fields" Url="html/682379b7-fa42-aa5b-90b3-2fb5c8e88313.htm" />
+    <HelpKINode Title="methods" Url="html/a40e7d61-17f9-9bfe-1a27-f23ca6e9a6a9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_SQLSearchRequest.CPS_SQLSearchRequest constructor" Url="html/586b7168-8e9d-12f1-df33-710e7b1bed2c.htm" />
+  <HelpKINode Title="CPS_StaticRequest class">
+    <HelpKINode Title="CPS_StaticRequest Class" Url="html/3238b841-6546-2841-d8e9-a32e44b91162.htm" />
+    <HelpKINode Title="about CPS_StaticRequest class" Url="html/3238b841-6546-2841-d8e9-a32e44b91162.htm" />
+    <HelpKINode Title="constructor" Url="html/109d688b-0ddf-d4b1-fc59-4b9844bca000.htm" />
+    <HelpKINode Title="fields" Url="html/0b340faf-146a-a15a-dcba-4faf861050a1.htm" />
+    <HelpKINode Title="methods" Url="html/2f947715-c33d-853f-2a2f-3b44a5f0ef9d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_StaticRequest.CPS_StaticRequest constructor" Url="html/109d688b-0ddf-d4b1-fc59-4b9844bca000.htm" />
+  <HelpKINode Title="CPS_StaticRequest.getRequestXML method" Url="html/6381427f-60ab-ca63-daa1-7b21878af59b.htm" />
+  <HelpKINode Title="CPS_StatusRequest class">
+    <HelpKINode Title="CPS_StatusRequest Class" Url="html/84b8a507-0b7e-4239-a334-41f7daf48c07.htm" />
+    <HelpKINode Title="about CPS_StatusRequest class" Url="html/84b8a507-0b7e-4239-a334-41f7daf48c07.htm" />
+    <HelpKINode Title="constructor" Url="html/81f18b76-8527-6df9-c660-c0caf7e5e742.htm" />
+    <HelpKINode Title="fields" Url="html/418f969a-3679-0a68-d079-d1565113f209.htm" />
+    <HelpKINode Title="methods" Url="html/ee2f7903-8bbc-c22a-ba5c-7e604d379f13.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_StatusRequest.CPS_StatusRequest constructor" Url="html/81f18b76-8527-6df9-c660-c0caf7e5e742.htm" />
+  <HelpKINode Title="CPS_StatusResponse class">
+    <HelpKINode Title="CPS_StatusResponse Class" Url="html/d7113d7b-3c91-c206-8d89-3143c006e49a.htm" />
+    <HelpKINode Title="about CPS_StatusResponse class" Url="html/d7113d7b-3c91-c206-8d89-3143c006e49a.htm" />
+    <HelpKINode Title="constructor" Url="html/5bfd30e1-bc7e-c35d-5ff4-4b02ef4641c6.htm" />
+    <HelpKINode Title="fields" Url="html/c03004aa-8604-95f5-57e8-5f5c2c6c5c32.htm" />
+    <HelpKINode Title="methods" Url="html/981c358d-d506-98dc-5ace-6de25b76852e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_StatusResponse.CPS_StatusResponse constructor" Url="html/5bfd30e1-bc7e-c35d-5ff4-4b02ef4641c6.htm" />
+  <HelpKINode Title="CPS_StatusResponse.getStatus method" Url="html/84f79d5c-3d1a-3f20-5b2b-addee7b388ac.htm" />
+  <HelpKINode Title="CPS_StringOrdering method" Url="html/c9f4bec0-6b12-fbdc-7882-e52e3c3e4099.htm" />
+  <HelpKINode Title="CPS_Term method" Url="html/89ec34d5-f64e-74d0-5fc9-755f8dba5e3f.htm" />
+  <HelpKINode Title="CPS_UpdateRequest class">
+    <HelpKINode Title="CPS_UpdateRequest Class" Url="html/43d2eefe-5480-2ff2-793d-334246b1a71e.htm" />
+    <HelpKINode Title="about CPS_UpdateRequest class" Url="html/43d2eefe-5480-2ff2-793d-334246b1a71e.htm" />
+    <HelpKINode Title="constructor" Url="html/24dc4dcd-3216-6d12-793e-4d7931aa9fac.htm" />
+    <HelpKINode Title="fields" Url="html/92354956-fb51-c799-4e78-9f21e92b273c.htm" />
+    <HelpKINode Title="methods" Url="html/47d8f4c5-19f8-f26e-afb5-4745e27fbb38.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CPS_UpdateRequest.CPS_UpdateRequest constructor" Url="html/24dc4dcd-3216-6d12-793e-4d7931aa9fac.htm" />
+  <HelpKINode Title="cr field" Url="html/39c6ae87-5a61-f99e-847b-e20793612c5a.htm" />
+  <HelpKINode Title="CreateField method" Url="html/984f9873-012f-9ed6-a2d8-0f5e6e5fb93d.htm" />
+  <HelpKINode Title="CreateFixed64Field method" Url="html/12c03183-9a17-d7da-0212-1a8c83a91c41.htm" />
+  <HelpKINode Title="CreateStringField method" Url="html/b23fa2f4-73f0-bc10-c2b0-df9fcd4438d6.htm" />
+  <HelpKINode Title="delete method" Url="html/974347fc-656e-f30c-b58d-43bb6bc0427e.htm" />
+  <HelpKINode Title="DOC_TYPE_ARRAY enumeration member" Url="html/0a86c300-a15f-07f4-ce14-e1c208ca0404.htm" />
+  <HelpKINode Title="DOC_TYPE_SIMPLEXML enumeration member" Url="html/0a86c300-a15f-07f4-ce14-e1c208ca0404.htm" />
+  <HelpKINode Title="DOC_TYPE_STDCLASS enumeration member" Url="html/0a86c300-a15f-07f4-ce14-e1c208ca0404.htm" />
+  <HelpKINode Title="Dump method" Url="html/5711bcf5-463b-21f3-40eb-bc83137c7f71.htm" />
+  <HelpKINode Title="EndGroup enumeration member" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="Fixed32bit enumeration member" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="Fixed64bit enumeration member" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="getAggregate method" Url="html/e1c5b053-4362-622c-af6e-a1113cbb3603.htm" />
+  <HelpKINode Title="GetCData method" Url="html/269bf6b2-9ed6-e0ec-9fb4-da5fab731339.htm" />
+  <HelpKINode Title="GetChild method" Url="html/6007fb32-7ead-20e4-d199-da1d1e998a7e.htm" />
+  <HelpKINode Title="getClusterLabel method" Url="html/f0f5dfc3-9f68-a996-0006-4c5139293e37.htm" />
+  <HelpKINode Title="getCommand method" Url="html/a92bb951-2bbb-38c4-cdf0-7154709da0ab.htm" />
+  <HelpKINode Title="getConnectionString method" Url="html/51ffce83-85a8-604b-2570-d5c31602b95b.htm" />
+  <HelpKINode Title="getContentArray method" Url="html/4bbd3192-6ada-b8be-66a5-19fabfa5e758.htm" />
+  <HelpKINode Title="getDocumentIdXpath method" Url="html/f8b0b2c0-fd5a-8ef5-01ea-03098495aff7.htm" />
+  <HelpKINode Title="getDocumentRootXpath method" Url="html/a9cbb6db-3a41-a322-5646-130b67aab4d7.htm" />
+  <HelpKINode Title="getDocuments method">
+    <HelpKINode Title="CPS_LookupResponse.getDocuments Method " Url="html/24998fd1-81c9-f27c-7241-8aaf6aa100e0.htm" />
+    <HelpKINode Title="CPS_SearchResponse.getDocuments Method " Url="html/5f37815b-ffa7-fe04-17c3-3992f865238f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getErrors method" Url="html/d41c842c-9f11-b5f5-622e-de76a9a5d4b1.htm" />
+  <HelpKINode Title="getFacets method">
+    <HelpKINode Title="CPS_ListFacetsResponse.getFacets Method " Url="html/92657d94-94aa-aed7-9a28-cd8affc8bcfb.htm" />
+    <HelpKINode Title="CPS_SearchResponse.getFacets Method " Url="html/f64120f2-7ecb-6014-10c3-a8f380ed1139.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetField method" Url="html/c45cf8a5-2a28-c19b-ed57-9d2d57801f82.htm" />
+  <HelpKINode Title="GetFieldWireType method" Url="html/23c81b4d-3a40-50ac-af38-16f751fff905.htm" />
+  <HelpKINode Title="GetFloat method" Url="html/c7717235-a6c8-9829-5ec7-f531b10b2eda.htm" />
+  <HelpKINode Title="getFound method">
+    <HelpKINode Title="CPS_LookupResponse.getFound Method " Url="html/09233cfd-f506-6789-58e5-1c516e8bdf77.htm" />
+    <HelpKINode Title="CPS_SearchResponse.getFound Method " Url="html/d2436729-37f4-918a-65e6-87ceab8de325.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getFrom method">
+    <HelpKINode Title="CPS_LookupResponse.getFrom Method " Url="html/e68946be-29b9-188c-248e-e9338a492387.htm" />
+    <HelpKINode Title="CPS_SearchResponse.getFrom Method " Url="html/cbdbece9-a740-7844-92f5-2e0cbb4c0147.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getHits method">
+    <HelpKINode Title="CPS_SearchDeleteResponse.getHits Method " Url="html/c2de82c5-2dfb-4a5b-6b47-ba23630f7f16.htm" />
+    <HelpKINode Title="CPS_SearchResponse.getHits Method " Url="html/08035172-0efd-c5f9-b8a8-270c83f1f37e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetInt method" Url="html/b072abe6-3a48-6d5b-9662-53853309b033.htm" />
+  <HelpKINode Title="getLastConnectionInfo method" Url="html/cec1a0fa-11e0-9bf7-defc-52ec92e052f3.htm" />
+  <HelpKINode Title="getLastNetworkDuration method" Url="html/fd320da8-d7b8-c643-0a53-e599491c8329.htm" />
+  <HelpKINode Title="getLastRequestDuration method" Url="html/1d50ad48-dc4f-9d66-6517-f28252166d2a.htm" />
+  <HelpKINode Title="getLastRequestSize method" Url="html/85df287a-120c-a2f2-1402-8852a1cea88c.htm" />
+  <HelpKINode Title="getLastResponse method" Url="html/f8ccab6b-1b30-03a4-2e68-d5133e7b6044.htm" />
+  <HelpKINode Title="getLastResponseSize method" Url="html/3bfde61f-4d5f-27b5-bf21-7564a46a338c.htm" />
+  <HelpKINode Title="getModifiedIds method" Url="html/3c6359d1-8d10-5144-e3e9-c944f5b3dd97.htm" />
+  <HelpKINode Title="GetName method" Url="html/61a71ca0-74f0-ded5-17a9-a6b5fa3c210b.htm" />
+  <HelpKINode Title="getParam method" Url="html/78769a71-f09b-c761-63cc-09d4af2c0ecf.htm" />
+  <HelpKINode Title="getParamInt method" Url="html/0e936518-3916-dfce-e5a0-f5fc7d4a8a15.htm" />
+  <HelpKINode Title="getPaths method" Url="html/b76ca494-3b3b-1c6e-f001-cbe4e7b19e02.htm" />
+  <HelpKINode Title="getRawAggregate method" Url="html/90df692b-c7e5-3ce8-716a-a574df5ef6fc.htm" />
+  <HelpKINode Title="getRawDocuments method" Url="html/986ab05d-26f7-b9a3-efb1-b38998a98da5.htm" />
+  <HelpKINode Title="getRawFacets method" Url="html/7f88779b-226c-bef5-0e2f-b66107e17da4.htm" />
+  <HelpKINode Title="getRawWordCounts method" Url="html/1082b29b-b259-846f-f16d-a6c1f482b25a.htm" />
+  <HelpKINode Title="getRawWords method" Url="html/58af3335-8f25-1cc3-f989-623648e25d51.htm" />
+  <HelpKINode Title="getRequestId method" Url="html/c8fbf17b-acd6-2e39-f8e1-234018cccab7.htm" />
+  <HelpKINode Title="getRequestType method" Url="html/a72976fc-316e-3307-330b-9f2afa1a1cc1.htm" />
+  <HelpKINode Title="getRequestXML method">
+    <HelpKINode Title="CPS_Request.getRequestXML Method " Url="html/1bf36626-7296-8347-e7ed-7ee6d05bbfbd.htm" />
+    <HelpKINode Title="CPS_StaticRequest.getRequestXML Method " Url="html/6381427f-60ab-ca63-daa1-7b21878af59b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getSeconds method" Url="html/149dfda0-ebad-17f0-61c3-192390894043.htm" />
+  <HelpKINode Title="getStatus method" Url="html/84f79d5c-3d1a-3f20-5b2b-addee7b388ac.htm" />
+  <HelpKINode Title="GetStream method" Url="html/43112a01-ccca-c150-1c6a-11fad677f618.htm" />
+  <HelpKINode Title="GetString method" Url="html/f4c81179-0fd5-e045-f516-d803f21e1c8b.htm" />
+  <HelpKINode Title="GetStringField method" Url="html/9b9e5709-8d84-add2-0a73-fb3048c599a6.htm" />
+  <HelpKINode Title="getTo method">
+    <HelpKINode Title="CPS_LookupResponse.getTo Method " Url="html/2d790bc1-c654-d3d5-d25f-14859051b03e.htm" />
+    <HelpKINode Title="CPS_SearchResponse.getTo Method " Url="html/2c035bc4-c44d-4041-64e2-7428627a73d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getTransactionId method" Url="html/2b0ba7bf-d83a-b947-0b8d-65f950764088.htm" />
+  <HelpKINode Title="getValidXmlValue method" Url="html/5f2992b8-482f-0a6f-fffc-70027daf189f.htm" />
+  <HelpKINode Title="getWordCount method" Url="html/ef35f055-b1c7-339c-6798-c7445cab56d1.htm" />
+  <HelpKINode Title="getWords method">
+    <HelpKINode Title="CPS_AlternativesResponse.getWords Method " Url="html/98c9da59-37db-85bd-84f5-182170533f4d.htm" />
+    <HelpKINode Title="CPS_ListWordsResponse.getWords Method " Url="html/0768f693-44d2-2ae9-6082-be4bc72d2a11.htm" />
+  </HelpKINode>
+  <HelpKINode Title="h field" Url="html/b97acdfb-7fe0-604f-59e6-61c1c492189c.htm" />
+  <HelpKINode Title="HtmlSpecialChars method" Url="html/5180a2e3-50af-3c67-669c-4fb3fea79495.htm" />
+  <HelpKINode Title="idif field" Url="html/7c3be29e-7a09-9d82-3f73-e51a65545f6e.htm" />
+  <HelpKINode Title="insertMultiple method" Url="html/bd9c0e99-b4ed-a355-52ef-64db2d52d5f3.htm" />
+  <HelpKINode Title="insertSingle method" Url="html/cffe06c1-8cff-c886-b39f-30e6b9e07b9d.htm" />
+  <HelpKINode Title="INVALID_CONNECTION_STRING enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="INVALID_PARAMETER enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="INVALID_RESPONSE enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="INVALID_XPATHS enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="Item property" Url="html/a4415e62-5c69-5665-b1c6-2ece1a2c8355.htm" />
+  <HelpKINode Title="LengthDelimited enumeration member" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="listFacets method" Url="html/58f3d012-1091-679f-61b7-812b0d9d9d42.htm" />
+  <HelpKINode Title="listFirst method" Url="html/5aca21d0-8891-c33f-2b4b-16126df70ddf.htm" />
+  <HelpKINode Title="listLast method" Url="html/3ee9d6db-30d6-8871-b3ef-28aa309cd824.htm" />
+  <HelpKINode Title="listPaths method" Url="html/25e2a957-b865-e196-2b37-22a8eb3d5165.htm" />
+  <HelpKINode Title="listWords method" Url="html/1487109d-1303-6dea-d064-270c33208cb1.htm" />
+  <HelpKINode Title="lookupMultiple method" Url="html/f86d119e-c0a1-28a9-23fb-515d8f5ff4ce.htm" />
+  <HelpKINode Title="lookupSingle method" Url="html/37195156-26f0-962d-2f0f-44a5b4839864.htm" />
+  <HelpKINode Title="newRequest method" Url="html/8fd83f56-e466-bab0-3324-603f49e0db9a.htm" />
+  <HelpKINode Title="NO_WORKING_SERVERS enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="OK enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="partialReplaceMultiple method" Url="html/8f14c93e-4424-a98c-b615-3478319f77fe.htm" />
+  <HelpKINode Title="partialReplaceSingle method" Url="html/a4a01da2-2e7c-e503-1f5c-be466c92a2d5.htm" />
+  <HelpKINode Title="partialXReplace method" Url="html/c900065d-1f0c-07cf-0bc7-831eab98805b.htm" />
+  <HelpKINode Title="Protobuf class">
+    <HelpKINode Title="Protobuf Class" Url="html/78bfc8d9-c4ab-4bb0-7827-1beb3f6e1b78.htm" />
+    <HelpKINode Title="about Protobuf class" Url="html/78bfc8d9-c4ab-4bb0-7827-1beb3f6e1b78.htm" />
+    <HelpKINode Title="constructor" Url="html/517371ea-cce6-eb40-1339-b4e7c3c3f907.htm" />
+    <HelpKINode Title="methods" Url="html/5b92d17f-41a9-cdba-6631-00ff85958d9d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Protobuf.CreateField method" Url="html/984f9873-012f-9ed6-a2d8-0f5e6e5fb93d.htm" />
+  <HelpKINode Title="Protobuf.CreateFixed64Field method" Url="html/12c03183-9a17-d7da-0212-1a8c83a91c41.htm" />
+  <HelpKINode Title="Protobuf.CreateStringField method" Url="html/b23fa2f4-73f0-bc10-c2b0-df9fcd4438d6.htm" />
+  <HelpKINode Title="Protobuf.GetField method" Url="html/c45cf8a5-2a28-c19b-ed57-9d2d57801f82.htm" />
+  <HelpKINode Title="Protobuf.GetFieldWireType method" Url="html/23c81b4d-3a40-50ac-af38-16f751fff905.htm" />
+  <HelpKINode Title="Protobuf.GetStringField method" Url="html/9b9e5709-8d84-add2-0a73-fb3048c599a6.htm" />
+  <HelpKINode Title="Protobuf.Protobuf constructor" Url="html/517371ea-cce6-eb40-1339-b4e7c3c3f907.htm" />
+  <HelpKINode Title="Protobuf.WireType enumeration" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="Protobuf.WriteToStream method" Url="html/d6434c61-1dc5-05fe-6e7c-218e8d2a067e.htm" />
+  <HelpKINode Title="PROTOBUF_ERROR enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="Protobuf_Streamer class">
+    <HelpKINode Title="Protobuf_Streamer Class" Url="html/eee3e75e-4d18-a963-c1d9-02c428621d33.htm" />
+    <HelpKINode Title="about Protobuf_Streamer class" Url="html/eee3e75e-4d18-a963-c1d9-02c428621d33.htm" />
+    <HelpKINode Title="constructor" Url="html/0f078af3-3fc4-29a3-d67f-c64c66c71ad2.htm" />
+    <HelpKINode Title="methods" Url="html/c02bf2ec-93c8-34cb-6547-a51f19592b6d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Protobuf_Streamer.GetStream method" Url="html/43112a01-ccca-c150-1c6a-11fad677f618.htm" />
+  <HelpKINode Title="Protobuf_Streamer.Protobuf_Streamer constructor" Url="html/0f078af3-3fc4-29a3-d67f-c64c66c71ad2.htm" />
+  <HelpKINode Title="Protobuf_Streamer.ReadBytes method" Url="html/a79ab406-966b-d52b-8319-7752b3b7cc8f.htm" />
+  <HelpKINode Title="Protobuf_Streamer.ReadVarint method" Url="html/10dae2b6-32d9-2fac-6468-e28d2c1ac77a.htm" />
+  <HelpKINode Title="Protobuf_Streamer.WriteBytes method" Url="html/bbb385a1-8676-726e-211c-f5fff409dcb7.htm" />
+  <HelpKINode Title="Protobuf_Streamer.WriteVarint method" Url="html/7ee61c8f-7e13-adda-7e23-da3e2e140682.htm" />
+  <HelpKINode Title="p_changesets field" Url="html/daff134f-d11a-ebe3-9f61-3757fbaf470c.htm" />
+  <HelpKINode Title="p_connection field" Url="html/b46214c0-c874-d4a2-8e45-4feb89ea027c.htm" />
+  <HelpKINode Title="p_contentArray field" Url="html/82665952-8436-4cf2-c88f-a50bff303a1c.htm" />
+  <HelpKINode Title="p_documents field" Url="html/9d7cd4eb-86ce-56d3-608f-8b5c60d29829.htm" />
+  <HelpKINode Title="p_facets field" Url="html/056f1f02-0584-1405-3335-97df65bfcde5.htm" />
+  <HelpKINode Title="p_textParams field" Url="html/2557a24d-619e-9900-871b-2abcd4a7557e.htm" />
+  <HelpKINode Title="p_transactionId field" Url="html/710d37cf-ba1f-62e0-944b-e7cdb892a812.htm" />
+  <HelpKINode Title="p_wordCounts field" Url="html/e6f46ee4-ed2b-9131-d0f9-500af05c8a5a.htm" />
+  <HelpKINode Title="p_words field" Url="html/6b63e640-c5a6-6347-7684-ac616285a447.htm" />
+  <HelpKINode Title="ReadBytes method" Url="html/a79ab406-966b-d52b-8319-7752b3b7cc8f.htm" />
+  <HelpKINode Title="ReadVarint method" Url="html/10dae2b6-32d9-2fac-6468-e28d2c1ac77a.htm" />
+  <HelpKINode Title="renderXML method">
+    <HelpKINode Title="CPS_PRX_Changeset.renderXML Method " Url="html/b40c12db-9b92-8706-8b9c-467fd8984aea.htm" />
+    <HelpKINode Title="CPS_PRX_Operation.renderXML Method " Url="html/97153cea-475d-08a3-7eed-8e4bee40e676.htm" />
+  </HelpKINode>
+  <HelpKINode Title="replaceMultiple method" Url="html/55b43096-ef2e-3df5-f4d7-143752d5898b.htm" />
+  <HelpKINode Title="replaceSingle method" Url="html/37be7e57-bc6f-bd63-f55a-461f86946c62.htm" />
+  <HelpKINode Title="retrieveFirst method" Url="html/c37171a6-1118-4436-17db-673a21304a65.htm" />
+  <HelpKINode Title="retrieveLast method" Url="html/d8d1119d-4d41-0714-404a-15ebac693ae2.htm" />
+  <HelpKINode Title="retrieveMultiple method" Url="html/133a460e-4ca6-58d5-d3db-abe9a9ae8eed.htm" />
+  <HelpKINode Title="retrieveSingle method" Url="html/135db8c3-55c5-4f22-2332-7f178e09716e.htm" />
+  <HelpKINode Title="rollbackTransaction method" Url="html/6fd8efb7-ca3e-690f-6741-d6d3bd832855.htm" />
+  <HelpKINode Title="search method" Url="html/a172bcc2-e2b8-d321-e3c6-154bee43bd21.htm" />
+  <HelpKINode Title="searchDelete method" Url="html/a563382b-5324-8c8f-1319-cda4c5698833.htm" />
+  <HelpKINode Title="sendRequest method" Url="html/ff346f82-3a5b-a294-583d-ef724282e0c8.htm" />
+  <HelpKINode Title="setAggregate method" Url="html/fc6fdca0-f0be-1c86-8fb6-c2791272be26.htm" />
+  <HelpKINode Title="setApplicationId method" Url="html/06dc9ce2-5b11-39f6-2c9e-a1fef447d476.htm" />
+  <HelpKINode Title="setClusterLabel method" Url="html/f27f5a90-ae4c-6ecd-f0a6-27ce68231145.htm" />
+  <HelpKINode Title="SetCode method" Url="html/1dc1b252-2050-a6dd-5e5f-4c18f74c373d.htm" />
+  <HelpKINode Title="setCr method" Url="html/dded8494-56b0-fb55-8a39-45f0bed0702d.htm" />
+  <HelpKINode Title="setCustomSSLValidation method" Url="html/200dd134-2952-860c-8f8b-fd4f45f24ac7.htm" />
+  <HelpKINode Title="setDebug method">
+    <HelpKINode Title="CPS_Connection.setDebug Method " Url="html/0fcc45b6-4782-81ba-8112-46077551d0ce.htm" />
+    <HelpKINode Title="CPS_LoadBalancer.setDebug Method " Url="html/c52899cf-9d2d-98a6-b720-969841e26e42.htm" />
+  </HelpKINode>
+  <HelpKINode Title="setDocIdResetting method" Url="html/d48b1b82-293c-6ad0-831c-0a2a093f3cce.htm" />
+  <HelpKINode Title="setDocs method" Url="html/aeae8711-fe84-63d2-5c42-dc273bc127e0.htm" />
+  <HelpKINode Title="setExactMatch method">
+    <HelpKINode Title="CPS_SearchDeleteRequest.setExactMatch Method " Url="html/4c5ce4e5-6704-f89e-5336-e46a48ed20b6.htm" />
+    <HelpKINode Title="CPS_SearchRequest.setExactMatch Method " Url="html/54b82eb0-b4cf-ef3f-8274-7fa1afe9bd9e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="setExclusionTime method" Url="html/cb41e55f-4aec-c523-55e3-f1baaf91b572.htm" />
+  <HelpKINode Title="setExtraXmlParam method" Url="html/3fbe7ad6-2f4c-5dfd-6abe-da0e0dd5d353.htm" />
+  <HelpKINode Title="setFacet method" Url="html/10eed33f-2049-c749-3dc9-81a1c98d3199.htm" />
+  <HelpKINode Title="setGroup method" Url="html/0b783c61-b6ce-81ff-c332-496aede80a6f.htm" />
+  <HelpKINode Title="setH method" Url="html/224d9c8d-dd38-cb69-2a90-5a9f78f68eb2.htm" />
+  <HelpKINode Title="setHMACKeys method" Url="html/715fefe2-6c0a-6267-23f5-2326c8135c7d.htm" />
+  <HelpKINode Title="setIdif method" Url="html/8e0c04d2-f49a-46c4-3d2f-da1fe5956060.htm" />
+  <HelpKINode Title="setList method">
+    <HelpKINode Title="CPS_ListLastRetrieveFirstRequest.setList Method " Url="html/d8fb49c5-306a-833d-d8a4-523695b23090.htm" />
+    <HelpKINode Title="CPS_LookupRequest.setList Method " Url="html/8c47e573-1397-f47a-5a15-4485927b87fe.htm" />
+    <HelpKINode Title="CPS_SearchRequest.setList Method " Url="html/4c179b4b-3c40-1e23-46a3-604979d1a031.htm" />
+  </HelpKINode>
+  <HelpKINode Title="setOffset method" Url="html/c8103be7-d2cf-73a9-f833-3f5fc1160870.htm" />
+  <HelpKINode Title="setOrdering method" Url="html/765d7477-fb15-e286-143c-25d4d309e2a8.htm" />
+  <HelpKINode Title="setParam method" Url="html/814fcc9e-5d82-c5d9-17f7-f71dd9d14452.htm" />
+  <HelpKINode Title="setQuery method">
+    <HelpKINode Title="CPS_AlternativesRequest.setQuery Method " Url="html/822230cf-06dd-c6d1-98ee-b75ca46489b1.htm" />
+    <HelpKINode Title="CPS_ListWordsRequest.setQuery Method " Url="html/6c0eeba0-ae89-371a-9a7a-89b0ac78b3b1.htm" />
+    <HelpKINode Title="CPS_SearchDeleteRequest.setQuery Method " Url="html/84ff24c1-dfd8-6edd-f4e6-6cc4111798f4.htm" />
+    <HelpKINode Title="CPS_SearchRequest.setQuery Method " Url="html/b134169d-24a8-69b5-b810-6803eb4ff4d0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="setRawDocuments method" Url="html/c210d8e3-3579-d001-7d7e-2e74fcf01af6.htm" />
+  <HelpKINode Title="setRequestId method" Url="html/8517dd76-46c0-5909-0076-b3762b891d91.htm" />
+  <HelpKINode Title="setRequestType method" Url="html/f966331f-fa09-ebfb-8c0a-c467498ee730.htm" />
+  <HelpKINode Title="setSendWhenAllFailed method" Url="html/6fdbc55b-b220-74b0-a4cd-ae02b2a9208b.htm" />
+  <HelpKINode Title="setStatusFilePrefix method" Url="html/6893ecd1-674a-1b47-f47c-2e8f8e21b20c.htm" />
+  <HelpKINode Title="setStemLang method">
+    <HelpKINode Title="CPS_SearchDeleteRequest.setStemLang Method " Url="html/5d578f3b-17f3-f0c1-e0ad-08c53f399fbc.htm" />
+    <HelpKINode Title="CPS_SearchRequest.setStemLang Method " Url="html/10a5493f-5e97-c258-30bc-9173d18c48c5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="shouldRetry method" Url="html/6a10cb19-143d-08ac-1c95-1386f82931bf.htm" />
+  <HelpKINode Title="showHistory method" Url="html/5d6bf5da-85e2-198a-3268-30505dd585aa.htm" />
+  <HelpKINode Title="similarDocument method" Url="html/84a56e28-865f-6a59-9d58-3f0f53838adf.htm" />
+  <HelpKINode Title="similarText method" Url="html/38c264c6-4bae-03ea-7036-f00bcf51e68f.htm" />
+  <HelpKINode Title="SOCKET_ERROR enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="sql_search method" Url="html/73c226fd-3198-aa6c-d302-1697d9a92a99.htm" />
+  <HelpKINode Title="SSL_HANDSHAKE enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="StartGroup enumeration member" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="status method" Url="html/2f26ac4b-30cc-ac39-eb17-24b0d560cdd4.htm" />
+  <HelpKINode Title="TIMEOUT enumeration member" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+  <HelpKINode Title="ToString method" Url="html/1e3c1588-48dc-e65b-0cba-639dcf2e7324.htm" />
+  <HelpKINode Title="updateMultiple method" Url="html/42091329-dafe-19f2-6105-af1c88989169.htm" />
+  <HelpKINode Title="updateSingle method" Url="html/0897bd1d-69a2-b273-c4ce-e4afc9458e9d.htm" />
+  <HelpKINode Title="Utils class">
+    <HelpKINode Title="Utils Class" Url="html/3c4ac713-87a0-e90e-1391-4afd0d93ddf2.htm" />
+    <HelpKINode Title="about Utils class" Url="html/3c4ac713-87a0-e90e-1391-4afd0d93ddf2.htm" />
+    <HelpKINode Title="methods" Url="html/bbd598af-bf66-577a-a645-0bf3c58d7a82.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Utils.CPS_DateOrdering method" Url="html/11fa2825-eae2-d498-3aa8-a484047fcda1.htm" />
+  <HelpKINode Title="Utils.CPS_FloatString method" Url="html/f905855a-f83d-660c-5544-a2a18e6b1758.htm" />
+  <HelpKINode Title="Utils.CPS_LatLongDistanceOrdering method" Url="html/ff5a9803-bbcc-754d-614d-c2ca3c016820.htm" />
+  <HelpKINode Title="Utils.CPS_NumericOrdering method" Url="html/963b6b9d-7124-9461-2463-d06817dba06a.htm" />
+  <HelpKINode Title="Utils.CPS_PlaneDistanceOrdering method" Url="html/da80084a-f98e-b18f-1629-be98f0a1d783.htm" />
+  <HelpKINode Title="Utils.CPS_QueryDictionary method" Url="html/81128d97-b446-922c-14a2-5055f1104e2f.htm" />
+  <HelpKINode Title="Utils.CPS_QueryTerm method" Url="html/fecb00c6-9005-ce00-41ff-31fada0475a2.htm" />
+  <HelpKINode Title="Utils.CPS_RelevanceOrdering method" Url="html/d209d73e-702f-3fba-79f6-dbd327581768.htm" />
+  <HelpKINode Title="Utils.CPS_StringOrdering method" Url="html/c9f4bec0-6b12-fbdc-7882-e52e3c3e4099.htm" />
+  <HelpKINode Title="Utils.CPS_Term method" Url="html/89ec34d5-f64e-74d0-5fc9-755f8dba5e3f.htm" />
+  <HelpKINode Title="Utils.HtmlSpecialChars method" Url="html/5180a2e3-50af-3c67-669c-4fb3fea79495.htm" />
+  <HelpKINode Title="Varint enumeration member" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+  <HelpKINode Title="word field">
+    <HelpKINode Title="CPS_AlternativesResponse.WordInfo.word Field" Url="html/abb25015-78ca-b34e-3a10-f82af53edeff.htm" />
+    <HelpKINode Title="CPS_ListWordsResponse.WordInfo.word Field" Url="html/259e37f8-b722-10c1-a0dc-099337c1c533.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WordInfo structure">
+    <HelpKINode Title="fields" Url="html/9bf82e0d-299e-4b1b-472c-f83837783260.htm" />
+    <HelpKINode Title="fields" Url="html/3931b454-aa6b-f3da-6869-0421ffc5ce73.htm" />
+    <HelpKINode Title="methods" Url="html/6c102e68-1cb0-5a2a-162a-8f6ed534f91d.htm" />
+    <HelpKINode Title="methods" Url="html/8759ee13-7e97-3339-5cbc-1312022761cb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WriteBytes method" Url="html/bbb385a1-8676-726e-211c-f5fff409dcb7.htm" />
+  <HelpKINode Title="WriteToStream method" Url="html/d6434c61-1dc5-05fe-6e7c-218e8d2a067e.htm" />
+  <HelpKINode Title="WriteVarint method" Url="html/7ee61c8f-7e13-adda-7e23-da3e2e140682.htm" />
+</HelpKI>

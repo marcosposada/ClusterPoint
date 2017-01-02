@@ -1,0 +1,12 @@
+#page-partners h1 { margin-top: 135px; background: #F2F2F2; display: table; margin-bottom: 47px; margin-left: -1px; }
+#page-partners #partners { padding-top: 30px; position: relative; z-index: 99; }
+#page-partners .partners-row { display: table; width: 100%; border-bottom: 1px solid #bebebe; padding-bottom: 20px; padding-top: 30px; }
+#page-partners .partners-row h4 { margin-top: 0; }
+#page-partners .partners-row .image-wrap { display: table; margin: 0 auto 25px; width: 100%; text-align: center; height: 83px; }
+#page-partners .partners-row .image-wrap a { display: table-cell; vertical-align: middle; }
+#page-partners .partners-row .image-wrap img { margin: 0 auto; }
+#page-partners .partners-row .image-wrap a:hover img {  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80); -moz-opacity: 0.8; -khtml-opacity: 0.8;  opacity: 0.8; }
+#page-partners .partners-row .col-2 { padding-top: 35px; }
+#page-partners .partners-row.last-row { border-bottom: 1px solid #FFFFFF; }
+#page-partners .get-in-touch-text { margin-top: -54px; font-size: 20px; }
+#page-partners #partners-contact-form { position: relative; z-index: 99; padding-bottom: 140px; }

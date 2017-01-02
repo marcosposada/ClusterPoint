@@ -1,0 +1,10 @@
+/* Main animation */ 
+	#page-joins #animation { min-height: 534px; padding-top: 83px; }
+	#page-joins #animation .bg { position: absolute; z-index: 99; top: 0; bottom: 0; left: 0; right: 0; }
+	#page-joins #animation .text { margin-left: 300px; max-width: 510px; }
+	#page-joins #animation .animation-fallback { position: absolute; bottom: 0px; left: 50%; margin-left: -700px; }
+/* Joins content */
+	#page-joins #joins-content { margin-bottom: 126px; }
+	#page-joins #joins-content .content { padding: 50px 60px 52px; background: #f2f2f2; }
+	#page-joins .content p { font-size: 18px; line-height: 26px; }
+	#page-joins .grey-block .content { text-align: center; }

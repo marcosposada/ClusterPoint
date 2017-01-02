@@ -1,0 +1,4 @@
+/* Basic */
+	body {
+		-ms-behavior: url("../../assets/js/backgroundsize.min.htc");
+	}

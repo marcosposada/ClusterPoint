@@ -1,0 +1,15 @@
+com.clusterpoint.api
+com.clusterpoint.api.net
+com.clusterpoint.api.net.proto
+com.clusterpoint.api.request
+com.clusterpoint.api.response
+com.clusterpoint.api.response.alternatives
+com.clusterpoint.api.response.listfacets
+com.clusterpoint.api.response.listlastretrievefirst
+com.clusterpoint.api.response.listpaths
+com.clusterpoint.api.response.listwords
+com.clusterpoint.api.response.lookup
+com.clusterpoint.api.response.modify
+com.clusterpoint.api.response.search
+com.clusterpoint.api.response.searchdelete
+com.clusterpoint.api.response.status

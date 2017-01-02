@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="e474a9e5-a185-4b7a-8f2a-8bd8109ecef3" Title="CPS" Url="html/e638f537-b789-5ea7-0219-8cfb762d4f0f.htm">
+    <HelpTOCNode Id="c35cc264-8741-41ca-92e4-fcb38782c1fa" Title="CPS_AlternativesRequest Class" Url="html/49fd13cb-f622-3455-f3e0-6aa4bcf0e9c9.htm">
+      <HelpTOCNode Title="CPS_AlternativesRequest Constructor " Url="html/21ba131f-0ed3-05eb-4190-4d1c557b240e.htm" />
+      <HelpTOCNode Title="CPS_AlternativesRequest Fields" Url="html/3cd712e0-1711-6d33-b632-d2399a61d281.htm" />
+      <HelpTOCNode Id="4049e09f-c53e-4b87-aead-c9d231935d7e" Title="CPS_AlternativesRequest Methods" Url="html/13ebceaa-6e47-9085-9bca-b6a488b27f70.htm">
+        <HelpTOCNode Title="setCr Method " Url="html/dded8494-56b0-fb55-8a39-45f0bed0702d.htm" />
+        <HelpTOCNode Title="setH Method " Url="html/224d9c8d-dd38-cb69-2a90-5a9f78f68eb2.htm" />
+        <HelpTOCNode Title="setIdif Method " Url="html/8e0c04d2-f49a-46c4-3d2f-da1fe5956060.htm" />
+        <HelpTOCNode Title="setQuery Method " Url="html/822230cf-06dd-c6d1-98ee-b75ca46489b1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f0bfde20-1874-4005-af28-30868eab3c18" Title="CPS_AlternativesResponse Class" Url="html/86194fd8-7f33-a57c-a432-423a6f8879d8.htm">
+      <HelpTOCNode Title="CPS_AlternativesResponse Constructor " Url="html/50f9b9ef-8c32-b704-234f-35fde1df70e2.htm" />
+      <HelpTOCNode Title="CPS_AlternativesResponse Fields" Url="html/3f1fb884-61a3-e35a-7ec6-e6acb3a4599b.htm" />
+      <HelpTOCNode Id="5f6cf2f7-7a2a-4f75-8907-afd2589de3eb" Title="CPS_AlternativesResponse Methods" Url="html/71f2d941-bd58-5fdc-4a7d-6d3b246a7f6c.htm">
+        <HelpTOCNode Title="getWordCount Method " Url="html/ef35f055-b1c7-339c-6798-c7445cab56d1.htm" />
+        <HelpTOCNode Title="getWords Method " Url="html/98c9da59-37db-85bd-84f5-182170533f4d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0fbe226a-3803-4a9b-8f88-927fd9d3a002" Title="CPS_AlternativesResponse.WordInfo Structure" Url="html/247d268e-fd58-bfa6-a043-c0271184d14d.htm">
+      <HelpTOCNode Id="7c5280b0-e5b3-4a33-8f59-c9606931dc12" Title="WordInfo Fields" Url="html/3931b454-aa6b-f3da-6869-0421ffc5ce73.htm">
+        <HelpTOCNode Title="count Field" Url="html/536dbd0b-9c5a-fbba-c05a-50ce4542c9ba.htm" />
+        <HelpTOCNode Title="cr Field" Url="html/39c6ae87-5a61-f99e-847b-e20793612c5a.htm" />
+        <HelpTOCNode Title="h Field" Url="html/b97acdfb-7fe0-604f-59e6-61c1c492189c.htm" />
+        <HelpTOCNode Title="idif Field" Url="html/7c3be29e-7a09-9d82-3f73-e51a65545f6e.htm" />
+        <HelpTOCNode Title="word Field" Url="html/abb25015-78ca-b34e-3a10-f82af53edeff.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WordInfo Methods" Url="html/8759ee13-7e97-3339-5cbc-1312022761cb.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="63d7df2b-76c6-427e-9d08-1390b881d185" Title="CPS_BeginTransactionRequest Class" Url="html/d3641bff-89a8-e2f6-205e-479e706635a6.htm">
+      <HelpTOCNode Title="CPS_BeginTransactionRequest Constructor " Url="html/70fd7ad2-0440-7b5b-b378-ef8849e66fe4.htm" />
+      <HelpTOCNode Title="CPS_BeginTransactionRequest Fields" Url="html/989df269-9897-a238-cbda-5274ca1a6ae1.htm" />
+      <HelpTOCNode Title="CPS_BeginTransactionRequest Methods" Url="html/50955cfd-7162-d870-d410-4c1be42bee5e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c12ab30-1489-4869-9a6e-2e4a8e2e45d0" Title="CPS_CommitTransactionRequest Class" Url="html/f9da12e2-1b11-2d78-26e7-b9e804f27c8b.htm">
+      <HelpTOCNode Title="CPS_CommitTransactionRequest Constructor " Url="html/edb92413-69d8-a713-68d5-66b869eb4778.htm" />
+      <HelpTOCNode Title="CPS_CommitTransactionRequest Fields" Url="html/4bdc8db0-711f-c7da-e797-a73b9584d469.htm" />
+      <HelpTOCNode Title="CPS_CommitTransactionRequest Methods" Url="html/04602954-2bdc-0467-93bd-b38a3edbcbde.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8633c9f0-1623-4483-ae5d-c66b36d5ca3d" Title="CPS_Connection Class" Url="html/5bb56aca-bad1-1af0-afc8-3ea1572024b1.htm">
+      <HelpTOCNode Title="CPS_Connection Constructor " Url="html/086bedda-9066-4815-9719-29f9c9143696.htm" />
+      <HelpTOCNode Id="ddb5f0ee-6b10-4b3b-8d45-6e49fffafb27" Title="CPS_Connection Fields" Url="html/5c163e77-0d09-d7c7-8bb2-692e7a1be522.htm">
+        <HelpTOCNode Title="p_transactionId Field" Url="html/710d37cf-ba1f-62e0-944b-e7cdb892a812.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6878df84-58ec-491c-aa27-f9b3eb3bc8b9" Title="CPS_Connection Methods" Url="html/09f6ad13-a671-c9a9-72e5-2ae50f84b248.htm">
+        <HelpTOCNode Title="clearTransactionId Method " Url="html/3ae00d02-d5b1-c302-c8e6-e7072e2eba91.htm" />
+        <HelpTOCNode Title="getDocumentIdXpath Method " Url="html/f8b0b2c0-fd5a-8ef5-01ea-03098495aff7.htm" />
+        <HelpTOCNode Title="getDocumentRootXpath Method " Url="html/a9cbb6db-3a41-a322-5646-130b67aab4d7.htm" />
+        <HelpTOCNode Title="getLastConnectionInfo Method " Url="html/cec1a0fa-11e0-9bf7-defc-52ec92e052f3.htm" />
+        <HelpTOCNode Title="getLastNetworkDuration Method " Url="html/fd320da8-d7b8-c643-0a53-e599491c8329.htm" />
+        <HelpTOCNode Title="getLastRequestDuration Method " Url="html/1d50ad48-dc4f-9d66-6517-f28252166d2a.htm" />
+        <HelpTOCNode Title="getLastRequestSize Method " Url="html/85df287a-120c-a2f2-1402-8852a1cea88c.htm" />
+        <HelpTOCNode Title="getLastResponseSize Method " Url="html/3bfde61f-4d5f-27b5-bf21-7564a46a338c.htm" />
+        <HelpTOCNode Title="sendRequest Method " Url="html/ff346f82-3a5b-a294-583d-ef724282e0c8.htm" />
+        <HelpTOCNode Title="setApplicationId Method " Url="html/06dc9ce2-5b11-39f6-2c9e-a1fef447d476.htm" />
+        <HelpTOCNode Title="setCustomSSLValidation Method " Url="html/200dd134-2952-860c-8f8b-fd4f45f24ac7.htm" />
+        <HelpTOCNode Title="setDebug Method " Url="html/0fcc45b6-4782-81ba-8112-46077551d0ce.htm" />
+        <HelpTOCNode Title="setDocIdResetting Method " Url="html/d48b1b82-293c-6ad0-831c-0a2a093f3cce.htm" />
+        <HelpTOCNode Title="setHMACKeys Method " Url="html/715fefe2-6c0a-6267-23f5-2326c8135c7d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8fdfa96b-ae07-4b25-9380-9412cb943a9c" Title="CPS_DeleteRequest Class" Url="html/d489137d-ff91-956f-894f-3c7d1adc99d8.htm">
+      <HelpTOCNode Id="ff6a2aa6-1065-47b8-9c10-ca986186dcb3" Title="CPS_DeleteRequest Constructor " Url="html/bdefd803-6715-f2d4-5d18-6938497c1772.htm">
+        <HelpTOCNode Title="CPS_DeleteRequest Constructor (List(String), String)" Url="html/fd20b003-443c-f995-fcec-c2305631a166.htm" />
+        <HelpTOCNode Title="CPS_DeleteRequest Constructor (String, String)" Url="html/2cf2c56c-4145-da1b-c2c8-f50fa7fb291a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_DeleteRequest Fields" Url="html/b175ea83-aad7-457f-f3af-25aec8446f4c.htm" />
+      <HelpTOCNode Title="CPS_DeleteRequest Methods" Url="html/619e8236-0237-86e4-65d6-96a252de3807.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d4c7971-29a3-4885-a41d-cf0dcbe3c8f2" Title="CPS_EmptyResponse Class" Url="html/748eb0e5-f35e-046f-3d47-3052db6d5a85.htm">
+      <HelpTOCNode Title="CPS_EmptyResponse Constructor " Url="html/6b96d1a0-9fb9-780d-5746-c25e6a3a5f8a.htm" />
+      <HelpTOCNode Title="CPS_EmptyResponse Fields" Url="html/6b942ea6-11e1-368a-d667-007ac4dee394.htm" />
+      <HelpTOCNode Title="CPS_EmptyResponse Methods" Url="html/ad171600-79c1-f16c-7b0b-9d8958e6930e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b07ab749-d8d3-402d-b301-78997bc9ab29" Title="CPS_Exception Class" Url="html/14e6c64f-e3e6-5a8b-63e9-e46d3c7efedd.htm">
+      <HelpTOCNode Id="837aa5e8-5f74-4de7-a53a-5b92e6268044" Title="CPS_Exception Constructor " Url="html/bbfaab29-bece-bd9f-7334-412bb9634ed0.htm">
+        <HelpTOCNode Title="CPS_Exception Constructor " Url="html/6c62d798-8cd8-38bd-4d1a-437a37b959f4.htm" />
+        <HelpTOCNode Title="CPS_Exception Constructor (String)" Url="html/c7fe08ff-9108-cfb2-41e5-969b118eb4c0.htm" />
+        <HelpTOCNode Title="CPS_Exception Constructor (SerializationInfo, StreamingContext)" Url="html/931bbe2f-ff89-33e2-a3a2-1d8be6346670.htm" />
+        <HelpTOCNode Title="CPS_Exception Constructor (String, Exception)" Url="html/026db2af-e5d5-6316-321e-87201470c71f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3274e452-d2e3-4e0f-a42e-dd98057f0806" Title="CPS_Exception Methods" Url="html/4422470d-25f3-9bb8-cd3f-c2b8a3d6ac65.htm">
+        <HelpTOCNode Id="263e232e-1e63-46f1-9132-2c53be9768db" Title="SetCode Method " Url="html/1dc1b252-2050-a6dd-5e5f-4c18f74c373d.htm">
+          <HelpTOCNode Title="SetCode Method (Int32)" Url="html/98c0f6dc-c126-a16b-9c0a-07c94c2f6970.htm" />
+          <HelpTOCNode Title="SetCode Method (CPS_Exception.ERROR_CODE)" Url="html/d9eb83cf-2cbc-384c-0cb3-66c590409705.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToString Method " Url="html/1e3c1588-48dc-e65b-0cba-639dcf2e7324.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_Exception Properties" Url="html/391a0803-5daf-b47b-953f-54093842fd08.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="CPS_Exception.ERROR_CODE Enumeration" Url="html/caeca7b4-0ece-7ba5-a824-7f11ea4cd890.htm" />
+    <HelpTOCNode Id="de2ba744-0368-44d5-b3df-ee068e91786e" Title="CPS_InsertRequest Class" Url="html/1ca59316-ed96-223f-ad8a-12222d621ac7.htm">
+      <HelpTOCNode Id="896094e1-d9de-479c-813e-2a60a8f06651" Title="CPS_InsertRequest Constructor " Url="html/dfd61854-f68a-c03c-6870-9c580450ed38.htm">
+        <HelpTOCNode Title="CPS_InsertRequest Constructor (Object, String)" Url="html/c339ddd8-353e-8f19-8e58-424fec4de061.htm" />
+        <HelpTOCNode Title="CPS_InsertRequest Constructor (String, Object, String)" Url="html/36afd9f3-209e-ff64-de7c-acfc8ceba11e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_InsertRequest Fields" Url="html/b234108e-917c-a6e0-ea52-4e3513a3b9d1.htm" />
+      <HelpTOCNode Title="CPS_InsertRequest Methods" Url="html/000c5985-dc08-192b-1d0b-55f711a768fd.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="427e7a20-9191-42fe-9df0-23ebd6e8de4c" Title="CPS_ListFacetsRequest Class" Url="html/725359e4-0730-da1e-4f68-e4f03e3c6d76.htm">
+      <HelpTOCNode Id="d4024190-043d-472e-ba1a-4ee818ce7b81" Title="CPS_ListFacetsRequest Constructor " Url="html/ddcbb1a4-7c93-93e3-d5b0-2b3c33e82a44.htm">
+        <HelpTOCNode Title="CPS_ListFacetsRequest Constructor (List(String), String)" Url="html/e2224d7d-7d25-7d8c-82cf-6ed7937f19c4.htm" />
+        <HelpTOCNode Title="CPS_ListFacetsRequest Constructor (String, String)" Url="html/d7140183-8370-c7d3-1d56-b2d0be813b45.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_ListFacetsRequest Fields" Url="html/23ddbbc1-1043-2d90-062b-3ab99f6a2abe.htm" />
+      <HelpTOCNode Title="CPS_ListFacetsRequest Methods" Url="html/9135b3dc-ea07-412c-4610-ef0a1890932d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="24067c99-e1dc-4f72-a80c-952e033dc989" Title="CPS_ListFacetsResponse Class" Url="html/b8551f6b-fd37-87d2-9967-101d75be1805.htm">
+      <HelpTOCNode Title="CPS_ListFacetsResponse Constructor " Url="html/3b1788cb-d7bd-d7c9-eda9-8209a2a32d11.htm" />
+      <HelpTOCNode Title="CPS_ListFacetsResponse Fields" Url="html/bee895ed-656a-b5d8-9a9a-9f2144c64396.htm" />
+      <HelpTOCNode Id="b1b627df-ce02-48b1-aa99-e16cbaa4eb48" Title="CPS_ListFacetsResponse Methods" Url="html/2df1d620-7a1b-8e08-1b2d-cec407cf142f.htm">
+        <HelpTOCNode Title="getFacets Method " Url="html/92657d94-94aa-aed7-9a28-cd8affc8bcfb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="54906fdf-cd97-4ff8-ae1d-b8405cd958b0" Title="CPS_ListFirstRequest Class" Url="html/24b1a837-b936-3495-a16f-2f1960890a02.htm">
+      <HelpTOCNode Title="CPS_ListFirstRequest Constructor " Url="html/cd22d174-cccd-dae5-b4f8-c6c7303a38ba.htm" />
+      <HelpTOCNode Title="CPS_ListFirstRequest Fields" Url="html/abb607bf-d4ca-1698-5182-01888c384c33.htm" />
+      <HelpTOCNode Title="CPS_ListFirstRequest Methods" Url="html/f9306aa4-2e55-ac82-7ee0-8e9d956e9b43.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="698cc34c-a5d9-4505-b290-2feff45df1eb" Title="CPS_ListLastRequest Class" Url="html/a3ef8dd7-2eb7-bdb2-1c49-5e8ff5018448.htm">
+      <HelpTOCNode Title="CPS_ListLastRequest Constructor " Url="html/23f0a7ca-924c-c14e-9aae-dc32cba3e964.htm" />
+      <HelpTOCNode Title="CPS_ListLastRequest Fields" Url="html/91146a2b-9f10-9dd6-ecf1-b4f2ff981f38.htm" />
+      <HelpTOCNode Title="CPS_ListLastRequest Methods" Url="html/8905d9ba-1afb-ece3-7ead-17820e8531d2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="03255a54-b9d2-4b01-8d31-8e61608c3868" Title="CPS_ListLastRetrieveFirstRequest Class" Url="html/42cf5be6-d619-9f21-c8ec-c599afbbfd75.htm">
+      <HelpTOCNode Title="CPS_ListLastRetrieveFirstRequest Constructor " Url="html/11b60589-19a9-31e5-10e3-9f674069fb2e.htm" />
+      <HelpTOCNode Title="CPS_ListLastRetrieveFirstRequest Fields" Url="html/b75ba1ac-82a8-3f0c-a9c0-df856d412290.htm" />
+      <HelpTOCNode Id="112a9222-4176-4abe-9797-e491d1f6ab66" Title="CPS_ListLastRetrieveFirstRequest Methods" Url="html/b41b2914-226b-e133-c840-681d2a861a34.htm">
+        <HelpTOCNode Title="setList Method " Url="html/d8fb49c5-306a-833d-d8a4-523695b23090.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b08fcff8-fc84-4be0-959b-889132aa2cf2" Title="CPS_ListPathsRequest Class" Url="html/1b3d69ec-4f34-1991-f9f9-4332871ca5bb.htm">
+      <HelpTOCNode Title="CPS_ListPathsRequest Constructor " Url="html/2ac9397c-4c9a-2853-48a8-12bf8736b5dc.htm" />
+      <HelpTOCNode Title="CPS_ListPathsRequest Fields" Url="html/690d1670-769f-afe4-964f-578a3433a647.htm" />
+      <HelpTOCNode Title="CPS_ListPathsRequest Methods" Url="html/266650ed-dc96-570c-677a-000f55abd78c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c182de7-f7de-4800-8ded-d1c360d4e166" Title="CPS_ListPathsResponse Class" Url="html/e1861c3b-ecc9-5434-3c40-bcec770d7065.htm">
+      <HelpTOCNode Title="CPS_ListPathsResponse Constructor " Url="html/abdacd5c-e963-e904-c63e-cde9545cd0f8.htm" />
+      <HelpTOCNode Title="CPS_ListPathsResponse Fields" Url="html/dce3f7f8-2c14-6015-d482-eb51ad2d595f.htm" />
+      <HelpTOCNode Id="e7af91c4-98bc-49b6-97c5-498b12c9fce8" Title="CPS_ListPathsResponse Methods" Url="html/7c964b35-0877-5cdd-1a6b-4a628c9554ab.htm">
+        <HelpTOCNode Title="getPaths Method " Url="html/b76ca494-3b3b-1c6e-f001-cbe4e7b19e02.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e0ed7561-7456-4c93-8400-8bd83c197d60" Title="CPS_ListWordsRequest Class" Url="html/d64203fb-e7bb-ba4a-ad40-2097e4565c90.htm">
+      <HelpTOCNode Title="CPS_ListWordsRequest Constructor " Url="html/dd19a3cd-bdf9-db54-3d1e-f2e71b6074a7.htm" />
+      <HelpTOCNode Title="CPS_ListWordsRequest Fields" Url="html/f4b8d793-1ec6-0caf-dc29-96b525328933.htm" />
+      <HelpTOCNode Id="90b1ebbf-2204-4861-a760-81c8acd03a25" Title="CPS_ListWordsRequest Methods" Url="html/a243e19b-f3a5-6610-5d9d-8e9e440f0401.htm">
+        <HelpTOCNode Title="setQuery Method " Url="html/6c0eeba0-ae89-371a-9a7a-89b0ac78b3b1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2ef3ec88-4f52-42c1-85df-a1abe44e586b" Title="CPS_ListWordsResponse Class" Url="html/41e1e080-4a9d-7e38-deee-08b1018299fb.htm">
+      <HelpTOCNode Title="CPS_ListWordsResponse Constructor " Url="html/89d6954e-2982-5153-51ea-1bc891983310.htm" />
+      <HelpTOCNode Title="CPS_ListWordsResponse Fields" Url="html/d4bdca61-dd4b-4da8-261a-dcd34222ea7e.htm" />
+      <HelpTOCNode Id="aefb4e03-f821-4a24-9e4d-44be31a328de" Title="CPS_ListWordsResponse Methods" Url="html/5db7494d-bc21-c9c7-9dc5-4539ce47f8bc.htm">
+        <HelpTOCNode Title="getWords Method " Url="html/0768f693-44d2-2ae9-6082-be4bc72d2a11.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f70589f1-1875-47aa-9437-91d575f83356" Title="CPS_ListWordsResponse.WordInfo Structure" Url="html/09552f5d-c7d5-497a-aa92-03b317dfb976.htm">
+      <HelpTOCNode Id="d8cee4de-eec1-40b3-916a-21ec96d00cdf" Title="WordInfo Fields" Url="html/9bf82e0d-299e-4b1b-472c-f83837783260.htm">
+        <HelpTOCNode Title="count Field" Url="html/892e8773-a8d3-391e-069c-0786e8182f5a.htm" />
+        <HelpTOCNode Title="word Field" Url="html/259e37f8-b722-10c1-a0dc-099337c1c533.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WordInfo Methods" Url="html/6c102e68-1cb0-5a2a-162a-8f6ed534f91d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="88ce5520-6eac-4bfd-bb82-7bdd9c7a3bbc" Title="CPS_LoadBalancer Class" Url="html/832e2273-8537-03a9-f872-8b2b4576ba2e.htm">
+      <HelpTOCNode Title="CPS_LoadBalancer Constructor " Url="html/cc4d40aa-113f-ea86-fef8-fff18c7c7476.htm" />
+      <HelpTOCNode Id="121b0663-b2e5-48ca-8b95-6b98a5ec4653" Title="CPS_LoadBalancer Methods" Url="html/46ad2560-4525-9e15-73d9-f446871772ed.htm">
+        <HelpTOCNode Title="getConnectionString Method " Url="html/51ffce83-85a8-604b-2570-d5c31602b95b.htm" />
+        <HelpTOCNode Title="newRequest Method " Url="html/8fd83f56-e466-bab0-3324-603f49e0db9a.htm" />
+        <HelpTOCNode Title="setDebug Method " Url="html/c52899cf-9d2d-98a6-b720-969841e26e42.htm" />
+        <HelpTOCNode Title="setExclusionTime Method " Url="html/cb41e55f-4aec-c523-55e3-f1baaf91b572.htm" />
+        <HelpTOCNode Title="setSendWhenAllFailed Method " Url="html/6fdbc55b-b220-74b0-a4cd-ae02b2a9208b.htm" />
+        <HelpTOCNode Title="setStatusFilePrefix Method " Url="html/6893ecd1-674a-1b47-f47c-2e8f8e21b20c.htm" />
+        <HelpTOCNode Title="shouldRetry Method " Url="html/6a10cb19-143d-08ac-1c95-1386f82931bf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="625e17ab-d91c-4a9e-8679-5ea499ab4717" Title="CPS_LookupRequest Class" Url="html/8752d328-1458-f3db-bc1e-b9b55fc0f1e3.htm">
+      <HelpTOCNode Id="ce37dd75-819b-44de-a5e3-638852dcf627" Title="CPS_LookupRequest Constructor " Url="html/efd2b1e0-e425-3867-1906-699fe0c7bef6.htm">
+        <HelpTOCNode Title="CPS_LookupRequest Constructor (List(String), Dictionary(String, String), String)" Url="html/33bdeb13-b9ce-9bfd-8300-a8a2467f8fd7.htm" />
+        <HelpTOCNode Title="CPS_LookupRequest Constructor (String, Dictionary(String, String), String)" Url="html/f6dacffd-8138-80b8-3226-bff79ab14df8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_LookupRequest Fields" Url="html/44ce2627-3105-7afa-5b62-3161a92021d2.htm" />
+      <HelpTOCNode Id="31020f49-d746-4189-9d12-372f82f1f070" Title="CPS_LookupRequest Methods" Url="html/a22a2551-fbfe-8af6-b7b1-f3e857208f38.htm">
+        <HelpTOCNode Title="setList Method " Url="html/8c47e573-1397-f47a-5a15-4485927b87fe.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7d181e5-ec48-4304-bfab-b16583ba99c3" Title="CPS_LookupResponse Class" Url="html/71624b2b-d822-804e-00b6-a9b5105be124.htm">
+      <HelpTOCNode Title="CPS_LookupResponse Constructor " Url="html/6ca79932-ef4b-1931-3e3f-8a61f65e7657.htm" />
+      <HelpTOCNode Title="CPS_LookupResponse Fields" Url="html/5541ff66-04ce-68d4-04ed-6240654eff44.htm" />
+      <HelpTOCNode Id="4ded899c-8bbb-4f73-8282-9fb3893c2c73" Title="CPS_LookupResponse Methods" Url="html/5950f614-ef0b-29e3-52b3-37d445bc4b02.htm">
+        <HelpTOCNode Title="getDocuments Method " Url="html/24998fd1-81c9-f27c-7241-8aaf6aa100e0.htm" />
+        <HelpTOCNode Title="getFound Method " Url="html/09233cfd-f506-6789-58e5-1c516e8bdf77.htm" />
+        <HelpTOCNode Title="getFrom Method " Url="html/e68946be-29b9-188c-248e-e9338a492387.htm" />
+        <HelpTOCNode Title="getTo Method " Url="html/2d790bc1-c654-d3d5-d25f-14859051b03e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c4338c58-4058-4bb3-b86b-de99d43e6a55" Title="CPS_ModifyRequest Class" Url="html/64fb8aaa-cf50-5e4a-5531-e964e8c90644.htm">
+      <HelpTOCNode Id="b34d13c8-d77a-41e2-a936-55b15d7835f3" Title="CPS_ModifyRequest Constructor " Url="html/fb194190-1964-5739-2788-6547dfe00700.htm">
+        <HelpTOCNode Title="CPS_ModifyRequest Constructor (String, Object, String)" Url="html/29a43be6-20cb-9ec4-3073-d816558c9847.htm" />
+        <HelpTOCNode Title="CPS_ModifyRequest Constructor (String, String, Object, String)" Url="html/3facad83-e739-f565-b8ae-066d44b76289.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_ModifyRequest Fields" Url="html/2689d8ef-2f8b-85de-559a-e9d416b66451.htm" />
+      <HelpTOCNode Title="CPS_ModifyRequest Methods" Url="html/52046de6-ff61-36a6-8bd3-829c2e2dc873.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fc14f3b7-8ef2-4314-93e8-d9275ff9f564" Title="CPS_ModifyResponse Class" Url="html/a5648cb9-3931-647b-3fc9-9a16a569be32.htm">
+      <HelpTOCNode Title="CPS_ModifyResponse Constructor " Url="html/3566f08b-406b-8bbd-6a09-ad58dffd6c58.htm" />
+      <HelpTOCNode Title="CPS_ModifyResponse Fields" Url="html/1e12b1e2-3625-7726-e3a3-858b32fe2dd8.htm" />
+      <HelpTOCNode Id="504cf0ce-75c9-48d1-84ae-72982ace837f" Title="CPS_ModifyResponse Methods" Url="html/ada4eff5-cc11-a232-3358-b0aa5a25ad2a.htm">
+        <HelpTOCNode Title="getModifiedIds Method " Url="html/3c6359d1-8d10-5144-e3e9-c944f5b3dd97.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="16f629ce-4485-40e9-bee5-fff65ec3dbf6" Title="CPS_PartialReplaceRequest Class" Url="html/8a9cfd0d-1fd7-2716-6e50-f5ba8b7a052e.htm">
+      <HelpTOCNode Id="d629eea7-27ea-4989-a66b-e6a5c65e7ac3" Title="CPS_PartialReplaceRequest Constructor " Url="html/cb0fd9c5-d375-12bb-e056-3cc458b5aacd.htm">
+        <HelpTOCNode Title="CPS_PartialReplaceRequest Constructor (Object, String)" Url="html/ce766dfe-7726-3269-52a9-4ede9f90055e.htm" />
+        <HelpTOCNode Title="CPS_PartialReplaceRequest Constructor (String, Object, String)" Url="html/480f18f2-2f8c-9573-41d0-216163ca7e14.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_PartialReplaceRequest Fields" Url="html/c0cb7ab7-d766-0ce6-f11a-08791cdebc1d.htm" />
+      <HelpTOCNode Title="CPS_PartialReplaceRequest Methods" Url="html/dd7ebe8a-ac30-d016-2d31-395043bd36de.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6a96cf56-02f5-4235-afe7-ac806bd20419" Title="CPS_PartialXRequest Class" Url="html/c7131a07-f7de-494b-1166-cd371eb2c209.htm">
+      <HelpTOCNode Id="aaec4df6-a936-4d6b-be0f-61fd7da84b3c" Title="CPS_PartialXRequest Constructor " Url="html/8d4dc112-8959-0c5a-b31a-c9d2aa8a537a.htm">
+        <HelpTOCNode Title="CPS_PartialXRequest Constructor (CPS_PRX_Changeset, String)" Url="html/fb5c5cb1-64b4-23dc-01a3-768b332fff31.htm" />
+        <HelpTOCNode Title="CPS_PartialXRequest Constructor (List(CPS_PRX_Changeset), String)" Url="html/d53d487e-14a1-6e56-6c03-ed5661e8b5fc.htm" />
+        <HelpTOCNode Title="CPS_PartialXRequest Constructor (List(String), CPS_PRX_Operation, String)" Url="html/d1900c94-bdb4-ee9e-92ab-f0671b1090e4.htm" />
+        <HelpTOCNode Title="CPS_PartialXRequest Constructor (List(String), List(CPS_PRX_Operation), String)" Url="html/c1b8515f-5c3e-9c71-8542-db38d811579b.htm" />
+        <HelpTOCNode Title="CPS_PartialXRequest Constructor (String, CPS_PRX_Operation, String)" Url="html/56e3101e-4fc2-c5c3-05d2-255406aff53d.htm" />
+        <HelpTOCNode Title="CPS_PartialXRequest Constructor (String, List(CPS_PRX_Operation), String)" Url="html/f80cae5d-1df1-8a9e-f719-549fdb5f4bf7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_PartialXRequest Fields" Url="html/4d9caed0-e74d-78b6-1655-f359392289ca.htm" />
+      <HelpTOCNode Title="CPS_PartialXRequest Methods" Url="html/560cb4ff-6690-a041-29ab-96ff32a49cdc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="000d19b9-3ca9-4fcd-8186-727b5d447cde" Title="CPS_PRX_Changeset Class" Url="html/25fd45bc-6ce4-1c6b-2988-43565d747e14.htm">
+      <HelpTOCNode Id="c9401fcd-a1b6-4bc2-8d2b-8a3a2fb43fe4" Title="CPS_PRX_Changeset Constructor " Url="html/278478ca-360d-44fc-c80a-a1985614a461.htm">
+        <HelpTOCNode Title="CPS_PRX_Changeset Constructor (List(String), CPS_PRX_Operation)" Url="html/cc36bf5d-5c77-d16e-789e-8de587f926e7.htm" />
+        <HelpTOCNode Title="CPS_PRX_Changeset Constructor (List(String), List(CPS_PRX_Operation))" Url="html/3e5a65ce-25db-eeac-7b11-b5ef93246175.htm" />
+        <HelpTOCNode Title="CPS_PRX_Changeset Constructor (String, CPS_PRX_Operation)" Url="html/3f691421-be02-7fa2-1062-4a47f1061df4.htm" />
+        <HelpTOCNode Title="CPS_PRX_Changeset Constructor (String, List(CPS_PRX_Operation))" Url="html/b6cc46a0-08a6-553d-7b55-68150123fd94.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bcd280c4-be24-44b8-95a0-84d80a0b140c" Title="CPS_PRX_Changeset Methods" Url="html/5861bf6b-2d68-c453-cbd1-7d4beb369ca8.htm">
+        <HelpTOCNode Title="renderXML Method " Url="html/b40c12db-9b92-8706-8b9c-467fd8984aea.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="99dab97f-ce23-4fff-9de1-112e7da5f56f" Title="CPS_PRX_Operation Class" Url="html/903f7388-0053-17fa-86b0-5b2a8f463486.htm">
+      <HelpTOCNode Title="CPS_PRX_Operation Constructor " Url="html/7b71ff8b-e052-26e1-38ac-47619d7495bc.htm" />
+      <HelpTOCNode Id="1884b14b-18d8-410e-9b7a-4af039f78f7d" Title="CPS_PRX_Operation Methods" Url="html/21c09044-f4e6-a330-c084-4b68bc6789d1.htm">
+        <HelpTOCNode Title="renderXML Method " Url="html/97153cea-475d-08a3-7eed-8e4bee40e676.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9bf69ce4-3f2b-4fdc-abbc-a74d54358d6d" Title="CPS_ReplaceRequest Class" Url="html/5e2f3247-3345-888a-4f38-710ff1933b44.htm">
+      <HelpTOCNode Id="b4b96c93-0b60-4dff-a4b6-75bcaf35ab46" Title="CPS_ReplaceRequest Constructor " Url="html/abba2273-4972-ae03-76bc-edddc3ea8ca2.htm">
+        <HelpTOCNode Title="CPS_ReplaceRequest Constructor (Object, String)" Url="html/00eda940-043e-f8af-f7d4-2de08f2f0e0b.htm" />
+        <HelpTOCNode Title="CPS_ReplaceRequest Constructor (String, Object, String)" Url="html/a81c5887-3296-94e9-d91a-53e454fddf07.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_ReplaceRequest Fields" Url="html/aca8ba66-0d12-0f31-1921-7f4517c8274e.htm" />
+      <HelpTOCNode Title="CPS_ReplaceRequest Methods" Url="html/ad9b4d57-fb3c-b002-3d43-6942d38c5abd.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f12c676b-3bc0-4aeb-9fee-93078dd910bd" Title="CPS_Request Class" Url="html/8beca068-5b4a-2960-e567-cfd126fe81da.htm">
+      <HelpTOCNode Title="CPS_Request Constructor " Url="html/890b413a-c763-51a0-d57b-6b8061aa5846.htm" />
+      <HelpTOCNode Id="2500aa70-3d08-43d5-ac4d-4ee66d801d05" Title="CPS_Request Fields" Url="html/65801a0c-8d68-8f51-011e-e0df1e80eaa9.htm">
+        <HelpTOCNode Title="p_changesets Field" Url="html/daff134f-d11a-ebe3-9f61-3757fbaf470c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="48a22654-3982-4698-a34f-25192164908f" Title="CPS_Request Methods" Url="html/5277ac91-9747-bb6e-6101-4dccc980738e.htm">
+        <HelpTOCNode Title="getClusterLabel Method " Url="html/f0f5dfc3-9f68-a996-0006-4c5139293e37.htm" />
+        <HelpTOCNode Title="getCommand Method " Url="html/a92bb951-2bbb-38c4-cdf0-7154709da0ab.htm" />
+        <HelpTOCNode Title="getRequestId Method " Url="html/c8fbf17b-acd6-2e39-f8e1-234018cccab7.htm" />
+        <HelpTOCNode Title="getRequestType Method " Url="html/a72976fc-316e-3307-330b-9f2afa1a1cc1.htm" />
+        <HelpTOCNode Title="getRequestXML Method " Url="html/1bf36626-7296-8347-e7ed-7ee6d05bbfbd.htm" />
+        <HelpTOCNode Title="getValidXmlValue Method " Url="html/5f2992b8-482f-0a6f-fffc-70027daf189f.htm" />
+        <HelpTOCNode Title="setClusterLabel Method " Url="html/f27f5a90-ae4c-6ecd-f0a6-27ce68231145.htm" />
+        <HelpTOCNode Title="setExtraXmlParam Method " Url="html/3fbe7ad6-2f4c-5dfd-6abe-da0e0dd5d353.htm" />
+        <HelpTOCNode Id="cc52a201-1f68-4b06-9bce-e037ebe3e2b6" Title="setParam Method " Url="html/814fcc9e-5d82-c5d9-17f7-f71dd9d14452.htm">
+          <HelpTOCNode Title="setParam Method (String, List(String))" Url="html/a16ed54e-bfd7-1641-7265-e021b4293784.htm" />
+          <HelpTOCNode Title="setParam Method (String, String)" Url="html/b2ae3b32-7ca9-3eea-288b-95b32b31e3b0.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="setRawDocuments Method " Url="html/c210d8e3-3579-d001-7d7e-2e74fcf01af6.htm" />
+        <HelpTOCNode Title="setRequestId Method " Url="html/8517dd76-46c0-5909-0076-b3762b891d91.htm" />
+        <HelpTOCNode Title="setRequestType Method " Url="html/f966331f-fa09-ebfb-8c0a-c467498ee730.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6daf69b7-a0cd-4a88-b900-614b5dfcc9c9" Title="CPS_Response Class" Url="html/b2fd2b94-10fb-612b-8e8a-f9ec3c7bd47a.htm">
+      <HelpTOCNode Id="c712572a-9243-4b23-b6f8-2c6ca9080fd9" Title="CPS_Response Constructor " Url="html/b11c9eed-9e62-6eda-0a97-7ca5a22b7481.htm">
+        <HelpTOCNode Title="CPS_Response Constructor (CPS_Connection, CPS_Request)" Url="html/ac0af58d-18f3-1c83-5a10-40c15c51de21.htm" />
+        <HelpTOCNode Title="CPS_Response Constructor (CPS_Connection, CPS_Request, String)" Url="html/864b3b13-498f-5be8-ea5a-57683ece338a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="11d53013-9d46-4ea6-be4e-9e53c99978d0" Title="CPS_Response Fields" Url="html/221d3222-211f-fa1b-ac31-975818ac981f.htm">
+        <HelpTOCNode Title="p_connection Field" Url="html/b46214c0-c874-d4a2-8e45-4feb89ea027c.htm" />
+        <HelpTOCNode Title="p_contentArray Field" Url="html/82665952-8436-4cf2-c88f-a50bff303a1c.htm" />
+        <HelpTOCNode Title="p_documents Field" Url="html/9d7cd4eb-86ce-56d3-608f-8b5c60d29829.htm" />
+        <HelpTOCNode Title="p_facets Field" Url="html/056f1f02-0584-1405-3335-97df65bfcde5.htm" />
+        <HelpTOCNode Title="p_textParams Field" Url="html/2557a24d-619e-9900-871b-2abcd4a7557e.htm" />
+        <HelpTOCNode Title="p_wordCounts Field" Url="html/e6f46ee4-ed2b-9131-d0f9-500af05c8a5a.htm" />
+        <HelpTOCNode Title="p_words Field" Url="html/6b63e640-c5a6-6347-7684-ac616285a447.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ca109687-1f61-4434-8bb8-99b07e90aa95" Title="CPS_Response Methods" Url="html/c2002619-e071-b96d-a66a-5e25ce5410c1.htm">
+        <HelpTOCNode Title="getContentArray Method " Url="html/4bbd3192-6ada-b8be-66a5-19fabfa5e758.htm" />
+        <HelpTOCNode Title="getErrors Method " Url="html/d41c842c-9f11-b5f5-622e-de76a9a5d4b1.htm" />
+        <HelpTOCNode Title="getParam Method " Url="html/78769a71-f09b-c761-63cc-09d4af2c0ecf.htm" />
+        <HelpTOCNode Title="getParamInt Method " Url="html/0e936518-3916-dfce-e5a0-f5fc7d4a8a15.htm" />
+        <HelpTOCNode Title="getRawAggregate Method " Url="html/90df692b-c7e5-3ce8-716a-a574df5ef6fc.htm" />
+        <HelpTOCNode Title="getRawDocuments Method " Url="html/986ab05d-26f7-b9a3-efb1-b38998a98da5.htm" />
+        <HelpTOCNode Title="getRawFacets Method " Url="html/7f88779b-226c-bef5-0e2f-b66107e17da4.htm" />
+        <HelpTOCNode Title="getRawWordCounts Method " Url="html/1082b29b-b259-846f-f16d-a6c1f482b25a.htm" />
+        <HelpTOCNode Title="getRawWords Method " Url="html/58af3335-8f25-1cc3-f989-623648e25d51.htm" />
+        <HelpTOCNode Title="getSeconds Method " Url="html/149dfda0-ebad-17f0-61c3-192390894043.htm" />
+        <HelpTOCNode Title="getTransactionId Method " Url="html/2b0ba7bf-d83a-b947-0b8d-65f950764088.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="CPS_Response.DOC_TYPE Enumeration" Url="html/0a86c300-a15f-07f4-ce14-e1c208ca0404.htm" />
+    <HelpTOCNode Id="629e1912-f292-4c59-83f3-ae07afdd34b1" Title="CPS_RetrieveFirstRequest Class" Url="html/73ba2ba2-c3f5-bb42-0d4a-ef268238b7c4.htm">
+      <HelpTOCNode Title="CPS_RetrieveFirstRequest Constructor " Url="html/529854e3-03d1-017b-0a8c-7b0ba278be97.htm" />
+      <HelpTOCNode Title="CPS_RetrieveFirstRequest Fields" Url="html/ee784cdf-9869-b838-1a81-fef320ce7ebc.htm" />
+      <HelpTOCNode Title="CPS_RetrieveFirstRequest Methods" Url="html/bdf19d1c-1667-3c28-9f02-a09f411e2261.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ce22ee9-f2d2-4a85-85cf-b4864120219b" Title="CPS_RetrieveLastRequest Class" Url="html/2b401875-486b-3f40-dd7d-5c941bdbd9c0.htm">
+      <HelpTOCNode Title="CPS_RetrieveLastRequest Constructor " Url="html/5780603b-a765-8626-d00d-989f4041ef83.htm" />
+      <HelpTOCNode Title="CPS_RetrieveLastRequest Fields" Url="html/14db94a5-817a-712a-5d0b-7fd40ace8b85.htm" />
+      <HelpTOCNode Title="CPS_RetrieveLastRequest Methods" Url="html/85e04718-4210-89d5-6613-889a95ea8f49.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ba06c26e-866c-41ce-bd7d-1d5562d372c1" Title="CPS_RetrieveRequest Class" Url="html/609ecc3f-e5f8-6e33-bdaa-b168477ae3b8.htm">
+      <HelpTOCNode Id="6df67356-93cb-4bab-8636-892258245402" Title="CPS_RetrieveRequest Constructor " Url="html/1e7aa531-bcf9-d7cb-221e-ec5356936c72.htm">
+        <HelpTOCNode Title="CPS_RetrieveRequest Constructor (List(String), String)" Url="html/2d49cf58-8cae-03b2-9614-cf4d367fc1cd.htm" />
+        <HelpTOCNode Title="CPS_RetrieveRequest Constructor (String, String)" Url="html/4d4533d5-334f-d007-d12c-47a4e08dd73a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_RetrieveRequest Fields" Url="html/fdb15ad3-8fcc-3efe-0bde-bb67a9646fe6.htm" />
+      <HelpTOCNode Title="CPS_RetrieveRequest Methods" Url="html/2e73d181-1e88-3d9b-52b4-1370582afa59.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c9295e8-e96d-4fa3-97c6-05aa175c613b" Title="CPS_RollbackTransactionRequest Class" Url="html/0bda414f-8739-d08a-da86-9b2be7826790.htm">
+      <HelpTOCNode Title="CPS_RollbackTransactionRequest Constructor " Url="html/ae0e8168-a4ad-f1fa-6042-18f35c29f348.htm" />
+      <HelpTOCNode Title="CPS_RollbackTransactionRequest Fields" Url="html/ee72ca83-1054-65e3-5da0-046b260c3602.htm" />
+      <HelpTOCNode Title="CPS_RollbackTransactionRequest Methods" Url="html/fc63f1de-b46b-a138-4d43-c7cb59e59cf1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b80544cd-0c8c-4677-b7c2-994ed4a077d7" Title="CPS_SearchDeleteRequest Class" Url="html/df611f78-dcb5-5c2c-8fb7-9185bc173d4d.htm">
+      <HelpTOCNode Title="CPS_SearchDeleteRequest Constructor " Url="html/52ed063b-5416-d235-d209-2523e2f132c1.htm" />
+      <HelpTOCNode Title="CPS_SearchDeleteRequest Fields" Url="html/6056e2ef-e4c7-987d-1e40-1c3b2b992e54.htm" />
+      <HelpTOCNode Id="19cbe7d2-4750-48f9-a535-efef0ac56911" Title="CPS_SearchDeleteRequest Methods" Url="html/2c65978c-bb4f-cc52-31ef-52d043ca5bcc.htm">
+        <HelpTOCNode Title="setExactMatch Method " Url="html/4c5ce4e5-6704-f89e-5336-e46a48ed20b6.htm" />
+        <HelpTOCNode Title="setQuery Method " Url="html/84ff24c1-dfd8-6edd-f4e6-6cc4111798f4.htm" />
+        <HelpTOCNode Title="setStemLang Method " Url="html/5d578f3b-17f3-f0c1-e0ad-08c53f399fbc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="87419ead-8172-4d24-9cb8-fefb35418c05" Title="CPS_SearchDeleteResponse Class" Url="html/5ca14d1a-98c6-0ad3-b559-ca484f27f304.htm">
+      <HelpTOCNode Title="CPS_SearchDeleteResponse Constructor " Url="html/3b9370b7-3963-8bd0-3633-898ac4dc13f3.htm" />
+      <HelpTOCNode Title="CPS_SearchDeleteResponse Fields" Url="html/e57e69f5-86b5-8621-6543-6f60e6ecf069.htm" />
+      <HelpTOCNode Id="e8e33d3f-6384-47e1-8e24-3a2de8003e43" Title="CPS_SearchDeleteResponse Methods" Url="html/245442c5-9f4e-9fff-3542-f0c4a9d9cde5.htm">
+        <HelpTOCNode Title="getHits Method " Url="html/c2de82c5-2dfb-4a5b-6b47-ba23630f7f16.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bd60c03-f6ef-486f-b240-9a9a8364dcfd" Title="CPS_SearchRequest Class" Url="html/65395bc1-6ac2-fbe0-a2f4-8e52b3af6f39.htm">
+      <HelpTOCNode Title="CPS_SearchRequest Constructor " Url="html/396343a5-5631-811c-73ee-e83d0eab4f81.htm" />
+      <HelpTOCNode Title="CPS_SearchRequest Fields" Url="html/8036df3c-7f6d-79a6-1195-0b8f6a530632.htm" />
+      <HelpTOCNode Id="7ff85f4b-02bc-4eeb-87ee-c9314895eac8" Title="CPS_SearchRequest Methods" Url="html/67672757-a45a-1bd2-afbe-e7ef2699d7dd.htm">
+        <HelpTOCNode Id="b955601e-656e-49e4-9492-1b991dfeed7d" Title="setAggregate Method " Url="html/fc6fdca0-f0be-1c86-8fb6-c2791272be26.htm">
+          <HelpTOCNode Title="setAggregate Method (List(String))" Url="html/772e707a-f72e-c6b5-dd79-38a621e7c4b7.htm" />
+          <HelpTOCNode Title="setAggregate Method (String)" Url="html/43d0a8fd-b807-07f4-5877-df394aa0719b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="setDocs Method " Url="html/aeae8711-fe84-63d2-5c42-dc273bc127e0.htm" />
+        <HelpTOCNode Title="setExactMatch Method " Url="html/54b82eb0-b4cf-ef3f-8274-7fa1afe9bd9e.htm" />
+        <HelpTOCNode Id="465f883e-ae38-4a19-8a63-9281196b7215" Title="setFacet Method " Url="html/10eed33f-2049-c749-3dc9-81a1c98d3199.htm">
+          <HelpTOCNode Title="setFacet Method (List(String))" Url="html/bd5f9b61-68a1-32f2-3382-0bf41dcbb7c2.htm" />
+          <HelpTOCNode Title="setFacet Method (String)" Url="html/64dd4f60-99a8-f84a-c88e-30b15480a5f8.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="setGroup Method " Url="html/0b783c61-b6ce-81ff-c332-496aede80a6f.htm" />
+        <HelpTOCNode Title="setList Method " Url="html/4c179b4b-3c40-1e23-46a3-604979d1a031.htm" />
+        <HelpTOCNode Title="setOffset Method " Url="html/c8103be7-d2cf-73a9-f833-3f5fc1160870.htm" />
+        <HelpTOCNode Id="3a1a44b0-669b-4d8b-a1ed-67b39b8f6c5b" Title="setOrdering Method " Url="html/765d7477-fb15-e286-143c-25d4d309e2a8.htm">
+          <HelpTOCNode Title="setOrdering Method (List(String))" Url="html/28f28332-4ab4-36c1-bc72-b70dda58d97a.htm" />
+          <HelpTOCNode Title="setOrdering Method (String)" Url="html/d185a1ab-83b8-d9c4-4db0-fa4582aa5bc9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8ec327cc-a8a3-4d31-9e4d-8c6262f40fe8" Title="setQuery Method " Url="html/b134169d-24a8-69b5-b810-6803eb4ff4d0.htm">
+          <HelpTOCNode Title="setQuery Method (Dictionary(String, Object))" Url="html/30f64d86-c126-fdd6-2394-f16f7515f8ee.htm" />
+          <HelpTOCNode Title="setQuery Method (String)" Url="html/8d1722bf-274e-0a5c-8558-f59b0e96c12b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="setStemLang Method " Url="html/10a5493f-5e97-c258-30bc-9173d18c48c5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d113b6c7-5ba8-49ca-baf9-68f8f6eaca28" Title="CPS_SearchResponse Class" Url="html/c549a13e-acd2-e257-fe45-2f66f4ebc0dd.htm">
+      <HelpTOCNode Title="CPS_SearchResponse Constructor " Url="html/4f7e5d47-1aee-1ca9-cfca-063a34abc054.htm" />
+      <HelpTOCNode Title="CPS_SearchResponse Fields" Url="html/bcd570ab-b33e-95eb-3380-016d89eb71d7.htm" />
+      <HelpTOCNode Id="855f0c43-0515-4a5d-84ba-377d52bdb6ee" Title="CPS_SearchResponse Methods" Url="html/b606ebfc-edeb-8414-dd2d-e66d33bb9faa.htm">
+        <HelpTOCNode Title="getAggregate Method " Url="html/e1c5b053-4362-622c-af6e-a1113cbb3603.htm" />
+        <HelpTOCNode Title="getDocuments Method " Url="html/5f37815b-ffa7-fe04-17c3-3992f865238f.htm" />
+        <HelpTOCNode Title="getFacets Method " Url="html/f64120f2-7ecb-6014-10c3-a8f380ed1139.htm" />
+        <HelpTOCNode Title="getFound Method " Url="html/d2436729-37f4-918a-65e6-87ceab8de325.htm" />
+        <HelpTOCNode Title="getFrom Method " Url="html/cbdbece9-a740-7844-92f5-2e0cbb4c0147.htm" />
+        <HelpTOCNode Title="getHits Method " Url="html/08035172-0efd-c5f9-b8a8-270c83f1f37e.htm" />
+        <HelpTOCNode Title="getTo Method " Url="html/2c035bc4-c44d-4041-64e2-7428627a73d8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8da7f77d-8ea9-4cf0-ada2-8de755322180" Title="CPS_ShowHistoryRequest Class" Url="html/e1a57088-57ea-3562-1b31-4ecf3252c412.htm">
+      <HelpTOCNode Title="CPS_ShowHistoryRequest Constructor " Url="html/cd02c2c0-c3fc-c254-3388-8ba3d42fe63f.htm" />
+      <HelpTOCNode Title="CPS_ShowHistoryRequest Fields" Url="html/1650830f-11eb-fa93-ffdd-2d23a43eb33c.htm" />
+      <HelpTOCNode Title="CPS_ShowHistoryRequest Methods" Url="html/ffd79496-8655-38ef-09a7-28b8c537851b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ae0869ca-48de-4ea4-afb2-95ef371bda77" Title="CPS_SimilarDocumentRequest Class" Url="html/883fe42c-880b-3d5a-05d1-9b75bdf386c9.htm">
+      <HelpTOCNode Title="CPS_SimilarDocumentRequest Constructor " Url="html/e464da02-2d32-b55a-eb63-35af0acb2419.htm" />
+      <HelpTOCNode Title="CPS_SimilarDocumentRequest Fields" Url="html/b3476f60-e238-371a-47c5-af21128ced8e.htm" />
+      <HelpTOCNode Title="CPS_SimilarDocumentRequest Methods" Url="html/fa46c84d-53d3-be57-a549-8c40bc3528e6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3e93b58-0c78-469d-bd34-78e9f74d8841" Title="CPS_SimilarTextRequest Class" Url="html/1a13d996-5712-8f62-8bea-a8a538571ff9.htm">
+      <HelpTOCNode Title="CPS_SimilarTextRequest Constructor " Url="html/607dd7a4-c9f0-2716-412f-f68f380ec13e.htm" />
+      <HelpTOCNode Title="CPS_SimilarTextRequest Fields" Url="html/27f3c744-ec46-3431-480a-5e9e93da5e07.htm" />
+      <HelpTOCNode Title="CPS_SimilarTextRequest Methods" Url="html/97865580-f5fc-eee9-6c36-5b47a5f3c5d3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="35716133-7377-4db3-8344-9bc6746d7ef1" Title="CPS_Simple Class" Url="html/1a78ad90-eeba-781f-ec37-02f971f272a2.htm">
+      <HelpTOCNode Title="CPS_Simple Constructor " Url="html/249f3876-af59-59b4-1989-edb7835645a3.htm" />
+      <HelpTOCNode Id="2b8b4bf1-b317-49f1-a8d0-2e731341e725" Title="CPS_Simple Methods" Url="html/ef5a7426-b498-40d9-d86b-5c2ac2de1f1f.htm">
+        <HelpTOCNode Title="alternatives Method " Url="html/1475dc1b-c4f2-dafd-6238-8bfd8e9778fe.htm" />
+        <HelpTOCNode Title="beginTransaction Method " Url="html/1f34c264-f72d-bfca-958a-c4781e96f51b.htm" />
+        <HelpTOCNode Title="commitTransaction Method " Url="html/1096f614-3de2-dc90-212c-1cccbc60f614.htm" />
+        <HelpTOCNode Id="db035527-600b-4eee-b12e-c2fdd568e26f" Title="delete Method " Url="html/974347fc-656e-f30c-b58d-43bb6bc0427e.htm">
+          <HelpTOCNode Title="delete Method (List(String))" Url="html/2c119d24-d36f-1625-6b94-cb7421eb932a.htm" />
+          <HelpTOCNode Title="delete Method (String)" Url="html/45e66a5e-f114-69b3-061f-2878fd1c2355.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="getLastResponse Method " Url="html/f8ccab6b-1b30-03a4-2e68-d5133e7b6044.htm" />
+        <HelpTOCNode Title="insertMultiple Method " Url="html/bd9c0e99-b4ed-a355-52ef-64db2d52d5f3.htm" />
+        <HelpTOCNode Title="insertSingle Method " Url="html/cffe06c1-8cff-c886-b39f-30e6b9e07b9d.htm" />
+        <HelpTOCNode Id="e68b211b-33dc-4391-a8f0-74f9f48ef6c9" Title="listFacets Method " Url="html/58f3d012-1091-679f-61b7-812b0d9d9d42.htm">
+          <HelpTOCNode Title="listFacets Method (List(String))" Url="html/edb9fad2-b783-58b2-000c-9bda358abdeb.htm" />
+          <HelpTOCNode Title="listFacets Method (String)" Url="html/3361a309-beb4-77c9-5bf0-58adc0e8ea66.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="listFirst Method " Url="html/5aca21d0-8891-c33f-2b4b-16126df70ddf.htm" />
+        <HelpTOCNode Title="listLast Method " Url="html/3ee9d6db-30d6-8871-b3ef-28aa309cd824.htm" />
+        <HelpTOCNode Title="listPaths Method " Url="html/25e2a957-b865-e196-2b37-22a8eb3d5165.htm" />
+        <HelpTOCNode Title="listWords Method " Url="html/1487109d-1303-6dea-d064-270c33208cb1.htm" />
+        <HelpTOCNode Title="lookupMultiple Method " Url="html/f86d119e-c0a1-28a9-23fb-515d8f5ff4ce.htm" />
+        <HelpTOCNode Title="lookupSingle Method " Url="html/37195156-26f0-962d-2f0f-44a5b4839864.htm" />
+        <HelpTOCNode Title="partialReplaceMultiple Method " Url="html/8f14c93e-4424-a98c-b615-3478319f77fe.htm" />
+        <HelpTOCNode Title="partialReplaceSingle Method " Url="html/a4a01da2-2e7c-e503-1f5c-be466c92a2d5.htm" />
+        <HelpTOCNode Id="f1a042dc-72d9-4235-811b-20b6cafd3b3c" Title="partialXReplace Method " Url="html/c900065d-1f0c-07cf-0bc7-831eab98805b.htm">
+          <HelpTOCNode Title="partialXReplace Method (List(String), CPS_PRX_Operation)" Url="html/94b3ddef-8448-b320-1f0a-9f55d99f6873.htm" />
+          <HelpTOCNode Title="partialXReplace Method (List(String), List(CPS_PRX_Operation))" Url="html/64823531-7f9a-7353-01a3-e205d89b8116.htm" />
+          <HelpTOCNode Title="partialXReplace Method (String, CPS_PRX_Operation)" Url="html/0e0a58b1-7df9-ed68-80fc-78cd23ebfe9b.htm" />
+          <HelpTOCNode Title="partialXReplace Method (String, List(CPS_PRX_Operation))" Url="html/fc8e15fe-3051-960a-1765-5be0e9a79a1f.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="replaceMultiple Method " Url="html/55b43096-ef2e-3df5-f4d7-143752d5898b.htm" />
+        <HelpTOCNode Title="replaceSingle Method " Url="html/37be7e57-bc6f-bd63-f55a-461f86946c62.htm" />
+        <HelpTOCNode Title="retrieveFirst Method " Url="html/c37171a6-1118-4436-17db-673a21304a65.htm" />
+        <HelpTOCNode Title="retrieveLast Method " Url="html/d8d1119d-4d41-0714-404a-15ebac693ae2.htm" />
+        <HelpTOCNode Title="retrieveMultiple Method " Url="html/133a460e-4ca6-58d5-d3db-abe9a9ae8eed.htm" />
+        <HelpTOCNode Title="retrieveSingle Method " Url="html/135db8c3-55c5-4f22-2332-7f178e09716e.htm" />
+        <HelpTOCNode Title="rollbackTransaction Method " Url="html/6fd8efb7-ca3e-690f-6741-d6d3bd832855.htm" />
+        <HelpTOCNode Id="9754e10d-1f13-41f7-9a5f-8cdb0e29999f" Title="search Method " Url="html/a172bcc2-e2b8-d321-e3c6-154bee43bd21.htm">
+          <HelpTOCNode Title="search Method (String, Int32, Int32, Dictionary(String, String), List(String), CPS_Response.DOC_TYPE, String)" Url="html/ee050655-8d4e-906a-461a-fc7b35f4dbdb.htm" />
+          <HelpTOCNode Title="search Method (String, Int32, Int32, Dictionary(String, String), String, CPS_Response.DOC_TYPE, String)" Url="html/9effc13a-d591-0cc0-fde8-d2cbae68f4c0.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="searchDelete Method " Url="html/a563382b-5324-8c8f-1319-cda4c5698833.htm" />
+        <HelpTOCNode Title="showHistory Method " Url="html/5d6bf5da-85e2-198a-3268-30505dd585aa.htm" />
+        <HelpTOCNode Title="similarDocument Method " Url="html/84a56e28-865f-6a59-9d58-3f0f53838adf.htm" />
+        <HelpTOCNode Title="similarText Method " Url="html/38c264c6-4bae-03ea-7036-f00bcf51e68f.htm" />
+        <HelpTOCNode Title="sql_search Method " Url="html/73c226fd-3198-aa6c-d302-1697d9a92a99.htm" />
+        <HelpTOCNode Title="status Method " Url="html/2f26ac4b-30cc-ac39-eb17-24b0d560cdd4.htm" />
+        <HelpTOCNode Title="updateMultiple Method " Url="html/42091329-dafe-19f2-6105-af1c88989169.htm" />
+        <HelpTOCNode Title="updateSingle Method " Url="html/0897bd1d-69a2-b273-c4ce-e4afc9458e9d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="50fa6405-453b-4347-9eac-eaf349a63b46" Title="CPS_SimpleXML Class" Url="html/44a1e329-54b6-b004-d805-28de9ac66e1a.htm">
+      <HelpTOCNode Title="CPS_SimpleXML Constructor " Url="html/87cf81b3-071c-ee99-8497-b863a47e5572.htm" />
+      <HelpTOCNode Id="0c9dd508-b751-4958-9bcb-3fa7c62f3750" Title="CPS_SimpleXML Methods" Url="html/d0232024-7d47-8698-e302-4d19ad17feb0.htm">
+        <HelpTOCNode Title="ConvertToXML Method " Url="html/811097d7-0348-698e-ff2e-742e5a409302.htm" />
+        <HelpTOCNode Title="Dump Method " Url="html/5711bcf5-463b-21f3-40eb-bc83137c7f71.htm" />
+        <HelpTOCNode Title="GetCData Method " Url="html/269bf6b2-9ed6-e0ec-9fb4-da5fab731339.htm" />
+        <HelpTOCNode Title="GetChild Method " Url="html/6007fb32-7ead-20e4-d199-da1d1e998a7e.htm" />
+        <HelpTOCNode Title="GetFloat Method " Url="html/c7717235-a6c8-9829-5ec7-f531b10b2eda.htm" />
+        <HelpTOCNode Title="GetInt Method " Url="html/b072abe6-3a48-6d5b-9662-53853309b033.htm" />
+        <HelpTOCNode Title="GetName Method " Url="html/61a71ca0-74f0-ded5-17a9-a6b5fa3c210b.htm" />
+        <HelpTOCNode Title="GetString Method " Url="html/f4c81179-0fd5-e045-f516-d803f21e1c8b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="64a028f4-6b26-4192-bb40-8ce1b5769b11" Title="CPS_SimpleXML Type Conversions" Url="html/8d430096-2806-3c52-dd0b-b5c425c31702.htm">
+        <HelpTOCNode Id="92e87377-5972-4182-8ab3-0bf6a97e8123" Title="Implicit Conversion Operators" Url="html/059b48f2-be1b-a865-2a4b-9b47366fd2c6.htm">
+          <HelpTOCNode Title="Implicit Conversion (CPS_SimpleXML to String)" Url="html/ee6f2bcc-8d16-e3eb-fa9b-a472ee90ab51.htm" />
+          <HelpTOCNode Title="Implicit Conversion (CPS_SimpleXML to Int32)" Url="html/c99d366b-7497-f91b-d988-46a7b00ad06b.htm" />
+          <HelpTOCNode Title="Implicit Conversion (CPS_SimpleXML to Single)" Url="html/5f57dc0d-9ba6-a98a-f8e9-fbdfe0f47da3.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="384a532e-8278-4d8d-b8cc-b82112ec54b4" Title="CPS_SimpleXML Properties" Url="html/68ee0c89-9c92-29fa-5a65-e52f20082a11.htm">
+        <HelpTOCNode Title="Item Property " Url="html/a4415e62-5c69-5665-b1c6-2ece1a2c8355.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9f7a8490-a8ff-45ee-8a74-6aa37433afbb" Title="CPS_SQLSearchRequest Class" Url="html/d4c7f99a-a04a-ded0-fb21-5a099fe7f2b7.htm">
+      <HelpTOCNode Title="CPS_SQLSearchRequest Constructor " Url="html/586b7168-8e9d-12f1-df33-710e7b1bed2c.htm" />
+      <HelpTOCNode Title="CPS_SQLSearchRequest Fields" Url="html/682379b7-fa42-aa5b-90b3-2fb5c8e88313.htm" />
+      <HelpTOCNode Title="CPS_SQLSearchRequest Methods" Url="html/a40e7d61-17f9-9bfe-1a27-f23ca6e9a6a9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6971e4e0-c7aa-4546-b5f3-1c696e492406" Title="CPS_StaticRequest Class" Url="html/3238b841-6546-2841-d8e9-a32e44b91162.htm">
+      <HelpTOCNode Title="CPS_StaticRequest Constructor " Url="html/109d688b-0ddf-d4b1-fc59-4b9844bca000.htm" />
+      <HelpTOCNode Title="CPS_StaticRequest Fields" Url="html/0b340faf-146a-a15a-dcba-4faf861050a1.htm" />
+      <HelpTOCNode Id="6a1740c9-cee1-48fe-bae4-8ea085bf73c8" Title="CPS_StaticRequest Methods" Url="html/2f947715-c33d-853f-2a2f-3b44a5f0ef9d.htm">
+        <HelpTOCNode Title="getRequestXML Method " Url="html/6381427f-60ab-ca63-daa1-7b21878af59b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="984fb942-9fa7-46fd-b259-37c35c6de9ad" Title="CPS_StatusRequest Class" Url="html/84b8a507-0b7e-4239-a334-41f7daf48c07.htm">
+      <HelpTOCNode Title="CPS_StatusRequest Constructor " Url="html/81f18b76-8527-6df9-c660-c0caf7e5e742.htm" />
+      <HelpTOCNode Title="CPS_StatusRequest Fields" Url="html/418f969a-3679-0a68-d079-d1565113f209.htm" />
+      <HelpTOCNode Title="CPS_StatusRequest Methods" Url="html/ee2f7903-8bbc-c22a-ba5c-7e604d379f13.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f74bcec5-8fd0-41d6-876f-dd536098bbde" Title="CPS_StatusResponse Class" Url="html/d7113d7b-3c91-c206-8d89-3143c006e49a.htm">
+      <HelpTOCNode Title="CPS_StatusResponse Constructor " Url="html/5bfd30e1-bc7e-c35d-5ff4-4b02ef4641c6.htm" />
+      <HelpTOCNode Title="CPS_StatusResponse Fields" Url="html/c03004aa-8604-95f5-57e8-5f5c2c6c5c32.htm" />
+      <HelpTOCNode Id="59df5121-913b-4c6d-bf90-c266d6b17236" Title="CPS_StatusResponse Methods" Url="html/981c358d-d506-98dc-5ace-6de25b76852e.htm">
+        <HelpTOCNode Title="getStatus Method " Url="html/84f79d5c-3d1a-3f20-5b2b-addee7b388ac.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f22d2a0d-fb94-4495-801c-082a3992ffee" Title="CPS_UpdateRequest Class" Url="html/43d2eefe-5480-2ff2-793d-334246b1a71e.htm">
+      <HelpTOCNode Id="3d9ea46b-9ac8-48fa-b1af-70d6699bcd30" Title="CPS_UpdateRequest Constructor " Url="html/24dc4dcd-3216-6d12-793e-4d7931aa9fac.htm">
+        <HelpTOCNode Title="CPS_UpdateRequest Constructor (Object, String)" Url="html/a4b5b785-4c1d-6a34-e874-9ad0b3366bd0.htm" />
+        <HelpTOCNode Title="CPS_UpdateRequest Constructor (String, Object, String)" Url="html/ba2cdcca-3c15-31ed-5339-b677bbcef5ac.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CPS_UpdateRequest Fields" Url="html/92354956-fb51-c799-4e78-9f21e92b273c.htm" />
+      <HelpTOCNode Title="CPS_UpdateRequest Methods" Url="html/47d8f4c5-19f8-f26e-afb5-4745e27fbb38.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="248e559b-c789-4d9c-89d7-166a6e292e5b" Title="Protobuf Class" Url="html/78bfc8d9-c4ab-4bb0-7827-1beb3f6e1b78.htm">
+      <HelpTOCNode Id="f6498207-3433-49fb-8a3b-25fd81155d91" Title="Protobuf Constructor " Url="html/517371ea-cce6-eb40-1339-b4e7c3c3f907.htm">
+        <HelpTOCNode Title="Protobuf Constructor " Url="html/758d3758-3cbb-4315-f91b-cc5bf944fc3d.htm" />
+        <HelpTOCNode Title="Protobuf Constructor (Protobuf_Streamer)" Url="html/09d64c6a-5dba-4ed0-3ce3-03ebbfbabfbe.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b755d7d-ed75-44da-8fac-e39f6ac27a07" Title="Protobuf Methods" Url="html/5b92d17f-41a9-cdba-6631-00ff85958d9d.htm">
+        <HelpTOCNode Title="CreateField Method " Url="html/984f9873-012f-9ed6-a2d8-0f5e6e5fb93d.htm" />
+        <HelpTOCNode Title="CreateFixed64Field Method " Url="html/12c03183-9a17-d7da-0212-1a8c83a91c41.htm" />
+        <HelpTOCNode Title="CreateStringField Method " Url="html/b23fa2f4-73f0-bc10-c2b0-df9fcd4438d6.htm" />
+        <HelpTOCNode Title="GetField Method " Url="html/c45cf8a5-2a28-c19b-ed57-9d2d57801f82.htm" />
+        <HelpTOCNode Title="GetFieldWireType Method " Url="html/23c81b4d-3a40-50ac-af38-16f751fff905.htm" />
+        <HelpTOCNode Title="GetStringField Method " Url="html/9b9e5709-8d84-add2-0a73-fb3048c599a6.htm" />
+        <HelpTOCNode Title="WriteToStream Method " Url="html/d6434c61-1dc5-05fe-6e7c-218e8d2a067e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Protobuf.WireType Enumeration" Url="html/045539bb-5492-d11f-0fe7-843065ade7f6.htm" />
+    <HelpTOCNode Id="2494f373-7faf-4ddd-9ab9-e1dd911d8e9b" Title="Protobuf_Streamer Class" Url="html/eee3e75e-4d18-a963-c1d9-02c428621d33.htm">
+      <HelpTOCNode Title="Protobuf_Streamer Constructor " Url="html/0f078af3-3fc4-29a3-d67f-c64c66c71ad2.htm" />
+      <HelpTOCNode Id="c45cda35-77a8-4810-8090-3c5b1a963331" Title="Protobuf_Streamer Methods" Url="html/c02bf2ec-93c8-34cb-6547-a51f19592b6d.htm">
+        <HelpTOCNode Title="GetStream Method " Url="html/43112a01-ccca-c150-1c6a-11fad677f618.htm" />
+        <HelpTOCNode Title="ReadBytes Method " Url="html/a79ab406-966b-d52b-8319-7752b3b7cc8f.htm" />
+        <HelpTOCNode Title="ReadVarint Method " Url="html/10dae2b6-32d9-2fac-6468-e28d2c1ac77a.htm" />
+        <HelpTOCNode Title="WriteBytes Method " Url="html/bbb385a1-8676-726e-211c-f5fff409dcb7.htm" />
+        <HelpTOCNode Title="WriteVarint Method " Url="html/7ee61c8f-7e13-adda-7e23-da3e2e140682.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="57eefcd6-a4ac-4fad-a9bc-4d547bfa13bc" Title="Utils Class" Url="html/3c4ac713-87a0-e90e-1391-4afd0d93ddf2.htm">
+      <HelpTOCNode Id="52759e58-5274-4e02-894e-db84ae8ff32f" Title="Utils Methods" Url="html/bbd598af-bf66-577a-a645-0bf3c58d7a82.htm">
+        <HelpTOCNode Title="CPS_DateOrdering Method " Url="html/11fa2825-eae2-d498-3aa8-a484047fcda1.htm" />
+        <HelpTOCNode Title="CPS_FloatString Method " Url="html/f905855a-f83d-660c-5544-a2a18e6b1758.htm" />
+        <HelpTOCNode Title="CPS_LatLongDistanceOrdering Method " Url="html/ff5a9803-bbcc-754d-614d-c2ca3c016820.htm" />
+        <HelpTOCNode Title="CPS_NumericOrdering Method " Url="html/963b6b9d-7124-9461-2463-d06817dba06a.htm" />
+        <HelpTOCNode Title="CPS_PlaneDistanceOrdering Method " Url="html/da80084a-f98e-b18f-1629-be98f0a1d783.htm" />
+        <HelpTOCNode Title="CPS_QueryDictionary Method " Url="html/81128d97-b446-922c-14a2-5055f1104e2f.htm" />
+        <HelpTOCNode Title="CPS_QueryTerm Method " Url="html/fecb00c6-9005-ce00-41ff-31fada0475a2.htm" />
+        <HelpTOCNode Title="CPS_RelevanceOrdering Method " Url="html/d209d73e-702f-3fba-79f6-dbd327581768.htm" />
+        <HelpTOCNode Title="CPS_StringOrdering Method " Url="html/c9f4bec0-6b12-fbdc-7882-e52e3c3e4099.htm" />
+        <HelpTOCNode Title="CPS_Term Method " Url="html/89ec34d5-f64e-74d0-5fc9-755f8dba5e3f.htm" />
+        <HelpTOCNode Title="HtmlSpecialChars Method " Url="html/5180a2e3-50af-3c67-669c-4fb3fea79495.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

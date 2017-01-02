@@ -1,0 +1,21 @@
+/* Main animation */ 
+	#page-scalable #animation { padding-top: 83px; } 
+	#page-scalable #animation .bg { position: absolute; z-index: 98; top: 22px; bottom: -22px; left: 0; right: 0; z-index: 100; }
+	#page-scalable #animation .text { margin-left: 295px; max-width: 505px; position: relative; z-index: 100; }
+	#page-scalable #animation .animation-fallback { position: absolute; bottom: 0px; left: 50%; margin-left: -540px; }
+/* Scalable content */
+	#page-scalable #scalable-content .content { padding: 30px 60px 20px; background: #F2F2F2; }
+	#page-scalable #scalable-content .content p { font-size: 18px; line-height: 26px; }
+/* Transactions */
+	#page-scalable #transactions { margin: 70px 0 70px; }
+	#page-scalable #transactions .section-title-wrap { margin-bottom: 56px; }
+	#page-scalable #transactions .section-subtitle-wrap { display: table; margin-top: 56px; }
+	#page-scalable #transactions .section-subtitle-wrap .section-subtitle { padding-bottom: 0; padding-top: 5px; }
+	#page-scalable #transactions .box { position: relative; padding-top: 50px; padding-bottom: 0; box-sizing: border-box; min-height: 462px; }
+	#page-scalable #transactions .box .text { padding-top: 30px; }
+	
+	#page-scalable #transactions .animation { width: 222px; height: 244px; position: relative; display: table; overflow: hidden; margin: 0 auto; }
+	#page-scalable #transactions .section-subtitle { font-size : 18px; line-height : 28px; color : #222222; } 
+
+	#page-scalable #user-experience .animation { width: 250px; height: 224px; position: relative; display: table; overflow: hidden; margin: 40px auto 0; }
+	

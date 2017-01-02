@@ -1,0 +1,11 @@
+#page-white-papers #hero { padding-top: 0; padding-bottom: 0; }
+#page-white-papers #hero .item { padding-top: 130px; }
+#page-white-papers #hero .item { padding-bottom: 100px }
+#page-white-papers .item-list .item { padding-bottom: 80px; }
+#page-white-papers .item .text { margin-top: 0; padding-top: 0; }
+#page-white-papers .item { position: relative; }
+#page-white-papers .item .button-wrap { position: absolute; left: 0; bottom: 38px; width: 100%; height: 44px; }
+#page-white-papers .item .button-wrap .button { margin-top: 0; }
+#page-white-papers .item .button-wrap .btn { color: #FFFFFF; margin: 0px auto 0; float: none; float: none; padding-top: 10px!important; height: 44px!important; line-height: 22px!important; }
+#page-white-papers-single #sign-up { margin-top: 96px; }
+#page-white-papers-single #contact-form { position: relative; z-index: 99; }

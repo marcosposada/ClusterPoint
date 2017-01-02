@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;">
+  <defs>
+    <style>
+      .a {
+        fill: gray;
+      }
+    </style>
+  </defs>
+  <title>pattern-2</title>
+  <circle class="a" cx="1" cy="1" r="1"/>
+</svg>

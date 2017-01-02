@@ -1,0 +1,95 @@
+#page-pricing .section-title { padding-top: 7px; padding-bottom: 7px; }
+/* Page hero */
+	#page-pricing #hero h1 { margin-top: 51px; height: 70px; margin-bottom: 59px; margin-left: -1px; }
+	#page-pricing #hero h1 span { background: #F2F2F2; margin-left: -22px; margin-top: -5px; padding: 7px 7px 0; }
+	#page-pricing #hero .btn-wrap { background: #F2F2F2; display: table; width: 100%; position: relative; }
+	#page-pricing #hero .btn { width: 100%; position: relative; z-index: 100; }
+	#page-pricing .btn-background { background: #F2F2F2; position: absolute; top: -1px; left: -1px; right: -1px; bottom: -1px; z-index: 99; }
+	#page-pricing #hero .icon-wrap { height: 126px; }
+	#page-pricing #hero .icon-wrap .icon { display: table; margin: 0 auto 24px; position: relative; width: 210px; height: 114px; }
+	#page-pricing #hero .icon-wrap .icon img { width: 166px; height: 114px; }
+	#page-pricing table { margin: 56px 0; }
+/* Cloud version */
+	#page-pricing #cloud-version { margin-top: 56px; }
+	#page-pricing #cloud-version .col-1 { padding-right: 40px; }
+	#page-pricing #cloud-version .col-2 { padding-left: 40px; }
+	#page-pricing #cloud-version p { line-height: 28px; }
+	#page-pricing #cloud-version .col-2 p { color: #666666; margin-top: 18px; }
+	#page-pricing #cloud-version .col-2 .line {  height: 1px; width: 100%; display: table; background: #dadada; margin-top: 10px; margin-bottom: 10px; }
+	
+	#page-pricing #cloud-version .section-title { display: table; margin: 0 auto 28px; }
+	#page-pricing #cloud-version .section-title span { background: #F2F2F2; }
+	#page-pricing .button-wrap .button-inner-wrap { }
+	#page-pricing #cloud-version .button-wrap .button { width: 340px; }
+	#page-pricing .grey-block { padding: 0; }
+	#page-pricing .button-wrap { background: #F2F2F2; padding: 0; width: 100%; display: table; height: 154px; }
+	#page-pricing .button-wrap .button-inner-wrap { display: table-cell; vertical-align: middle; text-align: center; width: 100%; }
+	#page-pricing .button-wrap .button-inner-wrap .buttons { margin: 0 auto; }
+	
+	#pricing_calculator { padding: 80px 60px 60px; width: 83.33333333%; height: 735px; display: none; background: #FFFFFF; margin: 50px auto; position: relative; }
+	.mfp-s-ready #pricing_calculator { display: block; }
+	#pricing_calculator  .slider-title { display: table; position: relative; width: 100%; }
+	#pricing_calculator  h4 { margin-top: 0; font-size: 20px; line-height: 25px; }
+	#pricing_calculator  small { line-height: 20px; font-size: 14px; color: #666666; font-family : "EuropaRegular"; }
+	#pricing_calculator .price { line-height: 20px; font-size: 14px; color: #222222;}
+	#pricing_calculator .price h4 { color: #7148ec; }
+	#pricing_calculator .slider { padding-bottom: 70px; }
+	#pricing_calculator .free { position: absolute; height: 15px; left: 0; top: 0; width: 0;  background: #565656; }
+	#pricing_calculator .free:after { width: 1px; height: 18px; background: #fff; display: table; position: absolute; top: 0; right: 0px; content: ""; }
+	#pricing_calculator .noUi-handle.grey-handle { border: 5px solid #565656; }
+	#pricing_calculator .noUi-value-horizontal { color: #818181; font-size: 16px; }
+	#pricing_calculator .noUi-pips-horizontal .noUi-value-horizontal:nth-child(4) { color: #222222; }
+	#pricing_calculator .noUi-marker-horizontal.noUi-marker { width: 1px; }
+	#pricing_calculator .noUi-pips-horizontal .noUi-marker-horizontal.noUi-marker:nth-child(3) { background: #7148ec; } 
+	#pricing_calculator .noUi-pips-horizontal { padding: 0; }
+	#pricing_calculator .first-val { color: #222222; padding-left: 20px; }
+	#pricing_calculator .checkbox-text { color: #818181; display: inline-block; }
+	#pricing_calculator .form-group-1 { padding-bottom: 40px; }
+	/* Checkbox */
+	input[type=checkbox] { display: none; }
+	input[type=checkbox] + label span { display: inline-block; width: 28px; height: 28px; background: url('../../../images/checkbox/checkbox-unchecked.png'); background-image: url('../../../images/checkbox/checkbox-unchecked.svg'), none; background-repeat: no-repeat; cursor: pointer; vertical-align: top; }
+	input[type=checkbox]:checked + label span { background: url('../../../images/checkbox/checkbox-checked.png'); background-image: url('../../../images/checkbox/checkbox-checked.svg'), none; vertical-align: top; }
+	input[type=checkbox]:disabled + label span { background: url('../../../images/checkbox/checkbox-checked-disabled.png'); background-image: url('../../../images/checkbox/checkbox-checked-disabled.svg'), none; vertical-align: top; }
+	
+	input[type=checkbox] + label.error-checkbox span { background: url('../../../images/checkbox/checkbox-error.png'); background-image: url('../../../images/checkbox/checkbox-error.svg'), none; vertical-align: top }
+	.checkbox-text { margin-left: 10px; margin-top: 4px;  }
+	
+	#pricing_calculator .estimation { border: 2px solid #7148EC; color: #7148ec; font-size: 20px; padding: 12px 20px 10px; min-width: 270px; border-radius: 2px; margin-top: 0; }
+	#pricing_calculator .estimation .total_price { float: right; font-size: 25px; margin-top: -2px; }
+
+/*  On premises version */
+	#page-pricing #on-premises-version { margin-top: 56px; display: table; width: 100%; }
+	#page-pricing #on-premises-version .section-title { margin-bottom: 28px; }
+	#page-pricing #on-premises-version .icon-wrap .icon { display: table; width: 75px; height: 75px; border: 1px solid #7148ec; border-radius: 50%; overflow: hidden; margin: 0 0 21px; background: #FFFFFF; }
+	#page-pricing #on-premises-version .col-1 h2, #page-pricing #on-premises-version .col-2 h2 { font-size: 25px; color: #222222; text-align: left; margin-left: 0; margin-bottom: 0; height: auto; }
+	#page-pricing #on-premises-version .col-1 { padding-right: 30px; }
+	#page-pricing #on-premises-version .col-2 { padding-left: 30px; }
+	#page-pricing #on-premises-version .c-1 { width: 200px; }
+	#page-pricing #on-premises-version .c-2 ,#page-pricing #on-premises-version .c-3, #page-pricing #on-premises-version .c-4 { width: 120px; }
+	#page-pricing #on-premises-version .white-1 td { height: 20px; border-bottom: 0; padding: 0; }
+	#page-pricing #on-premises-version .white-2 td { height: 1px; border-bottom: 0;  padding: 0; }
+	#page-pricing #on-premises-version .grey-1 td { border-bottom: 0; background: #F2F2F2; }
+	#page-pricing #on-premises-version .grey-2 td { border-bottom: 0; background: #F2F2F2; }
+	#page-pricing #on-premises-version th, #page-pricing #on-premises-version td { font-size: 18px; line-height: 24px; }
+	#page-pricing #on-premises-version th:first-child, #page-pricing #on-premises-version td:first-child { padding-left: 15px; }
+	#page-pricing #on-premises-version th { vertical-align: top; }
+	#page-pricing #on-premises-version p {  margin-bottom: 30px;line-height: 28px; }
+	#page-pricing #on-premises-version .table-cell { color: #666666; padding: 11px 0; }
+	#page-pricing #on-premises-version .table-cell strong { color: #222222; }
+	#page-pricing #on-premises-version .last-row .table-cell { border-bottom: 1px solid #FFFFFF; }
+/* Application hosting */ 
+	#page-pricing #application-hosting { margin-top: 56px; display: table; width: 100%; position: relative; z-index: 99; margin-bottom: 266px; }
+	#page-pricing #application-hosting .section-title { margin-bottom: 28px; }
+	#page-pricing #application-hosting  p { line-height: 28px; font-size: 18px; margin-bottom: 30px; text-align: center; }
+	#page-pricing #application-hosting .white-block { padding-top: 70px; padding-bottom: 42px; }
+	#page-pricing #application-hosting .icon-wrap .icon { display: table; width: 210px; height: 114px; margin: 0 auto 10px; position: relative; }
+	#page-pricing #application-hosting .icon-wrap .icon img { width: 190px; height: 107px; }
+	#application-contact-form { display: none; }
+	.mfp-s-ready #application-contact-form { display: block; }
+	#application-contact-form .contact-form { padding-top: 40px; }
+	
+	
+	
+
+
+ 	

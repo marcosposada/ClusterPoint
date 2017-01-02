@@ -1,0 +1,43 @@
+#page-about { position: relative; top: 78px;}
+#page-about .section-title { padding-top: 7px; padding-bottom: 7px; }
+/* Main animation */ 
+	#page-about #animation { padding-top: 83px;  min-height: 686px; }
+	#page-about #animation .bg { position: absolute; z-index: 98; top: 0; bottom: 0; left: 0; right: 0; }
+	#page-about #animation .text { margin-left: 300px; max-width: 532px; }
+	#page-about #animation:after {z-index: 98; }
+	#page-about #animation .text p { background: #7629f4; }
+	#page-about #animation .text p { margin-top: 80px; }
+	#page-about #animation .text p:first-child { margin-top: 0; }
+	#page-about .container { position: relative; z-index: 100; }
+	#page-about #animation .text .space { width: 100%; height: 60px; }
+	#page-about .company-about { bottom: 0; }
+	#page-about #animation .animation-fallback { position: absolute; bottom: 10px; left: 50%; margin-left: -560px; }
+/* Team */ 
+	#page-about #team { padding: 70px 0 28px; }
+	#page-about #team .wrap {  }
+	#page-about #team .section-title-wrap { margin-bottom: 70px; }
+	#page-about #team .section-title span { padding-left: 14px; padding-right: 14px; }
+	#page-about #team .team-member-list { display: table; width: 100%; margin-top: 86px; }
+	#page-about #team .team-member .inner {  height: 504px; background: #fff; padding: 48px 20px; text-align: center; position: relative; }
+	#page-about #team .team-member .inner .team-member-list { margin-top: 56px; }
+	#page-about #team .team-member { margin-bottom: 28px; }
+	#page-about #team .team-member .inner .member-image { width: 115px; height: 115px; overflow: hidden; border-radius: 50%; background: #D5D5D5; margin:0 auto; }
+	#page-about #team .team-member h2 { font-size: 25px; line-height: 30px; color: #222222; }
+	#page-about #team .team-member h3 { font-size: 18px; line-height: 24px; color: #666666; font-weight: normal; font-family: "EuropaRegular"; margin-top: -20px; }
+	#page-about #team .team-member .info { line-height: 28px; margin-bottom: 10px; margin-top: -2px; }
+	#page-about #team .team-member .read-more-wrap { position: absolute; width: 100%; left: 0; bottom: 36px; text-align: center; }
+/* Our offices */ 
+	#page-about #our-offices { }
+	#page-about #our-offices .offices { display: table; margin: 0px auto 0; }
+	#page-about #our-offices .office { position: relative; float: left; width: 436px; height: 560px; background: #fff; margin: 56px 13px 56px; padding: 27px 13px 17px; text-align: center; }
+	#page-about #our-offices .office h2 { font-size: 25px; }
+	#page-about #our-offices .office .info { line-height : 25px; float: left; margin-top: 7px; width: 100%; }
+	#page-about #our-offices .office .info a { display: block; }
+	#page-about #our-offices .office .office-map { height: 275px; width: 100%; background: #cbcbcb; margin-top: 27px; }
+/* Our data centers */
+	#page-about #our-data-centers .section-title { padding-top: 0; padding-bottom: 0; }
+	#page-about .data-centers-map-wrap { padding: 12px 14px 14px; background: #fff; display: table; width: 898px; margin: 56px auto 70px; position: relative; }
+	#page-about #data-centers-map { width: 100%; height: 352px; background: #cbcbcb; }
+/* Contact form */ 
+	#page-about #about-contact-form { min-height: 574px; z-index: 100; position: relative; }
+	#page-about #about-contact-form .contact-form { padding-top: 14px; }

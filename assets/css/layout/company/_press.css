@@ -1,0 +1,11 @@
+	.press-template #animation h1 { letter-spacing: inherit; }
+	#page-press .items-list .older-item:last-child { border: 0; }
+	#page-press #download-block { padding-top: 70px; height: 476px; }
+	#page-press #download-block .download-icon { border: none; }
+	#page-press .download-block { position: relative; z-index: 99; display: table; margin: 0 auto; }
+	#page-press .download-block .download-icon { background: none!important; }
+	#page-press .download-block .button-wrap { margin-top: 16px; display: table; border: 8px solid #F2F2F8; }
+	#page-press .download-block .button { float: none; }
+	#page-press .download-block h3, #page-press .download-block p { padding: 5px; display: table; margin: 0 auto; background: #F2F2F2; }
+	#page-press .download-block p { margin-top: -5px; }
+	#page-press #download-block .animation { width: 210px; height: 168px; position: relative; display: table; margin: 0 auto 22px; }

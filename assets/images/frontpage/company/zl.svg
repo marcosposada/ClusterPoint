@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.48" height="42.67" viewBox="0 0 56.48 42.67">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: #8c8c8c;
+        mix-blend-mode: multiply;
+      }
+    </style>
+  </defs>
+  <title>zl</title>
+  <g class="a">
+    <path class="b" d="M82.4,8.9c-8.29,0-18.73-4.37-26.82-4.37a75.41,75.41,0,0,0-12.7,1.32V43.74a39.94,39.94,0,0,1,12.6-1.83c8.63,0,19.57,5.28,28.45,5.28,7.53,0,15.44-3.25,15.44-3.25V5.75S90.63,8.9,82.4,8.9ZM72,31v4.67H54.36L64.72,19.94H56.09V15.26H73.46L63.2,31H72Zm16,4.67H75.29V15.26h5.08V31.11H88v4.57Z" transform="translate(-42.88 -4.53)"/>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+#page-downloads { margin-bottom: 210px; }
+/* Hero */ 
+	#page-downloads #hero { padding-top: 42px; padding-bottom: 28px; position: relative; z-index: 99; min-height: 98px; }
+	#page-downloads #hero h1 { margin-top: 10px; margin-bottom: 0;  margin-left: -12px; margin-bottom: 0;  width: 100%; display: table; }
+	#page-downloads #hero h1 span { padding-left: 9px; padding-right: 9px; background: #F2F2F2; float: left; }

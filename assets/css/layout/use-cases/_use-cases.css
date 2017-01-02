@@ -1,0 +1,6 @@
+#page-use-cases { overflow: visible; }
+#page-use-cases #hero { z-index: 102; padding-top: 61px; min-height: 392px; }
+#page-use-cases-single.single-wrap #hero h1 { margin-left: -24px; }
+#page-use-cases .item .text { margin-top: 0; padding-top: 0; }
+
+#page-use-cases-single #hero {}

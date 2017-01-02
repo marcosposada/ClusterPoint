@@ -1,0 +1,26 @@
+#page-gol-log-analytics { margin-bottom: 210px; }
+/* Hero */ 
+	#page-gol-log-analytics #hero { padding-top: 126px; padding-bottom: 28px; position: relative; z-index: 99; min-height: 364px; }
+	#page-gol-log-analytics #hero h1 { margin-top: 10px; margin-bottom: 0;  margin-left: -12px; margin-bottom: 0;  width: 100%; display: table; }
+	#page-gol-log-analytics #hero h1 span { padding-left: 9px; padding-right: 9px; background: #F2F2F2; float: left; }
+	#page-gol-log-analytics #hero h2 { margin-top: 14px; margin-left: -10px; display: table; }
+/* Page */
+	#page-gol-log-analytics .content h3 { display: table; margin: -3px auto 0; min-height: 42px; }
+	#page-gol-log-analytics .content h3 span { background: #F2F2F2; font-size: 34px; line-height: 28px; padding-left: 8px; padding-right: 8px; } 
+/* Gol components */
+	#gol-components { padding-top: 56px; padding-bottom: 45px; }
+	#gol-components .component-list { margin: 31px 0px 2px; padding: 0; }
+	#gol-components .component-list li { list-style: none; width: 100%; margin-bottom: 28px;  }
+	#gol-components .component-list li .inner {  background: #FFFFFF; font-size: 17px; padding: 8px 14px; width: 100%; display: table; position: relative; }
+/* Gol reasons */
+	#gol-reasons { text-align: center; margin-bottom: 42px; }
+	#gol-reasons h3 { text-align: center;  }
+	#gol-reasons h3 span { background: none!important; line-height: 40px!important; }
+	#gol-reasons .reason-list { padding: 0; padding-top: 42px; }
+	#gol-reasons .reason-list li { list-style: none; width: 33.333%; float: left; text-align: center; margin-bottom: 28px; }
+	#gol-reasons .reason-list li .text { max-width: 260px; margin: 0 auto; color: #666666; }
+	#gol-reasons .schema { display: table; width: 100%; padding-top: 43px; }
+	#gol-reasons .schema .animation-wrap { width: 611px; height: 210px; margin: 0 auto; }
+	.edgeLoad-gol-schema { visibility: hidden; }
+	
+	

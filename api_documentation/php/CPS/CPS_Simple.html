@@ -1,0 +1,1380 @@
+<div class='page_content'>
+    <h2 class="class-name"><img src="images/Class_logo.png"
+                                                            alt=" Class"
+                                                            title=" Class"
+                                                            style="vertical-align: middle"> CPS_Simple</h2>
+
+    <a name="sec-description"></a>
+    <div class="info-box">
+        <div class="info-box-title">Description</div>
+        <div class="nav-bar">
+                            <span class="disabled">Description</span> |
+                                                                                    <a href="#sec-method-summary" rel='subsection'>Methods</a> (<a href="#sec-methods" rel='subsection'>details</a>)
+                			
+                                </div>
+        <div class="info-box-body">
+                        <!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The CPS_Simple class contains methods suitable for most requests that don't require advanced parameters to be specified</p>
+            <p class="notes">
+                Located in <a class="field" href="CPS/_cps_simple.php.html" rel='contents'>/cps_simple.php</a> (line <span class="field">17</span>)
+            </p>
+            
+                        
+            <pre></pre>
+        
+                    </div>
+    </div>
+
+    
+    
+    
+            <a name="sec-method-summary"></a>
+        <div class="info-box">
+            <div class="info-box-title">Method Summary</span></div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                                                <span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+            </div>
+            <div class="info-box-body">			
+                <div class="method-summary">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="method-definition">
+                        <img src="images/Constructor.png" alt=" "/>
+                        <a href="#__construct" title="details" class="method-name">__construct</a>
+                                                    (<span class="var-type"><a rel="contents" href="CPS/CPS_Connection.html">CPS_Connection</a></span>&nbsp;<span class="var-name">$connection</span>)
+                                                                            <span class="method-result">CPS_Simple</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#alternatives" title="details" class="method-name">alternatives</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type">float</span>&nbsp;<span class="var-name">$cr</span> = <span class="var-default">NULL</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$idif</span> = <span class="var-default">NULL</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">NULL</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#beginTransaction" title="details" class="method-name">beginTransaction</a>
+                                                ()
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#commitTransaction" title="details" class="method-name">commitTransaction</a>
+                                                ()
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#delete" title="details" class="method-name">delete</a>
+                                                    (<span class="var-type">string|array</span>&nbsp;<span class="var-name">$id</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getLastResponse" title="details" class="method-name">getLastResponse</a>
+                                                ()
+                                                                            <span class="method-result"><a rel="contents" href="CPS/CPS_Response.html">CPS_Response</a></span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#insertMultiple" title="details" class="method-name">insertMultiple</a>
+                                                    (<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#insertSingle" title="details" class="method-name">insertSingle</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#listFacets" title="details" class="method-name">listFacets</a>
+                                                    (<span class="var-type">$paths</span>&nbsp;<span class="var-name">$paths</span>)
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#listFirst" title="details" class="method-name">listFirst</a>
+                                                    ([<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#listLast" title="details" class="method-name">listLast</a>
+                                                    ([<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#listPaths" title="details" class="method-name">listPaths</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#listWords" title="details" class="method-name">listWords</a>
+                                                    (<span class="var-type">string|array</span>&nbsp;<span class="var-name">$wildcard</span>)
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#lookupMultiple" title="details" class="method-name">lookupMultiple</a>
+                                                    (<span class="var-type">array</span>&nbsp;<span class="var-name">$ids</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#lookupSingle" title="details" class="method-name">lookupSingle</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array|SimpleXMLElement|stdClass</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#partialReplaceMultiple" title="details" class="method-name">partialReplaceMultiple</a>
+                                                    (<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#partialReplaceSingle" title="details" class="method-name">partialReplaceSingle</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#partialXReplace" title="details" class="method-name">partialXReplace</a>
+                                                    (<span class="var-type">string|array</span>&nbsp;<span class="var-name">$ids</span>, <span class="var-type">CPX_PRX_Operation|array</span>&nbsp;<span class="var-name">$operations</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#replaceMultiple" title="details" class="method-name">replaceMultiple</a>
+                                                    (<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#replaceSingle" title="details" class="method-name">replaceSingle</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#retrieveFirst" title="details" class="method-name">retrieveFirst</a>
+                                                    ([<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#retrieveLast" title="details" class="method-name">retrieveLast</a>
+                                                    ([<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#retrieveMultiple" title="details" class="method-name">retrieveMultiple</a>
+                                                    (<span class="var-type">array</span>&nbsp;<span class="var-name">$ids</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#retrieveSingle" title="details" class="method-name">retrieveSingle</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array|SimpleXMLElement|stdClass</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#rollbackTransaction" title="details" class="method-name">rollbackTransaction</a>
+                                                ()
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#search" title="details" class="method-name">search</a>
+                                                    (<span class="var-type">array|string</span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">string|array</span>&nbsp;<span class="var-name">$ordering</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$stemLang</span> = <span class="var-default">NULL</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#searchDelete" title="details" class="method-name">searchDelete</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#showHistory" title="details" class="method-name">showHistory</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$returnDocs</span> = <span class="var-default">false</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#similarDocument" title="details" class="method-name">similarDocument</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$docid</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$len</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$quota</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span> = <span class="var-default">NULL</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#similarText" title="details" class="method-name">similarText</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$text</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$len</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$quota</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span> = <span class="var-default">NULL</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#sql_search" title="details" class="method-name">sql_search</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$sql_query</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#status" title="details" class="method-name">status</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#updateMultiple" title="details" class="method-name">updateMultiple</a>
+                                                    (<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#updateSingle" title="details" class="method-name">updateSingle</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+                                                                            <span class="method-result">int</span>
+                                            </div>
+                                                        </div>
+            </div>
+        </div>		
+    
+            
+            <a name="sec-methods"></a>
+        <div class="info-box">
+            <div class="info-box-title">Methods</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                                                    <a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+                			
+            </div>
+            <div class="info-box-body">
+                <A NAME='method_detail'></A>
+<a name="__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">22</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructs an instance of the CPS_Simple class.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">CPS_Simple</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type"><a rel="contents" href="CPS/CPS_Connection.html">CPS_Connection</a></span>&nbsp;<span class="var-name">$connection</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a rel="contents" href="CPS/CPS_Connection.html">CPS_Connection</a></span>
+				<span class="var-name">$connection</span><span class="var-description">: A CPS_Connection object</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="alternatives" id="alternatives"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">alternatives</span> (line <span class="line-number">315</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs an alternatives command for the specified query. Returns a string with the most probable query (could be identical to the given one)</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			alternatives
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type">float</span>&nbsp;<span class="var-name">$cr</span> = <span class="var-default">NULL</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$idif</span> = <span class="var-default">NULL</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$h</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$query</span><span class="var-description">: see <a rel="contents" href="CPS/CPS_AlternativesRequest.html#methodsetQuery">CPS_AlternativesRequest::setQuery()</a></span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$cr</span><span class="var-description">: see <a rel="contents" href="CPS/CPS_AlternativesRequest.html#methodsetCr">CPS_AlternativesRequest::setCr()</a></span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$idif</span><span class="var-description">: see <a rel="contents" href="CPS/CPS_AlternativesRequest.html#methodsetIdif">CPS_AlternativesRequest::setIdif()</a></span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$h</span><span class="var-description">: see <a rel="contents" href="CPS/CPS_AlternativesRequest.html#methodsetH">CPS_AlternativesRequest::setH()</a></span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="beginTransaction" id="beginTransaction"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">beginTransaction</span> (line <span class="line-number">437</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Begins new transaction</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			beginTransaction
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="commitTransaction" id="commitTransaction"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">commitTransaction</span> (line <span class="line-number">446</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Commits last transaction</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			commitTransaction
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="delete" id="delete"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">delete</span> (line <span class="line-number">170</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a delete command. Returns the number of deleted documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			delete
+		</span>
+					(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$id</span><span class="var-description">: The ID of the document to delete as a string or an array of IDs</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="getLastResponse" id="getLastResponse"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getLastResponse</span> (line <span class="line-number">465</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns last received response. This could be useful if you need extra information from the response object</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a rel="contents" href="CPS/CPS_Response.html">CPS_Response</a></span>
+		<span class="method-name">
+			getLastResponse
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="insertMultiple" id="insertMultiple"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">insertMultiple</span> (line <span class="line-number">76</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs an insert command for multiple documents. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			insertMultiple
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$docs</span><span class="var-description">: an associative array with document IDs as keys and document contents as values</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="insertSingle" id="insertSingle"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">insertSingle</span> (line <span class="line-number">65</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs an insert command. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			insertSingle
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: The ID of the document to insert</span>			</li>
+					<li>
+				<span class="var-type">array|SimpleXMLElement|stdClass</span>
+				<span class="var-name">$document</span><span class="var-description">: The document contents</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="listFacets" id="listFacets"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">listFacets</span> (line <span class="line-number">384</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a list-facets command. Returns an associative array where keys are facet paths and values are arrays of terms</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			listFacets
+		</span>
+					(<span class="var-type">$paths</span>&nbsp;<span class="var-name">$paths</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$paths</span>
+				<span class="var-name">$paths</span><span class="var-description">: a single facet path as string or an array of paths</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="listFirst" id="listFirst"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">listFirst</span> (line <span class="line-number">200</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a list-first command. Returns an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			listFirst
+		</span>
+					([<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$list</span><span class="var-description">: a listing parameter - an associative array with xpaths as keys and listing options (yes | no | snippet | highlight) as values</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: the maximum number of documents to return</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="listLast" id="listLast"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">listLast</span> (line <span class="line-number">185</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a list-last command. Returns an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			listLast
+		</span>
+					([<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$list</span><span class="var-description">: a listing parameter - an associative array with xpaths as keys and listing options (yes | no | snippet | highlight) as values</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: the maximum number of documents to return</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="listPaths" id="listPaths"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">listPaths</span> (line <span class="line-number">373</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a list-paths command. Returns all available paths in an array</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			listPaths
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="listWords" id="listWords"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">listWords</span> (line <span class="line-number">300</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a list-words command for one or multiple patterns with wildcards</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			listWords
+		</span>
+					(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$wildcard</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$wildcard</span><span class="var-description">: a pattern to match against, or an array of patterns</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="lookupMultiple" id="lookupMultiple"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">lookupMultiple</span> (line <span class="line-number">288</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a lookup command for multiple documents. Returns an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			lookupMultiple
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$ids</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$ids</span><span class="var-description">: an array of document IDs</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$list</span><span class="var-description">: listing parameter associative array - xpaths as keys, listing options as values</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="lookupSingle" id="lookupSingle"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">lookupSingle</span> (line <span class="line-number">271</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a lookup command for a single document. Returns the document contents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array|SimpleXMLElement|stdClass</span>
+		<span class="method-name">
+			lookupSingle
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: document ID</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$list</span><span class="var-description">: listing parameter associative array - xpaths as keys, listing options as values</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="partialReplaceMultiple" id="partialReplaceMultiple"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">partialReplaceMultiple</span> (line <span class="line-number">145</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a partial-replace command for multiple documents. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			partialReplaceMultiple
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$docs</span><span class="var-description">: an associative array with document IDs as keys and replaceable document contents as values</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="partialReplaceSingle" id="partialReplaceSingle"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">partialReplaceSingle</span> (line <span class="line-number">134</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a partial-replace command. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			partialReplaceSingle
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: The ID of the document to replace</span>			</li>
+					<li>
+				<span class="var-type">array|SimpleXMLElement|stdClass</span>
+				<span class="var-name">$document</span><span class="var-description">: The document contents that are to be replaced</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="partialXReplace" id="partialXReplace"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">partialXReplace</span> (line <span class="line-number">158</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a partial-xreplace command. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_PRX_Operation.html">CPS_PRX_Operation</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			partialXReplace
+		</span>
+					(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$ids</span>, <span class="var-type">CPX_PRX_Operation|array</span>&nbsp;<span class="var-name">$operations</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$ids</span><span class="var-description">: The ID of the document to replace or an array of such documents</span>			</li>
+					<li>
+				<span class="var-type">CPX_PRX_Operation|array</span>
+				<span class="var-name">$operations</span><span class="var-description">: The operation to perform or an array of such operations</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="replaceMultiple" id="replaceMultiple"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">replaceMultiple</span> (line <span class="line-number">122</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a replace command for multiple documents. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			replaceMultiple
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$docs</span><span class="var-description">: an associative array with document IDs as keys and document contents as values</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="replaceSingle" id="replaceSingle"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">replaceSingle</span> (line <span class="line-number">111</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a replace command. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			replaceSingle
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: The ID of the document to replace</span>			</li>
+					<li>
+				<span class="var-type">array|SimpleXMLElement|stdClass</span>
+				<span class="var-name">$document</span><span class="var-description">: The document contents</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="retrieveFirst" id="retrieveFirst"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">retrieveFirst</span> (line <span class="line-number">228</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a retrieve-first command. Returns an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			retrieveFirst
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: the maximum number of documents to return</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="retrieveLast" id="retrieveLast"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">retrieveLast</span> (line <span class="line-number">214</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a retrieve-last command. Returns an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			retrieveLast
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">''</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: the maximum number of documents to return</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="retrieveMultiple" id="retrieveMultiple"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">retrieveMultiple</span> (line <span class="line-number">257</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a retrieve command for multiple documents. Returns an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			retrieveMultiple
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$ids</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$ids</span><span class="var-description">: an array of document IDs</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="retrieveSingle" id="retrieveSingle"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">retrieveSingle</span> (line <span class="line-number">241</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a retrieve command for a single document. Returns the document contents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array|SimpleXMLElement|stdClass</span>
+		<span class="method-name">
+			retrieveSingle
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: document ID</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="rollbackTransaction" id="rollbackTransaction"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">rollbackTransaction</span> (line <span class="line-number">455</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Rollbacks last transaction</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			rollbackTransaction
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="search" id="search"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">search</span> (line <span class="line-number">37</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a search command. Returns the documents found in an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			search
+		</span>
+					(<span class="var-type">array|string</span>&nbsp;<span class="var-name">$query</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">array</span>&nbsp;<span class="var-name">$list</span> = <span class="var-default">NULL</span>], [<span class="var-type">string|array</span>&nbsp;<span class="var-name">$ordering</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$stemLang</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array|string</span>
+				<span class="var-name">$query</span><span class="var-description">: The query array/string. see <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetQuery">CPS_SearchRequest::setQuery()</a> for more info on best practices.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: Defines the number of documents to skip before including them in the results</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: Maximum document count to retrieve</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$list</span><span class="var-description">: Listing parameter - an associative array with tag xpaths as keys and listing options (yes | no | snippet | highlight) as values</span>			</li>
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$ordering</span><span class="var-description">: Defines the order in which results will be returned. Contains either a single sorting string or an array of those. Could be conveniently generated with ordering macros, e.g. $q-&gt;setOrdering(array(CPS_NumericOrdering('user_count', 'desc'), CPS_RelevanceOrdering())) will sort the documents in descending order according to the user_count, and if user_count is equal will sort them by relevance.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$stemLang</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="searchDelete" id="searchDelete"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">searchDelete</span> (line <span class="line-number">363</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a search-delete command. Returns the number of the documents erased</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			searchDelete
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$query</span><span class="var-description">: The query string. see <a rel="contents" href="CPS/CPS_SearchRequest.html#methodsetQuery">CPS_SearchRequest::setQuery()</a> for more info on best practices.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="showHistory" id="showHistory"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">showHistory</span> (line <span class="line-number">428</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieves modification history of the document. Returns an associative array with revision IDs as keys and document contents/versioning metadata as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			showHistory
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$returnDocs</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: Document ID</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$returnDocs</span><span class="var-description">: set to true to return document content (subject to license conditions)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="similarDocument" id="similarDocument"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">similarDocument</span> (line <span class="line-number">400</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds documents similar to the document with a given ID. Returns an associative array with similar document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			similarDocument
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$docid</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$len</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$quota</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$docid</span><span class="var-description">: ID of the source document - the one that You want to search similar documents to</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$len</span><span class="var-description">: number of keywords to extract from the source</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$quota</span><span class="var-description">: minimum number of keywords matching in the destination</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: number of results to skip before returning the following ones</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: number of documents to retrieve</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$query</span><span class="var-description">: an optional query that all found documents have to match against</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="similarText" id="similarText"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">similarText</span> (line <span class="line-number">416</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds documents similar to the given text. Returns an associative array with similar document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			similarText
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$text</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$len</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$quota</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$docs</span> = <span class="var-default">NULL</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$text</span><span class="var-description">: A chunk of text that the found documents have to be similar to</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$len</span><span class="var-description">: number of keywords to extract from the source</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$quota</span><span class="var-description">: minimum number of keywords matching in the destination</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span><span class="var-description">: number of results to skip before returning the following ones</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$docs</span><span class="var-description">: number of documents to retrieve</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$query</span><span class="var-description">: an optional query that all found documents have to match against</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="sql_search" id="sql_search"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">sql_search</span> (line <span class="line-number">53</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs a search command with an SQL query. Returns the documents found in an associative array with document IDs as keys and document contents as values</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			sql_search
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$sql_query</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnType</span> = <span class="var-default">DOC_TYPE_SIMPLEXML</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sql_query</span><span class="var-description">: The SQL query string.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnType</span><span class="var-description">: defines which datatype the returned documents will be in. Default is DOC_TYPE_SIMPLEXML, other possible values are DOC_TYPE_ARRAY and DOC_TYPE_STDCLASS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="status" id="status"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">status</span> (line <span class="line-number">352</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs the status command. Returns an array with status data</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			status
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="updateMultiple" id="updateMultiple"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">updateMultiple</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs an update command for multiple documents. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			updateMultiple
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$docs</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$docs</span><span class="var-description">: an associative array with document IDs as keys and document contents as values</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="updateSingle" id="updateSingle"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">updateSingle</span> (line <span class="line-number">88</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Performs an update command. Returns the number of modified documents</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			updateSingle
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type">array|SimpleXMLElement|stdClass</span>&nbsp;<span class="var-name">$document</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: The ID of the document to update</span>			</li>
+					<li>
+				<span class="var-type">array|SimpleXMLElement|stdClass</span>
+				<span class="var-name">$document</span><span class="var-description">: The document contents</span>			</li>
+				</ul>
+		
+			
+	</div>
+                			
+            </div>
+        </div>
+    
+    </div>

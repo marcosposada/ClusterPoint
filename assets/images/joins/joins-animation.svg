@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1338.01" height="337.55" viewBox="0 0 1338.01 337.55">
+  <defs>
+    <style>
+      .a {
+        fill: #7629f4;
+      }
+
+      .a, .b, .f, .h, .i {
+        stroke: #fff;
+      }
+
+      .a, .b, .d, .e, .h, .j, .k, .l {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.25px;
+      }
+
+      .b, .e, .i, .j, .k, .l, .m, .n {
+        fill: none;
+      }
+
+      .c, .d, .f, .g, .h {
+        fill: #fff;
+      }
+
+      .d, .e, .g {
+        stroke: #762af3;
+      }
+
+      .f, .g, .i, .n {
+        stroke-miterlimit: 10;
+      }
+
+      .j, .k {
+        stroke: #f1f1f1;
+      }
+
+      .k {
+        stroke-dasharray: 3 3;
+      }
+
+      .l {
+        stroke: #752af3;
+      }
+
+      .n {
+        stroke: #7629f4;
+      }
+    </style>
+  </defs>
+  <title>joins-animation</title>
+  <g>
+    <path class="a" d="M1013.5,275.25v7.38c0,13.29,28.14,24.06,62.84,24.06s62.84-10.77,62.84-24.06V268.57" transform="translate(76.88 -240.42)"/>
+    <path class="b" d="M152.06,274.72v7.72c0,10.8,17.78,20,42.76,23.59" transform="translate(76.88 -240.42)"/>
+    <ellipse class="c" cx="342.85" cy="53.58" rx="65.75" ry="25.17"/>
+    <ellipse class="d" cx="294.69" cy="28.41" rx="65.75" ry="25.17"/>
+    <ellipse class="d" cx="294.69" cy="28.41" rx="65.75" ry="25.17"/>
+    <ellipse class="e" cx="342.85" cy="53.58" rx="65.75" ry="25.17"/>
+    <path class="b" d="M200.22,294v26.75c0,13.9,29.44,25.17,65.75,25.17s65.75-11.27,65.75-25.17V305.16" transform="translate(76.88 -240.42)"/>
+    <ellipse class="f" cx="394.77" cy="151.14" rx="65.75" ry="25.17"/>
+    <path class="g" d="M265.26,391.56c0-11.13,23.57-20.15,52.63-20.15" transform="translate(76.88 -240.42)"/>
+    <path class="b" d="M252.14,391.56v29.37c0,13.9,29.44,25.17,65.75,25.17s65.75-11.27,65.75-25.17V408" transform="translate(76.88 -240.42)"/>
+    <ellipse class="b" cx="1153.23" cy="24.68" rx="62.84" ry="24.06"/>
+    <ellipse class="h" cx="1119.85" cy="116.43" rx="62.84" ry="24.06"/>
+    <line class="i" x1="261.44" y1="75.67" x2="261.44" y2="115.97"/>
+    <line class="i" x1="1113.38" y1="142.77" x2="1113.38" y2="183.07"/>
+    <line class="b" x1="420.55" y1="91.57" x2="470.38" y2="91.57"/>
+    <line class="b" x1="1191.22" y1="83.94" x2="1337.38" y2="83.94"/>
+    <path class="b" d="M163.85,385.8a49.45,49.45,0,1,0,20.55,23.34" transform="translate(76.88 -240.42)"/>
+    <polyline class="b" points="217.51 78.31 236.21 87.66 215.71 188.11"/>
+    <line class="j" x1="215.71" y1="188.11" x2="134.56" y2="147.54"/>
+    <line class="k" x1="132.2" y1="146.36" x2="0.62" y2="80.58"/>
+    <line class="k" x1="291.82" y1="226.16" x2="513.36" y2="336.92"/>
+    <line class="k" x1="1177.34" y1="223.74" x2="1040.27" y2="155.21"/>
+    <line class="b" x1="226.86" y1="184.4" x2="305.46" y2="158.2"/>
+    <path class="b" d="M138.83,428.53" transform="translate(76.88 -240.42)"/>
+    <line class="b" x1="215.71" y1="188.11" x2="281.19" y2="122.64"/>
+    <path class="b" d="M138.83,428.53" transform="translate(76.88 -240.42)"/>
+    <line class="b" x1="215.71" y1="188.11" x2="286.75" y2="100.68"/>
+    <circle class="a" cx="215.71" cy="188.11" r="7.75"/>
+    <circle class="l" cx="215.71" cy="188.11" r="4.14"/>
+    <polygon class="m" points="208.75 162.59 194.62 155.53 194.62 162.95 206.02 168.65 208.75 173.89 208.75 162.59"/>
+    <ellipse class="n" cx="1171.65" cy="131.64" rx="62.84" ry="24.06"/>
+    <path class="b" d="M980.12,367v7.38c0,13.29,28.14,24.06,62.84,24.06s62.84-10.77,62.84-24.06V360.31" transform="translate(76.88 -240.42)"/>
+    <path class="i" d="M1094.77,348c34.71,0,62.84,10.77,62.84,24.06s-28.14,24.06-62.84,24.06" transform="translate(76.88 -240.42)"/>
+    <line class="i" x1="1171.65" y1="155.7" x2="1171.65" y2="211.54"/>
+  </g>
+</svg>

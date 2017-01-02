@@ -1,0 +1,375 @@
+<div class='page_content'>
+    <h2 class="class-name"><img src="images/Class_logo.png"
+                                                            alt=" Class"
+                                                            title=" Class"
+                                                            style="vertical-align: middle"> CPS_Connection</h2>
+
+    <a name="sec-description"></a>
+    <div class="info-box">
+        <div class="info-box-title">Description</div>
+        <div class="nav-bar">
+                            <span class="disabled">Description</span> |
+                                                                                    <a href="#sec-method-summary" rel='subsection'>Methods</a> (<a href="#sec-methods" rel='subsection'>details</a>)
+                			
+                                </div>
+        <div class="info-box-body">
+                        <!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The connection class - represents a connection to Clusterpoint Storage</p>
+            <p class="notes">
+                Located in <a class="field" href="CPS/_connection.class.php.html" rel='contents'>/connection.class.php</a> (line <span class="field">17</span>)
+            </p>
+            
+                        
+            <pre></pre>
+        
+                    </div>
+    </div>
+
+    
+    
+    
+            <a name="sec-method-summary"></a>
+        <div class="info-box">
+            <div class="info-box-title">Method Summary</span></div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                                                <span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+            </div>
+            <div class="info-box-body">			
+                <div class="method-summary">
+                                                                                                                                                                                                                                                                                                                                                                                                                <div class="method-definition">
+                        <img src="images/Constructor.png" alt=" "/>
+                        <a href="#__construct" title="details" class="method-name">__construct</a>
+                                                    (<span class="var-type">string|object </span>&nbsp;<span class="var-name">$connectionSpecification</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$storageName</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$username</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$password</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$documentRootXpath</span> = <span class="var-default">'document'</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$documentIdXpath</span> = <span class="var-default">'//document/id'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$customEnvelopeParams</span> = <span class="var-default">array()</span>])
+                                                                            <span class="method-result">CPS_Connection</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#sendRequest" title="details" class="method-name">sendRequest</a>
+                                                    (<span class="var-type"><a rel="contents" href="CPS/CPS_Request.html">CPS_Request</a></span>&nbsp;<span class="var-name">&$request</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setApplicationId" title="details" class="method-name">setApplicationId</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">&$applicationId</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setCustomSSLValidation" title="details" class="method-name">setCustomSSLValidation</a>
+                                                    ([<span class="var-type">string</span>&nbsp;<span class="var-name">$sslCustomCA</span> = <span class="var-default">false</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$sslCustomCN</span> = <span class="var-default">false</span>])
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setDebug" title="details" class="method-name">setDebug</a>
+                                                    (<span class="var-type">int</span>&nbsp;<span class="var-name">$debugMode</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setDocIdResetting" title="details" class="method-name">setDocIdResetting</a>
+                                                    (<span class="var-type">bool</span>&nbsp;<span class="var-name">$resetIds</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setHMACKeys" title="details" class="method-name">setHMACKeys</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$userKey</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$signKey</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setNoCdata" title="details" class="method-name">setNoCdata</a>
+                                                    (<span class="var-type">bool</span>&nbsp;<span class="var-name">$v</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                        </div>
+            </div>
+        </div>		
+    
+            
+            <a name="sec-methods"></a>
+        <div class="info-box">
+            <div class="info-box-title">Methods</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                                                    <a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+                			
+            </div>
+            <div class="info-box-body">
+                <A NAME='method_detail'></A>
+<a name="__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">30</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructs an instance of the Connection class. Note that it doesn't  necessarily make a connection to CPS when the constructor is called.</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a rel="contents" href="CPS/CPS_LoadBalancer.html">CPS_LoadBalancer</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">CPS_Connection</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type">string|object </span>&nbsp;<span class="var-name">$connectionSpecification</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$storageName</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$username</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$password</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$documentRootXpath</span> = <span class="var-default">'document'</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$documentIdXpath</span> = <span class="var-default">'//document/id'</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$customEnvelopeParams</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|object </span>
+				<span class="var-name">$connectionSpecification</span><span class="var-description">: Specifies the connection string, such as tcp://127.0.0.1:5550, or a load balancing object</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$storageName</span><span class="var-description">: The name of the storage you want to connect to</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$username</span><span class="var-description">: Username for authenticating with the storage</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$password</span><span class="var-description">: Password for this user</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$documentRootXpath</span><span class="var-description">: Document root tag name. Default is &quot;document&quot;</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$documentIdXpath</span><span class="var-description">: Document ID xpath. Default is &quot;document/id&quot;</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$customEnvelopeParams</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="sendRequest" id="sendRequest"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">sendRequest</span> (line <span class="line-number">82</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sends the request to CPS</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			sendRequest
+		</span>
+					(<span class="var-type"><a rel="contents" href="CPS/CPS_Request.html">CPS_Request</a></span>&nbsp;<span class="var-name">&$request</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a rel="contents" href="CPS/CPS_Request.html">CPS_Request</a></span>
+				<span class="var-name">&$request</span><span class="var-description">: An object of the class Request</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setApplicationId" id="setApplicationId"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setApplicationId</span> (line <span class="line-number">196</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the application ID for the request</p>
+<p class="description"><p>This method can be used to set a custom application ID for your requests.  This can be useful to identify requests sent by a particular application  in a log file</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setApplicationId
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">&$applicationId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">&$applicationId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setCustomSSLValidation" id="setCustomSSLValidation"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setCustomSSLValidation</span> (line <span class="line-number">72</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets custom CA and Common Name for SSL certificate validation for cases when system validation fails.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCustomSSLValidation
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$sslCustomCA</span> = <span class="var-default">false</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$sslCustomCN</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sslCustomCA</span><span class="var-description">: PEM file with server's CA certificate or false if CA should not be verified.</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$sslCustomCN</span><span class="var-description">: String specifying server'a Common Name of false if Common Name should not be verified.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setDebug" id="setDebug"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setDebug</span> (line <span class="line-number">217</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the debugging mode</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDebug
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$debugMode</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$debugMode</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setDocIdResetting" id="setDocIdResetting"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setDocIdResetting</span> (line <span class="line-number">231</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Enables or disables resetting document IDs when modifying. On by default.</p>
+<p class="description"><p>You should change this setting if You plan to insert documents with auto-incremented IDs  or with IDs already integrated into the document</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDocIdResetting
+		</span>
+					(<span class="var-type">bool</span>&nbsp;<span class="var-name">$resetIds</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$resetIds</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setHMACKeys" id="setHMACKeys"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setHMACKeys</span> (line <span class="line-number">242</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets HMAC keys used for this connection, this overrides username/password passed in constructor.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setHMACKeys
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$userKey</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$signKey</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$userKey</span><span class="var-description">: User's key (or sometimes called public key), used for identifying user. This is transmitted over network.</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$signKey</span><span class="var-description">: Signature key (or sometimes called private key), used for signing requests. This is NOT transmitted over network.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setNoCdata" id="setNoCdata"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setNoCdata</span> (line <span class="line-number">208</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Toggles the CDATA integration flag</p>
+<p class="description"><p>Set to true, if you want CDATA values to be converted to text</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setNoCdata
+		</span>
+					(<span class="var-type">bool</span>&nbsp;<span class="var-name">$v</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$v</span>			</li>
+				</ul>
+		
+			
+	</div>
+                			
+            </div>
+        </div>
+    
+    </div>

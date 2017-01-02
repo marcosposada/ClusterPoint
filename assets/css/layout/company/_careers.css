@@ -1,0 +1,16 @@
+#page-careers { padding-bottom: 210px; }
+/* Main animation */ 
+	#page-careers #animation { min-height: auto; padding-top: 138px; box-sizing: border-box; }
+	#page-careers #animation h1 { font-family: 'EuropaBold'; font-size : 34px; line-height: 40px; margin-bottom: 35px; letter-spacing: inherit; }
+	#page-careers #animation .grid-12 { padding: 137px 0 0; }
+	#page-careers #animation .text { font-family: 'MyriadProRegular'; font-size : 18px; line-height : 25px; padding-bottom: 60px; }
+	#page-careers #animation .text ul { margin-top: -15px; margin-bottom: -10px; padding-left: 68px; } 
+	#page-careers #animation .text p { padding-bottom: 8px; }
+/* Hiring */ 
+	#page-careers #hiring {  margin-top: 28px;  position: relative; z-index: 100; }
+	#page-careers #hiring .grid-container { position: relative; z-index: 99; }
+	#page-careers #hiring .hiring { background: #fff; padding: 40px 40px 33px; margin-top: 28px; position: relative; }
+	#page-careers #hiring .hiring h2 { font-family: 'EuropaBold'; font-size : 34px; line-height: 40px; margin-bottom: 35px; }
+	#page-careers #hiring .text { font-family: 'MyriadProRegular'; font-size : 18px; line-height : 25px; }
+	#page-careers #hiring .text ul { margin-top: -15px; margin-bottom: -10px; padding-left: 68px; } 
+	#page-careers #hiring .text p { padding-bottom: 8px; }

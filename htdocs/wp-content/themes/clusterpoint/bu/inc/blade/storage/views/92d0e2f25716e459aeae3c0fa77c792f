@@ -1,0 +1,22 @@
+<div class="container contacts-container">
+	<div class="row">
+		<div class="col-sm-9">
+			<div id="map"></div><?php /* End map */ ?>
+		</div><?php /* End col-sm-8 */ ?>
+		<div class="col-sm-3">
+			<span class="contacts">
+				<?php $cords = get_field('maps_coordinates'); ?>
+				<script>
+					var lat = <?php echo $cords['lat']; ?>;
+					var lng = <?php echo $cords['lng']; ?>
+				</script>
+				<h2><?php echo  get_field('contacts_title') ; ?></h2>
+				<span class="contacts"><?php echo  get_field('contacts') ; ?></span>
+			</span>
+			<span class="bank">
+				<h2><?php echo  get_field('bank_title') ; ?></h2>
+				<span class="contacts"><?php echo  get_field('bank') ; ?></span>
+			</span>
+		</div><?php /* End col-sm-4 */ ?>
+	</div><?php /* End row */ ?>
+</div><?php /* End container */ ?>

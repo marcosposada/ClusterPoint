@@ -1,0 +1,25 @@
+<div class="container about-container">
+	<div class="row">
+		<div class="col-sm-7">
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			    <?php echo the_content(); ?>
+			<?php endwhile; ?><?php else: ?>
+			    <p>404</p>
+			<?php endif; wp_reset_postdata(); ?>
+		</div><?php /* End col-sm-6 */ ?>
+		<div class="col-sm-5">
+			<img src="<?php echo  get_field('about_image') ; ?>" />
+		</div><?php /* End col-sm-6 */ ?>
+	</div><?php /* End row */ ?>
+	<div class="row employees">
+		<?php if ( get_field( 'employees' ) ) : while ( has_sub_field( 'employees' ) ) : ?>
+		<div class="col-sm-4">
+			<h2><?php echo  get_sub_field('name_and_surname'); ; ?></h2>
+			<span class="position"><?php echo  get_sub_field('positions'); ; ?></span>
+			<span class="phone"><?php echo  get_sub_field('phone'); ; ?></span>
+			<span class="gsm"><?php echo  get_sub_field('mobile_phone'); ; ?></span>
+			<span class="email"><?php echo  get_sub_field('email'); ; ?></span>
+		</div><?php /* End col-sm-4 */ ?>
+		<?php endwhile; endif; ?>
+	</div><?php /* End row */ ?>	
+</div><?php /* End container */ ?>

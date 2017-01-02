@@ -1,0 +1,8 @@
+<?php // /Users/karlisadams/www/sites/site3/wwwroot/wp-content/themes/safin/single.php ?>
+
+<?php \Laravel\Section::start('page-content'); ?>
+
+	<?php echo view('templates.content.single')->with(get_defined_vars())->render(); ?>
+
+<?php \Laravel\Section::stop(); ?>
+<?php echo view( 'templates.layouts.normal' )->with(get_defined_vars())->render(); ?>

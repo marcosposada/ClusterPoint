@@ -1,0 +1,31 @@
+/* Main animation */ 
+	#page-portability #animation { min-height: 534px; padding-top: 83px; }
+	#page-portability #animation .bg { position: absolute; z-index: 99; top: 0; bottom: 0; left: 0; right: 0; }
+	#page-portability #animation .text { margin-left: 300px; max-width: 510px; }
+	#page-portability #animation .animation-fallback { position: absolute; bottom: 60px; left: 50%; margin-left: -540px; }
+/* Deployment options */
+	#deployment-options { padding: 70px 0 28px; }
+	#deployment-options .option { position: relative; margin-top: 42px; }
+	#deployment-options .option .inner { position: relative; }
+	#deployment-options .option h2 { color: #222; }
+	#deployment-options .option h3 { color: #222; font-size: 15px; }
+	#deployment-options .option p {	font-size : 17px; line-height : 28px; color : #000000; }
+	#deployment-options .option .inner { background: #fff; }
+	#deployment-options .option .animation { display: table; margin: 0 auto; }
+	#deployment-options .option .top-table { margin-top: -21px; }
+	#deployment-options .option .top-table .table-title { margin-bottom: -21px; }
+	#deployment-options .option .top-table .table-content { height: 192px; }
+	#deployment-options .option .table-cell { padding-left: 20px; padding-right: 20px; }
+	#deployment-options .option .top-table .table-content .table-cell { vertical-align: top; }
+	#deployment-options .option .table { padding: 0 15px; }
+	#deployment-options .option .middle-table p, #deployment-options .option .bottom-table p { color: #666666; }
+	#deployment-options .option .middle-table { border-top: 2px solid #F1F1F1; border-bottom: 2px solid #F1F1F1; padding: 12px 15px; }
+	#deployment-options .option .middle-table .table.table-content { height: 120px; }
+	#deployment-options .option .middle-table .table.table-title { height: auto; }
+	#deployment-options .option .middle-table .table.table-title { margin-bottom: -20px; }
+	#deployment-options .option .bottom-table { padding: 10px 0 20px; }
+	#deployment-options .option .bottom-table .table.table-content { height: 100px; vertical-align: middle; margin-top: -20px; }
+	#deployment-options .option .animation { width: 243px; height: 212px; display: table; margin: 0 auto; position: relative; overflow: hidden; }
+	#deployment-options .option .animation { text-align: center; }
+	#deployment-options .option .animation .center-vertical { display: table-cell; vertical-align: middle; }
+	

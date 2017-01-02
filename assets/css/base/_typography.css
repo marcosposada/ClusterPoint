@@ -1,0 +1,47 @@
+/* Europa regular */
+
+@font-face {
+    font-family: 'EuropaRegular';
+    src: url('../../fonts/europa/EuropaRegular.eot');
+    src: url('../../fonts/europa/EuropaRegular.eot') format('embedded-opentype'),
+         url('../../fonts/europa/EuropaRegular.woff2') format('woff2'),
+         url('../../fonts/europa/EuropaRegular.woff') format('woff'),
+         url('../../fonts/europa/EuropaRegular.ttf') format('truetype'),
+         url('../../fonts/europa/EuropaRegular.svg#EuropaRegular') format('svg');
+}
+@font-face {
+    font-family: 'EuropaBold';
+    src: url('../../fonts/europa/EuropaBold.eot');
+    src: url('../../fonts/europa/EuropaBold.eot') format('embedded-opentype'),
+         url('../../fonts/europa/EuropaBold.woff2') format('woff2'),
+         url('../../fonts/europa/EuropaBold.woff') format('woff'),
+         url('../../fonts/europa/EuropaBold.ttf') format('truetype'),
+         url('../../fonts/europa/EuropaBold.svg#EuropaBold') format('svg');
+}
+@font-face {
+    font-family: 'DINCondensedBold';
+    src: url('../../fonts/DINCondensedBold.eot');
+    src: url('../../fonts/DINCondensedBold.eot') format('embedded-opentype'),
+         url('../../fonts/DINCondensedBold.woff2') format('woff2'),
+         url('../../fonts/DINCondensedBold.woff') format('woff'),
+         url('../../fonts/DINCondensedBold.ttf') format('truetype'),
+         url('../../fonts/DINCondensedBold.svg#DINCondensedBold') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../../fonts/MyriadProRegular.eot');
+    src: url('../../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('../../fonts/MyriadProRegular.woff2') format('woff2'),
+         url('../../fonts/MyriadProRegular.woff') format('woff'),
+         url('../../fonts/MyriadProRegular.ttf') format('truetype'),
+         url('../../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+@font-face {
+    font-family: 'Monaco';
+    src: url('../../fonts/Monaco.eot');
+    src: url('../../fonts/Monaco.eot') format('embedded-opentype'),
+         url('../../fonts/Monaco.woff2') format('woff2'),
+         url('../../fonts/Monaco.woff') format('woff'),
+         url('../../fonts/Monaco.ttf') format('truetype'),
+         url('../../fonts/Monaco.svg#Monaco') format('svg');
+}

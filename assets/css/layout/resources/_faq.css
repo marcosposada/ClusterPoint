@@ -1,0 +1,24 @@
+#page-faq { margin-bottom: 214px; }
+#page-faq h1 { background: #F2F2F2; display: table; padding-top: 25px; line-height: 35px; margin: 126px 0 0; }
+#page-faq #main-content { position: relative; z-index: 99; }
+#page-faq .faqs { background: #FFFFFF;  display: table; position: relative; margin: 56px auto 0; width: 100%; padding: 14px 40px; }
+#page-faq .faqs .items-list { margin-bottom: 0; }
+#page-faq .title-wrap { height: 70px; }
+.set{ position: relative; width: 100%; height: auto; } 
+.set > a { display: block; padding: 24px 0 25px; text-decoration: none; color: #555555; border-bottom: 1px solid #BEBEBE; -webkit-transition:all 0.5s ease-out; -moz-transition:all 0.5s ease-out; transition:all 0.5s ease-out; color: #7148ec; position: relative; font-size: 18px; }
+.set .icon { position:relative; float: right; margin-top:-5px; color: #666666; width: 32px; height: 32px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; overflow: hidden; border: 1px solid #7148ec; position: relative; }
+.set .content { padding: 0; }
+.set .icon span { width: 31px; height: 31px; position: absolute; left: 0; top: 0;  }
+.set .icon span.open { background: url('../../../images/icons/set-open.png'); background: url('../../../images/icons/set-open.svg'); background-size: 32px 32px; background-position: center center; }
+.set > a.active i { color: #FFFFFF; }
+.set:last-child a { border-bottom: 1px solid #FFFFFF; }
+.set .inner-content { display: table; width: 100%; }
+.set .content { position:relative; width: 100%; height: auto; border-bottom: 1px solid #BEBEBE; display:none; margin-top: 0px; }
+.set .content p { color: #333333; font-size: 18px; }
+
+.set:last-child .content { border-bottom: 1px solid #FFFFFF; }
+.set a:before { position: absolute; width: 100%; left: 0; bottom: -1px; height: 1px; background: #FFFFFF; content: " "; z-index: 99; display: none; }
+.set > a.active:before { display: table; } 
+.set > a.active .icon span { background: url('../../../images/icons/set-close.png'); background: url('../../../images/icons/set-close.svg'); background-size: 32px 32px; background-position: -1px -1px; background-repeat: no-repeat;  }
+
+.hidden-set { display: table; width: 100%;  visibility: hidden; padding: 0px 40px; position: relative; z-index: -1; }

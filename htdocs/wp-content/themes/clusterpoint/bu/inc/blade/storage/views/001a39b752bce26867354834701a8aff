@@ -1,0 +1,296 @@
+<?php // /usr/home/h1543/data/www/safinnes.lv/wp-content/themes/safin/template-calculator.php ?>
+<?php //  Template Name: Calculator ?>
+<?php echo view('templates.includes.head')->with(get_defined_vars())->render(); ?>
+
+<body <?php echo  body_class() ; ?> >
+  <!--[if lt IE 8]>
+    <div class="alert alert-warning">
+      <?php echo  _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'cutlass') ; ?>
+    </div>
+  <![endif]-->
+  
+  <?php echo view('templates.includes.header')->with(get_defined_vars())->render(); ?>
+
+  <div class="wrap" role="document">
+    <div class="content">
+		 <div class="container calc-container">
+			<div class="row row-item">
+				<div class="col-sm-3"><strong><?php echo  get_field('label_choose_material', 'options'); ; ?>:</strong></div><!-- /.col-sm-3 -->
+				<div class="col-sm-9">
+					<div class="tb">
+						<div class="tc">
+							<strong><?php echo  get_field('label_material', 'options'); ; ?>:</strong>
+							<select id="s1">
+								<?php if ( get_field( 'materials' ) ) : while ( has_sub_field( 'materials' ) ) : ?>
+								<option value="<?php echo  sanitize_title(get_sub_field('material')) ; ?>"><?php echo  get_sub_field('material') ; ?></option>
+								<?php endwhile; endif; ?>
+							</select>
+						</div><!-- /.tc -->
+						<div class="tc" style="display: none;">
+							<strong><?php echo  get_field('label_density', 'options'); ; ?>:</strong>
+							<select id="s2">
+							<?php 
+								while ( have_rows('materials') ) : the_row();
+									$mat = sanitize_title(get_sub_field('material'));
+									while ( have_rows('density') ) : the_row();
+							?>
+									<option value="<?php echo get_sub_field('value'); ?>"><?php echo get_sub_field('label'); ?></option>
+							<?php 
+									endwhile;
+								endwhile;
+							?>
+							</select>
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+				</div><!-- /.col-sm-9 -->
+			</div><!-- /.row -->
+			<?php 
+				$i = 0;
+				while ( have_rows('products') ) : the_row(); 
+				if($i == 0) :
+			?>
+			<div class="row row-item">
+				<div class="col-sm-3">
+					<strong><?php the_sub_field('product'); ?></strong>
+				</div><!-- /.col-sm-3 -->
+				<div class="col-sm-9">
+					<div class="tb">
+						<div class="tc">
+							<strong><?php echo  get_field('label_dimension', 'options'); ; ?></strong> <input type="text" id="c1" name="c1"> mm
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+					<div class="tb tb-item c1-items">
+						<div class="tc">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/circle-fill.svg"></span>
+							<input type="text" name="" id="c1-i1">
+						</div><!-- /.tc -->
+						<div class="tc">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/square-fill.svg"></span>
+							<input type="text" name="" id="c1-i2">
+						</div><!-- /.tc -->
+						<div class="tc">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/hexo-fill.svg"></span>
+							<input type="text" name="" id="c1-i3">
+						</div><!-- /.tc -->
+						<div class="tc" style="display: none;">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/triangle-fill.svg"></span>
+							<input type="text" name="" id="c1-i4">
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+				</div><!-- /.col-sm-9 -->
+			</div><!-- /.row -->
+			<?php endif; ?>
+			<?php if($i == 1) : ?>
+			<div class="row row-item">
+				<div class="col-sm-3"><strong><?php the_sub_field('product'); ?></strong></div><!-- /.col-sm-3 -->
+				<div class="col-sm-9">
+					<div class="tb">
+						<div class="tc">
+							<strong><?php echo  get_field('label_width', 'options'); ; ?></strong> <input type="text" name="" id="c21"> mm
+						</div><!-- /.tc -->
+						<div class="tc">
+							<strong><?php echo  get_field('label_thickness', 'options'); ; ?></strong> <input type="text" name="" id="c22"> mm
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+					<div class="tb tb-item">
+						<div class="tc">
+							<span class="icon sq-big"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/square-big-fill.svg"></span>
+							<input type="text" name="" id="c2-i1">
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+				</div><!-- /.col-sm-9 -->
+			</div><!-- /.row -->
+			<?php endif; ?>
+			<?php if($i == 2) : ?>
+			<div class="row row-item">
+				<div class="col-sm-3"><strong><?php the_sub_field('product'); ?></strong></div><!-- /.col-sm-3 -->
+				<div class="col-sm-9">
+					<div class="tb">
+						<div class="tc">
+							<strong><?php echo  get_field('label_diameter', 'options'); ; ?></strong> <input type="text" name="" id="c31"> mm
+						</div><!-- /.tc -->
+						<div class="tc">
+							<strong><?php echo  get_field('label_thickness', 'options'); ; ?></strong> <input type="text" name="" id="c32"> mm
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+					<div class="tb tb-item">
+						<div class="tc">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/circle-line.svg"></span>
+							<input type="text" name="" id="c3-i1">
+						</div><!-- /.tc -->
+						<div class="tc">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/square-line.svg"></span>
+							<input type="text" name="" id="c3-i2">
+						</div><!-- /.tc -->
+						<div class="tc">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/hexo-line.svg"></span>
+							<input type="text" name="" id="c3-i3">
+						</div><!-- /.tc -->
+						<div class="tc" style="display: none;">
+							<span class="icon"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/triangle-line.svg"></span>
+							<input type="text" name="" id="c3-i4">
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+				</div><!-- /.col-sm-9 -->
+			</div><!-- /.row -->
+			<?php endif; ?>
+			<?php if($i == 3) : ?>
+			<div class="row row-item">
+				<div class="col-sm-3"><strong><?php the_sub_field('product'); ?></strong></div><!-- /.col-sm-3 -->
+				<div class="col-sm-9">
+					<div class="tb">
+						<div class="tc">
+							<strong><?php echo  get_field('label_width', 'options'); ; ?></strong> <input type="text" name="" id="c41"> mm
+						</div><!-- /.tc -->
+						<div class="tc">
+							<strong><?php echo  get_field('label_height', 'options'); ; ?></strong> <input type="text" name="" id="c42"> mm
+						</div><!-- /.tc -->
+						<div class="tc">
+							<strong><?php echo  get_field('label_thickness', 'options'); ; ?></strong> <input type="text" name="" id="c43"> mm
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+					<div class="tb tb-item">
+						<div class="tc">
+							<span class="icon sq-big"><img src="<?php echo  get_stylesheet_directory_uri() ; ?>/dist/img/sq-big-line.svg"></span>
+							<input type="text" name="" id="c4-i1">
+						</div><!-- /.tc -->
+					</div><!-- /.tb -->
+				</div><!-- /.col-sm-9 -->
+			</div><!-- /.row -->
+			<?php endif; ?>
+			<?php $i = $i + 1; endwhile; ?>
+		 </div><!-- /.container -->
+    </div><!-- /.content -->
+  </div><!-- /.wrap -->
+
+
+  <?php echo view('templates.includes.footer')->with(get_defined_vars())->render(); ?>
+
+  <?php echo  wp_footer() ; ?>
+  
+  <script>
+	  $('#c1').on('keyup change', function() {
+		  var c1 = $('#c1').val();
+		  if(c1 != 0 || c1 != '') {
+			  var c1_i2 = Math.pow($('#c1').val(),2) * $('#s2').val() / 1000;
+ 			  $('#c1-i2').attr('value',  c1_i2.toFixed(3));
+ 			  var c1_i1 = ((Math.PI * Math.pow($('#c1').val(),2)) / 4) * $('#s2').val() / 1000;
+			  $('#c1-i1').attr('value', c1_i1.toFixed(3));
+			  var c1_i3 = (Math.pow($('#c1').val(),2) / 2) * Math.sqrt(3) * $('#s2').val() / 1000;
+			  $('#c1-i3').attr('value', c1_i3.toFixed(3));
+			  var c1_i4 = (Math.pow($('#c1').val(),2) / 4) * Math.sqrt(3) * $('#s2').val() / 1000;
+			  $('#c1-i4').attr('value', c1_i4.toFixed(3));
+		  }
+	  });
+	  
+	  $('#c21').on('keyup change', function() {
+	  		var c21 = $('#c21').val(),
+	  			c22 = $('#c22').val();
+	
+			if(c21 != 0 || c21 != '') {
+
+				if(c22 != 0 || c22 != '') {
+					var c2_i1 = $('#c21').val() * $('#c21').val() * $('#s2').val() / 1000;
+					$('#c2-i1').attr('value', c2_i1.toFixed(3));
+				}
+			}
+	  });
+	  
+	  $('#c22').on('keyup change', function() {
+	  		var c21 = $('#c21').val(),
+	  			c22 = $('#c22').val();
+	
+			if(c21 != 0 || c21 != '') {
+
+				if(c22 != 0 || c22 != '') {
+					var c2_i1 = $('#c21').val() * $('#c21').val() * $('#s2').val() / 1000;
+					$('#c2-i1').attr('value', c2_i1.toFixed(3));
+				}
+			}
+	  });
+	  
+	  $('#c31').on('keyup change', function() {
+		var c31 = $('#c31').val(),
+			c32 = $('#c32').val();
+			
+			if(c31 != 0 || c31 != '') {
+				if(c32 != 0 || c32 != '') {
+					var c3_i1 = Math.PI/4 * (4 * c31 * c32 - 4 * Math.pow(c32,2)) * $('#s2').val() / 1000;
+					$('#c3-i1').attr('value',  c3_i1.toFixed(3));
+					var c3_i2 = (Math.pow(c31,2) - Math.pow(c31 - (2 * c32),2)) * $('#s2').val() / 1000;
+					$('#c3-i2').attr('value',  c3_i2.toFixed(3));
+					var c3_i3 = (((Math.pow(c31,2)/2) * Math.sqrt(3)) - (Math.PI * Math.pow((c31 - (2 * c32)),2))/ 4) * $('#s2').val() / 1000;
+					$('#c3-i3').attr('value',  c3_i3.toFixed(3));
+					var c3_i4 = ((Math.PI * Math.pow(c31,2)/4) - ((Math.pow((c31 - (2 * c32)),2)/2) * Math.sqrt(3))) * $('#s2').val() / 1000;
+					$('#c3-i4').attr('value',  c3_i4.toFixed(3));
+				}
+			}
+	  });
+	  
+	  $('#c32').on('keyup change', function() {
+		var c31 = $('#c31').val(),
+			c32 = $('#c32').val();
+			
+			if(c31 != 0 || c31 != '') {
+				if(c32 != 0 || c32 != '') {
+					var c3_i1 = Math.PI/4 * (4 * c31 * c32 - 4 * Math.pow(c32,2)) * $('#s2').val() / 1000;
+					$('#c3-i1').attr('value',  c3_i1.toFixed(3));
+					var c3_i2 = (Math.pow(c31,2) - Math.pow(c31 - (2 * c32),2)) * $('#s2').val() / 1000;
+					$('#c3-i2').attr('value',  c3_i2.toFixed(3));
+					var c3_i3 = (((Math.pow(c31,2)/2) * Math.sqrt(3)) - (Math.PI * Math.pow((c31 - (2 * c32)),2))/ 4) * $('#s2').val() / 1000;
+					$('#c3-i3').attr('value',  c3_i3.toFixed(3));
+					var c3_i4 = ((Math.PI * Math.pow(c31,2)/4) - ((Math.pow((c31 - (2 * c32)),2)/2) * Math.sqrt(3))) * $('#s2').val() / 1000;
+					$('#c3-i4').attr('value',  c3_i4.toFixed(3));
+				}
+			}
+	  });
+	
+	$('#c41').on('keyup change', function() {
+		var c41 = $('#c41').val(),
+			c42 = $('#c42').val(),
+			c43 = $('#c43').val();
+			
+			if(c41 != 0 || c41 != '') {
+				if(c42 != 0 || c42 != '') {
+					if(c43 != 0 || c43 != '') {
+						var c4_i1 = (((c41 * c42) - ((c41 - (2 * c43)) * (c42 - (2 * c43))))) * $('#s2').val() / 1000;
+						$('#c4-i1').attr('value',  c4_i1.toFixed(3));
+					}
+				}
+			}	
+	});
+	
+	$('#c42').on('keyup change', function() {
+		var c41 = $('#c41').val(),
+			c42 = $('#c42').val(),
+			c43 = $('#c43').val();
+			
+			if(c41 != 0 || c41 != '') {
+				if(c42 != 0 || c42 != '') {
+					if(c43 != 0 || c43 != '') {
+						var c4_i1 = (((c41 * c42) - ((c41 - (2 * c43)) * (c42 - (2 * c43))))) * $('#s2').val() / 1000;
+						$('#c4-i1').attr('value',  c4_i1.toFixed(3));
+					}
+				}
+			}	
+	});	 
+	
+	$('#c43').on('keyup change', function() {
+		var c41 = $('#c41').val(),
+			c42 = $('#c42').val(),
+			c43 = $('#c43').val();
+			
+			if(c41 != 0 || c41 != '') {
+				if(c42 != 0 || c42 != '') {
+					if(c43 != 0 || c43 != '') {
+						var c4_i1 = (((c41 * c42) - ((c41 - (2 * c43)) * (c42 - (2 * c43))))) * $('#s2').val() / 1000;
+						$('#c4-i1').attr('value',  c4_i1.toFixed(3));
+					}
+				}
+			}	
+	}); 
+	   
+  </script>
+  
+</body>
+</html>

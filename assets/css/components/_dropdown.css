@@ -1,0 +1,12 @@
+select.has-dropdown { display: none; }
+.dropdown { background-color: #ffffff; border-radius: 4px; box-sizing: border-box; cursor: pointer; display: block; float: left; font-size: 15px; font-weight: normal; height: 42px; line-height: 40px; outline: none; padding-left: 15px; padding-right: 30px; position: relative; text-align: left !important; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; white-space: nowrap; width: auto; }
+.dropdown:after { height: 0; width: 0; -webkit-transition: all 0.125s ease-in-out; transition: all 0.125s ease-in-out; content: '▴'; display: block; width:12px; height:12px; pointer-events: none; position: absolute; right: 14px; top: 17px; font-size: 25px; line-height: 8px; transform-origin: center center; text-align: center; -webkit-transform: rotate(-180deg); transform: rotate(-180deg); }
+.dropdown.open:after { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+.dropdown.open .list { -webkit-transform: scale(1); transform: scale(1); opacity: 1; pointer-events: auto; }
+.dropdown.open .option { cursor: pointer; }
+.dropdown.wide { width: 100%; }
+.dropdown.wide .list { left: 0 !important; right: 0 !important; }
+.dropdown .list { box-sizing: border-box; -webkit-transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear; transition: all 0.15s cubic-bezier(0.25, 0, 0.25, 1.75), opacity 0.1s linear; -webkit-transform: scale(0.75); transform: scale(0.75); -webkit-transform-origin: 50% 0; transform-origin: 50% 0; background-color: #fff; border-radius: 3px; margin-top: 4px; padding: 3px 0; opacity: 0; overflow: hidden; pointer-events: none; position: absolute; top: 100%; z-index: 999; }
+.dropdown .list ul { padding: 0; margin: 0; }
+.dropdown .list ul li { list-style: none; }
+.dropdown .option { cursor: default; line-height: 40px; outline: none; padding-left: 18px; padding-right: 29px; text-align: left; -webkit-transition: all 0.2s; transition: all 0.2s; }
